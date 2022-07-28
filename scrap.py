@@ -1,4 +1,5 @@
 from pprint import pprint
+from turtle import goto
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -16,8 +17,7 @@ class HostelScraper:
       self.options.add_argument("--disable-gpu")
       self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=self.options)
       self.wait = WebDriverWait(self.driver, 10)
-      
-   
+        
    def get_hostel_coments_url(self, url,limit=1):
       self.go_to_url_by_class_name(url, "info")
       review_url = self.driver.find_elements(By.CSS_SELECTOR, "div.bottom-rating > a")
@@ -32,47 +32,72 @@ class HostelScraper:
    def go_to_url_by_css_selector(self, url,css_selector):
       self.driver.get(url)
       self.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, css_selector)))
+   def go_to_url_by_name(self, url,name):
+      self.driver.get(url)
+      self.wait.until(EC.presence_of_all_elements_located((By.NAME, name)))
+         
+   def get_hostel_rate(self):
+      section= self.driver.find_element(By.NAME, "reviews-info")
+      score=section.find_element(By.CSS_SELECTOR, "div.score.big").text
+      rate= section.find_elements(By.CSS_SELECTOR, "div.rating-score")
+      rate= [float(x.text) for x in rate]
+      rate.append(float(score))
+      return rate
+
+   def get_reviews_in_page(self):
+      reviews=self.driver.find_elements(By.CSS_SELECTOR, "div.review-content")
+      data=[]
+      for x in reviews:
+         score=float(x.find_element(By.CSS_SELECTOR, "div.score.medium").text)
+         date= x.find_element(By.CSS_SELECTOR, "div.date > span").text
+         data.append([score,date])
+      #data=[x[0] for x in data if "2020" in x[1] or "2021" in x[1] or "2022" in x[1]]# remove old reviews
+      #data.filter(lambda x: "2020" in x[1] or "2021" in x[1] or "2022" in x[1]) # remove reviews from other years
+      return data
    
-   def get_hostel_rate(self):      
-      
-      rating = self.driver.find_elements(By.CLASS_NAME, "rating-score") # get all ratings
-      rating.extend(self.driver.find_elements(By.CSS_SELECTOR, "div.score.orange.big")) # get the big orange score
-      rating= [x.text for x in rating] # if x.text]
-      rating= [x for x in rating if x] # remove empty strings
-      rating= [float(x) for x in rating]# convert to float
-      return rating # return a list of ratings
-   
-   def get_hostel_users_score(self):
-      score= self.driver.find_elements(By.CSS_SELECTOR, "div.score.orange.medium")
-      score= [x.text for x in score] # if x.text]
-      score= [x for x in score if x] # remove empty strings
-      score= [float(x) for x in score]# convert to float
-      return score
+   def change_reviews_lang(self):
+      filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
+      filtershow.find_element(By.CLASS_NAME, "select-list-slot-wrapper").click()
+      driver.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "menu")))
+      filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
+      filtershow.find_element(By.CSS_SELECTOR, "ul > li:last-child").click()
    
    def close(self):
       self.driver.close()
       self.driver.quit()
 
+url = "https://www.hostelworld.com/s?q=Valparaiso,%20Chile&country=Chile&city=Valparaiso&type=city&id=1868&from=2022-07-30&to=2022-08-02&guests=2&HostelNumber=&page=1"
+
 driver= HostelScraper()
-urls=driver.get_hostel_coments_url(url)
-pprint(urls)
+links=driver.get_hostel_coments_url(url)
+pprint(links)
+reviews=[]
 
-for url in urls:
-
-   driver.go_to_url_by_class_name(url, "pagination-next")
-   next_page= driver.driver.find_element(By.CLASS_NAME, "pagination-next")
-   score= driver.get_hostel_users_score()
-   rate= driver.get_hostel_rate()
-   pprint(rate)
-   while next_page.get_dom_attribute("class") != "pagination-item pagination-next disabled":
-      next_page.click()
-      score.extend(driver.get_hostel_users_score())
-      next_page = driver.driver.find_element(By.CLASS_NAME, "pagination-next")
+for link in links:
+   driver.go_to_url_by_class_name(link, "pagination-next")
+   driver.change_reviews_lang()
+   last_page=False
+   hostel_reviews=[]
+   rate=driver.get_hostel_rate()
+   
+   while not last_page: # get all reviews in page
+      reviews_in_page=driver.get_reviews_in_page()
+      reviews_in_page=[x for x in reviews_in_page if "2020" in x[1] or "2021" in x[1] or "2022" in x[1]]# remove old reviews
       
-   pprint(score)
-   print("\n")
-
-
-
+      next_page=driver.driver.find_element(By.CSS_SELECTOR, "div.pagination-item.pagination-next")
+      
+      if len(reviews_in_page)==0:
+         break # if there are no reviews in page, then it is the last page
+      else:
+         reviews_in_page=[x[0] for x in reviews_in_page]
+         hostel_reviews.extend(reviews_in_page)
+         print(reviews_in_page)
+      
+      if next_page.get_attribute("class")=="pagination-item pagination-next disabled": # if it is the last page
+         break
+      else:
+         next_page.click()
+   reviews.append([rate,hostel_reviews])
+print(reviews)
 driver.close()
 
