@@ -47,7 +47,7 @@ class HostelScraper:
       reviews=self.driver.find_elements(By.CSS_SELECTOR, "div.review-content")
       data=[]
       for x in reviews:
-         score=x.find_element(By.CSS_SELECTOR, "div.review.review-item")
+         score=float(x.find_element(By.CSS_SELECTOR, "div.score.medium").text)
          date= x.find_element(By.CSS_SELECTOR, "div.date > span").text
          data.append([score,date])
       #data=[x[0] for x in data if "2020" in x[1] or "2021" in x[1] or "2022" in x[1]]# remove old reviews
