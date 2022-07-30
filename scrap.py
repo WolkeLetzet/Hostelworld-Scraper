@@ -1,5 +1,4 @@
 from pprint import pprint
-from turtle import goto
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -48,7 +47,7 @@ class HostelScraper:
       reviews=self.driver.find_elements(By.CSS_SELECTOR, "div.review-content")
       data=[]
       for x in reviews:
-         score=float(x.find_element(By.CSS_SELECTOR, "div.score.medium").text)
+         score=x.find_element(By.CSS_SELECTOR, "div.review.review-item")
          date= x.find_element(By.CSS_SELECTOR, "div.date > span").text
          data.append([score,date])
       #data=[x[0] for x in data if "2020" in x[1] or "2021" in x[1] or "2022" in x[1]]# remove old reviews
@@ -86,7 +85,7 @@ for link in links:
       
       next_page=driver.driver.find_element(By.CSS_SELECTOR, "div.pagination-item.pagination-next")
       
-      if len(reviews_in_page)==0:
+      if not reviews_in_page:
          break # if there are no reviews in page, then it is the last page
       else:
          reviews_in_page=[x[0] for x in reviews_in_page]
