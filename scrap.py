@@ -53,7 +53,7 @@ class HostelScraper:
    def change_reviews_lang(self):
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
       filtershow.find_element(By.CLASS_NAME, "select-list-slot-wrapper").click()
-      self.driver.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "menu")))
+      self.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "menu")))
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
       filtershow.find_element(By.CSS_SELECTOR, "ul > li:last-child").click()
    

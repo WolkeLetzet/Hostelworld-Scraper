@@ -46,7 +46,7 @@ class WebDriver():
       return self.driver.find_element(By.CSS_SELECTOR, css_selector)
    
    def get_reviews_in_user_page(self,hostel_name):
-      reviews_list=driver.driver.find_elements(By.CSS_SELECTOR, "div.reviewlisting")
+      reviews_list=self.driver.find_elements(By.CSS_SELECTOR, "div.reviewlisting")
       review={'text':[], 'score':[], 'date':[], 'author':[],'author-details':[],'hostel':hostel_name,'rate':[]}
       for item in reviews_list:
          hostel_review=item.find_element(By.CSS_SELECTOR, "div.popupreviewlocation >a").text
@@ -64,7 +64,7 @@ class WebDriver():
                review["rate"].append(index.text)
             
       return review
-            #review['author-details']=item.find_element(By.CSS_SELECTOR, "div.reviewerdetails").text.split(",")
+
             
    def close(self):
       self.driver.close()
@@ -81,7 +81,7 @@ class WebDriver():
    def change_reviews_lang(self):
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
       filtershow.find_element(By.CLASS_NAME, "select-list-slot-wrapper").click()
-      self.driver.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "menu")))
+      self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "select-list-slot-wrapper")))
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
       filtershow.find_element(By.CSS_SELECTOR, "ul > li:last-child").click()
    
@@ -93,37 +93,23 @@ driver= WebDriver()
 
 driver.go_to_url_by_class_name(url, "pagination-next")
 driver.change_reviews_lang()
+driver2= WebDriver()
 #print(driver.get_hostel_rate())
 review_list=driver.driver.find_elements(By.CSS_SELECTOR, "div.review-item")
 reviews=[]
+hostel_name=driver.driver.find_element(By.CSS_SELECTOR, "div.title-2").text
+
 for item in review_list:
    reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
    reviews_num = int(reviews_num)
+   
    if reviews_num > 1:
-      item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").click()
-      sleep(1)
-      reviews=driver.get_reviews_in_page()
-      print(reviews)
-      driver.driver.back()
-      sleep(1)
-    
-   
-# while not last_page:
-#    reviews_in_page=driver.get_reviews_in_page()
-#    reviews_in_page=[x for x in reviews_in_page if "2020" in x[1] or "2021" in x[1] or "2022" in x[1]]
-#    if len(reviews_in_page)==0:
-#       last_page=True
-#    else:
-#       reviews_in_page=[x[0] for x in reviews_in_page]
-#       reviews.extend(reviews_in_page)
-#       print(reviews_in_page)
+      reviewer_url=item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child > a").get_attribute("href")
+      driver2.go_to_url_by_class_name(reviewer_url, "reviewdetails")
+      review=driver2.get_reviews_in_user_page(hostel_name)
+      pprint(review)
       
-#    next_page=driver.driver.find_element(By.CSS_SELECTOR, "div.pagination-next")
-   
-   
-#    if next_page.get_attribute("class")=="pagination-item pagination-last disabled":
-#       last_page=True
-#    else:
-#       next_page.click()
+
 
 driver.close()
+driver2.close()
