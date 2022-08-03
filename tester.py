@@ -1,17 +1,11 @@
 from csv import excel
-from gettext import find
-from math import e
-from multiprocessing.connection import wait
 from pprint import pprint
 from time import sleep, time
-from warnings import filters
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-from soupsieve import select
 from webdriver_manager.chrome import ChromeDriverManager
 
 
@@ -98,16 +92,36 @@ driver2= WebDriver()
 review_list=driver.driver.find_elements(By.CSS_SELECTOR, "div.review-item")
 reviews=[]
 hostel_name=driver.driver.find_element(By.CSS_SELECTOR, "div.title-2").text
-
-for item in review_list:
-   reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
-   reviews_num = int(reviews_num)
+continuar=True
+while continuar:
+   next_page=driver.driver.find_element(By.CSS_SELECTOR, "div.pagination-next")
    
-   if reviews_num > 1:
-      reviewer_url=item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child > a").get_attribute("href")
-      driver2.go_to_url_by_class_name(reviewer_url, "reviewdetails")
-      review=driver2.get_reviews_in_user_page(hostel_name)
-      pprint(review)
+   for item in review_list:
+      reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
+      reviews_num = int(reviews_num)
+      
+      review_date= item.find_element(By.CSS_SELECTOR, "div.review-header > div.date").text
+      
+      if "2019" in review_date:
+         continuar=False
+         break
+      
+      if reviews_num > 1:
+         reviewer_url=item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child > a").get_attribute("href")
+         driver2.go_to_url_by_class_name(reviewer_url, "reviewdetails")
+         review=driver2.get_reviews_in_user_page(hostel_name)
+         reviews.append(review)
+         pprint(review)
+   
+   
+   
+   if "disabled" in next_page.get_attribute("class"):
+      break
+   else:
+      next_page.click()
+print('done\n')
+pprint(reviews)
+      
       
 
 
