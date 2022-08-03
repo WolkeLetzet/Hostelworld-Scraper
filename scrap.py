@@ -1,5 +1,5 @@
+from csv import excel
 from pprint import pprint
-from turtle import goto
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -45,12 +45,8 @@ class HostelScraper:
       return rate
 
    def get_reviews_in_page(self):
-      reviews=self.driver.find_elements(By.CSS_SELECTOR, "div.review-content")
+      reviews=self.driver.find_elements(By.CSS_SELECTOR, "div.review.review-item")
       data=[]
-      for x in reviews:
-         score=float(x.find_element(By.CSS_SELECTOR, "div.score.medium").text)
-         date= x.find_element(By.CSS_SELECTOR, "div.date > span").text
-         data.append([score,date])
       #data=[x[0] for x in data if "2020" in x[1] or "2021" in x[1] or "2022" in x[1]]# remove old reviews
       #data.filter(lambda x: "2020" in x[1] or "2021" in x[1] or "2022" in x[1]) # remove reviews from other years
       return data
@@ -58,46 +54,89 @@ class HostelScraper:
    def change_reviews_lang(self):
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
       filtershow.find_element(By.CLASS_NAME, "select-list-slot-wrapper").click()
-      driver.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "menu")))
+      self.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "menu")))
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
       filtershow.find_element(By.CSS_SELECTOR, "ul > li:last-child").click()
+
+   def get_reviews_in_user_page(self,hostel_name):
+      reviews_list=self.driver.find_elements(By.CSS_SELECTOR, "div.reviewlisting")
+      review={'text':[], 'score':[], 'date':[], 'author':[],'author-details':[],'hostel':hostel_name,'rate':[]}
+      for item in reviews_list:
+         hostel_review=item.find_element(By.CSS_SELECTOR, "div.popupreviewlocation >a").text
+         if hostel_review==hostel_name:
+            review['text']=item.find_element(By.CSS_SELECTOR, "div.reviewtext > p").text
+            review['score']=item.find_element(By.CSS_SELECTOR, "div.textrating").text
+            review['date']=item.find_element(By.CSS_SELECTOR, "span.reviewdate").text
+            review['author']=item.find_element(By.CSS_SELECTOR, "li.reviewername").text
+            reviewer_details=item.find_element(By.CSS_SELECTOR, "li.reviewerdetails").text
+            reviewer_details=reviewer_details.split(",")
+            for field in reviewer_details:
+               review['author-details'].append(field.strip())
+            
+            for index in item.find_elements(By.CSS_SELECTOR, "li.ratinglist > ul > li > span"):
+               review["rate"].append(index.text)
+            
+      return review
    
    def close(self):
       self.driver.close()
       self.driver.quit()
 
-url = "https://www.hostelworld.com/s?q=Valparaiso,%20Chile&country=Chile&city=Valparaiso&type=city&id=1868&from=2022-07-30&to=2022-08-02&guests=2&HostelNumber=&page=1"
+url = "https://www.hostelworld.com/s?q=Valparaiso,%20Chile&country=Chile&city=Valparaiso&type=city&id=1868&from=2022-08-05&to=2022-08-10&guests=2&HostelNumber=&page=1"
 
 driver= HostelScraper()
 links=driver.get_hostel_coments_url(url)
 pprint(links)
-reviews=[]
+driver2= HostelScraper()
+excel_book=ToExcel('hostel_reviews.xlsx')
 
 for link in links:
    driver.go_to_url_by_class_name(link, "pagination-next")
-   driver.change_reviews_lang()
-   last_page=False
-   hostel_reviews=[]
-   rate=driver.get_hostel_rate()
+   try:
+      driver.change_reviews_lang()
+   except:
+      pass
+   review_list=driver.driver.find_elements(By.CSS_SELECTOR, "div.review-item")
+   reviews=[]
+   hostel_name=driver.driver.find_element(By.CSS_SELECTOR, "div.title-2").text
+   continuar=True
    
-   while not last_page: # get all reviews in page
-      reviews_in_page=driver.get_reviews_in_page()
-      reviews_in_page=[x for x in reviews_in_page if "2020" in x[1] or "2021" in x[1] or "2022" in x[1]]# remove old reviews
+   while continuar:
+      next_page=driver.driver.find_element(By.CSS_SELECTOR, "div.pagination-next")
       
-      next_page=driver.driver.find_element(By.CSS_SELECTOR, "div.pagination-item.pagination-next")
+      for item in review_list:
+         reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
+         reviews_num = int(reviews_num)
+         
+         review_date= item.find_element(By.CSS_SELECTOR, "div.review-header > div.date").text
+         
+         if "2019" in review_date:
+            continuar=False
+            break
+         
+         if reviews_num > 1:
+            reviewer_url=item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child > a").get_attribute("href")
+            driver2.go_to_url_by_class_name(reviewer_url, "reviewdetails")
+            review=driver2.get_reviews_in_user_page(hostel_name)
+            
+            pprint(review)
+            try:
+               excel_book.add_review(review)
+               excel_book.wb.save('hostel_reviews.xlsx')
+            except:
+               pass
       
-      if len(reviews_in_page)==0:
-         break # if there are no reviews in page, then it is the last page
-      else:
-         reviews_in_page=[x[0] for x in reviews_in_page]
-         hostel_reviews.extend(reviews_in_page)
-         print(reviews_in_page)
       
-      if next_page.get_attribute("class")=="pagination-item pagination-next disabled": # if it is the last page
+      
+      if "disabled" in next_page.get_attribute("class"):
          break
       else:
-         next_page.click()
-   reviews.append([rate,hostel_reviews])
-print(reviews)
-driver.close()
+         try:
+            next_page.click()
+         except:
+            break
+         
+excel_book.save()
 
+driver.close()
+driver2.close()
