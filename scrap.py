@@ -44,12 +44,8 @@ class HostelScraper:
       return rate
 
    def get_reviews_in_page(self):
-      reviews=self.driver.find_elements(By.CSS_SELECTOR, "div.review-content")
+      reviews=self.driver.find_elements(By.CSS_SELECTOR, "div.review.review-item")
       data=[]
-      for x in reviews:
-         score=x.find_element(By.CSS_SELECTOR, "div.review.review-item")
-         date= x.find_element(By.CSS_SELECTOR, "div.date > span").text
-         data.append([score,date])
       #data=[x[0] for x in data if "2020" in x[1] or "2021" in x[1] or "2022" in x[1]]# remove old reviews
       #data.filter(lambda x: "2020" in x[1] or "2021" in x[1] or "2022" in x[1]) # remove reviews from other years
       return data
@@ -57,7 +53,7 @@ class HostelScraper:
    def change_reviews_lang(self):
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
       filtershow.find_element(By.CLASS_NAME, "select-list-slot-wrapper").click()
-      driver.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "menu")))
+      self.driver.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "menu")))
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
       filtershow.find_element(By.CSS_SELECTOR, "ul > li:last-child").click()
    
