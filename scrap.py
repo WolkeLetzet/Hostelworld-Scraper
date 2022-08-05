@@ -44,12 +44,6 @@ class HostelScraper:
       rate.append(float(score))
       return rate
 
-   def get_reviews_in_page(self):
-      reviews=self.driver.find_elements(By.CSS_SELECTOR, "div.review.review-item")
-      data=[]
-      #data=[x[0] for x in data if "2020" in x[1] or "2021" in x[1] or "2022" in x[1]]# remove old reviews
-      #data.filter(lambda x: "2020" in x[1] or "2021" in x[1] or "2022" in x[1]) # remove reviews from other years
-      return data
    
    def change_reviews_lang(self):
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
@@ -60,10 +54,12 @@ class HostelScraper:
 
    def get_reviews_in_user_page(self,hostel_name):
       reviews_list=self.driver.find_elements(By.CSS_SELECTOR, "div.reviewlisting")
-      review={'text':[], 'score':[], 'date':[], 'author':[],'author-details':[],'hostel':hostel_name,'rate':[]}
+      
+      reviews=[]
       for item in reviews_list:
          hostel_review=item.find_element(By.CSS_SELECTOR, "div.popupreviewlocation >a").text
          if hostel_review==hostel_name:
+            review={'text':[], 'score':[], 'date':[], 'author':[],'author-details':[],'hostel':hostel_name,'rate':[]}
             review['text']=item.find_element(By.CSS_SELECTOR, "div.reviewtext > p").text
             review['score']=item.find_element(By.CSS_SELECTOR, "div.textrating").text
             review['date']=item.find_element(By.CSS_SELECTOR, "span.reviewdate").text
@@ -76,7 +72,9 @@ class HostelScraper:
             for index in item.find_elements(By.CSS_SELECTOR, "li.ratinglist > ul > li > span"):
                review["rate"].append(index.text)
             
-      return review
+            reviews.append(review)
+            
+      return reviews
    
    def close(self):
       self.driver.close()
@@ -117,12 +115,13 @@ for link in links:
          if reviews_num > 1:
             reviewer_url=item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child > a").get_attribute("href")
             driver2.go_to_url_by_class_name(reviewer_url, "reviewdetails")
-            review=driver2.get_reviews_in_user_page(hostel_name)
+            reviews=driver2.get_reviews_in_user_page(hostel_name)
             
-            pprint(review)
+            pprint(reviews)
             try:
-               excel_book.add_review(review)
-               excel_book.wb.save('hostel_reviews.xlsx')
+               for index in range(len(reviews)):
+                  excel_book.add_review(reviews[index])
+                  excel_book.wb.save('hostel_reviews.xlsx')
             except:
                pass
       
