@@ -60,7 +60,7 @@ class HostelScraper:
          hostel_review=item.find_element(By.CSS_SELECTOR, "div.popupreviewlocation >a").text
          if hostel_review==hostel_name:
             review={'text':[], 'score':[], 'date':[], 'author':[],'author-details':[],'hostel':hostel_name,'rate':[]}
-            review['text']=item.find_element(By.CSS_SELECTOR, "div.reviewtext > p").text
+            review['text']=item.find_element(By.CSS_SELECTOR, "div.reviewtext").text
             review['score']=item.find_element(By.CSS_SELECTOR, "div.textrating").text
             review['date']=item.find_element(By.CSS_SELECTOR, "span.reviewdate").text
             review['author']=item.find_element(By.CSS_SELECTOR, "li.reviewername").text
@@ -80,19 +80,22 @@ class HostelScraper:
       self.driver.close()
       self.driver.quit()
 
-url = "https://www.hostelworld.com/s?q=Valparaiso,%20Chile&country=Chile&city=Valparaiso&type=city&id=1868&from=2022-08-05&to=2022-08-10&guests=2&HostelNumber=&page=1"
-
+#url = "https://spanish.hostelworld.com/s?q=Valparaiso,%20Chile&country=Chile&city=Valparaiso&type=city&id=1868&from=2022-08-05&to=2022-08-10&guests=2&HostelNumber=&page=1"
+#url = "https://www.spanish.hostelworld.com/s?q=Vina%20Del%20Mar,%20Chile&country=Chile&city=Vina%20Del%20Mar&type=city&id=271&from=2022-08-10&to=2022-08-12&guests=2&HostelNumber=&page=1"
+url ="https://www.spanish.hostelworld.com/s?q=Santiago,%20Chile&city=Santiago&country=Chile&type=city&id=267&from=2022-08-13&to=2022-08-19&guests=2&page=1"
+excel_name="Santiago.xlsx"
 driver= HostelScraper()
 links=driver.get_hostel_coments_url(url)
 pprint(links)
 driver2= HostelScraper()
-excel_book=ToExcel('hostel_reviews.xlsx')
+excel_book=ToExcel(excel_name)
 
 for link in links:
    driver.go_to_url_by_class_name(link, "pagination-next")
    try:
       driver.change_reviews_lang()
    except:
+      driver.change_reviews_lang()
       pass
    review_list=driver.driver.find_elements(By.CSS_SELECTOR, "div.review-item")
    reviews=[]
@@ -119,9 +122,10 @@ for link in links:
             
             pprint(reviews)
             try:
-               for index in range(len(reviews)):
-                  excel_book.add_review(reviews[index])
-                  excel_book.wb.save('hostel_reviews.xlsx')
+               for rev in reviews:
+                  
+                  excel_book.add_review(rev)
+                  excel_book.wb.save(excel_name)
             except:
                pass
       

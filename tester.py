@@ -82,7 +82,7 @@ class WebDriver():
 
 #url="https://www.hostelworld.com/pwa/hosteldetails.php/Escarabajo-Hostel/Valparaiso/100905?from=2022-07-27&to=2022-07-30&guests=2&display=reviews"
 #url="https://www.hostelworld.com/s?q=Valparaiso,%20Chile&country=Chile&city=Valparaiso&type=city&id=1868&from=2022-07-27&to=2022-07-30&guests=2&HostelNumber=&page=1"
-url="https://www.hostelworld.com/pwa/hosteldetails.php/Casa-Volante-Hostal/Valparaiso/82633?from=2022-08-5&to=2022-08-10&guests=2&display=reviews"
+url="https://www.hostelworld.com/pwa/hosteldetails.php/Casa-Volante-Hostal/Valparaiso/82633?from=2022-08-10&to=2022-08-12&guests=2&display=reviews"
 driver= WebDriver()
 
 driver.go_to_url_by_class_name(url, "pagination-next")
