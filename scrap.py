@@ -8,12 +8,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from to_excel import ToExcel
 
-url = "https://www.hostelworld.com/s?q=Valparaiso,%20Chile&country=Chile&city=Valparaiso&type=city&id=1868&from=2022-07-25&to=2022-07-28&guests=2&HostelNumber=&page=1"
 
 class HostelScraper:
    def __init__(self):
       self.options = Options()
-      #self.options.add_argument("--headless")
+      self.options.add_argument("--headless")
       self.options.add_argument("--disable-gpu")
       self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=self.options)
       self.wait = WebDriverWait(self.driver, 10)
@@ -143,3 +142,4 @@ excel_book.save()
 
 driver.close()
 driver2.close()
+
