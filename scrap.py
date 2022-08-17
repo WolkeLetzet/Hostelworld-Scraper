@@ -79,67 +79,65 @@ class HostelScraper:
       self.driver.close()
       self.driver.quit()
 
-#url = "https://spanish.hostelworld.com/s?q=Valparaiso,%20Chile&country=Chile&city=Valparaiso&type=city&id=1868&from=2022-08-05&to=2022-08-10&guests=2&HostelNumber=&page=1"
-#url = "https://www.spanish.hostelworld.com/s?q=Vina%20Del%20Mar,%20Chile&country=Chile&city=Vina%20Del%20Mar&type=city&id=271&from=2022-08-10&to=2022-08-12&guests=2&HostelNumber=&page=1"
-url ="https://www.spanish.hostelworld.com/s?q=Santiago,%20Chile&city=Santiago&country=Chile&type=city&id=267&from=2022-08-13&to=2022-08-19&guests=2&page=1"
-excel_name="Santiago.xlsx"
-driver= HostelScraper()
-links=driver.get_hostel_coments_url(url)
-pprint(links)
-driver2= HostelScraper()
-excel_book=ToExcel(excel_name)
+def __main__(url):
+   excel_name="Santiago.xlsx"
+   driver= HostelScraper()
+   links=driver.get_hostel_coments_url(url)
+   pprint(links)
+   driver2= HostelScraper()
+   excel_book=ToExcel(excel_name)
 
-for link in links:
-   driver.go_to_url_by_class_name(link, "pagination-next")
-   try:
-      driver.change_reviews_lang()
-   except:
-      driver.change_reviews_lang()
-      pass
-   review_list=driver.driver.find_elements(By.CSS_SELECTOR, "div.review-item")
-   reviews=[]
-   hostel_name=driver.driver.find_element(By.CSS_SELECTOR, "div.title-2").text
-   continuar=True
-   
-   while continuar:
-      next_page=driver.driver.find_element(By.CSS_SELECTOR, "div.pagination-next")
+   for link in links:
+      driver.go_to_url_by_class_name(link, "pagination-next")
+      try:
+         driver.change_reviews_lang()
+      except:
+         driver.change_reviews_lang()
+         pass
+      review_list=driver.driver.find_elements(By.CSS_SELECTOR, "div.review-item")
+      reviews=[]
+      hostel_name=driver.driver.find_element(By.CSS_SELECTOR, "div.title-2").text
+      continuar=True
       
-      for item in review_list:
-         reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
-         reviews_num = int(reviews_num)
+      while continuar:
+         next_page=driver.driver.find_element(By.CSS_SELECTOR, "div.pagination-next")
          
-         review_date= item.find_element(By.CSS_SELECTOR, "div.review-header > div.date").text
-         
-         if "2019" in review_date:
-            continuar=False
-            break
-         
-         if reviews_num > 1:
-            reviewer_url=item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child > a").get_attribute("href")
-            driver2.go_to_url_by_class_name(reviewer_url, "reviewdetails")
-            reviews=driver2.get_reviews_in_user_page(hostel_name)
+         for item in review_list:
+            reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
+            reviews_num = int(reviews_num)
             
-            pprint(reviews)
-            try:
-               for rev in reviews:
-                  
-                  excel_book.add_review(rev)
-                  excel_book.wb.save(excel_name)
-            except:
-               pass
-      
-      
-      
-      if "disabled" in next_page.get_attribute("class"):
-         break
-      else:
-         try:
-            next_page.click()
-         except:
-            break
+            review_date= item.find_element(By.CSS_SELECTOR, "div.review-header > div.date").text
+            
+            if "2019" in review_date:
+               continuar=False
+               break
+            
+            if reviews_num > 1:
+               reviewer_url=item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child > a").get_attribute("href")
+               driver2.go_to_url_by_class_name(reviewer_url, "reviewdetails")
+               reviews=driver2.get_reviews_in_user_page(hostel_name)
+               
+               pprint(reviews)
+               try:
+                  for rev in reviews:
+                     
+                     excel_book.add_review(rev)
+                     excel_book.wb.save(excel_name)
+               except:
+                  pass
          
-excel_book.save()
+         
+         
+         if "disabled" in next_page.get_attribute("class"):
+            break
+         else:
+            try:
+               next_page.click()
+            except:
+               break
+            
+   excel_book.save()
 
-driver.close()
-driver2.close()
+   driver.close()
+   driver2.close()
 

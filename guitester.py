@@ -1,5 +1,6 @@
 import tkinter as tk
 from PIL import Image, ImageTk
+import scrap as scrap
 ORANGE= '#f25621'
 
 ######## MAIN WINDOW ########
@@ -29,7 +30,7 @@ entry_frame = tk.Frame(ventana, bg=ORANGE)
 scrollbar = tk.Scrollbar(entry_frame,orient="horizontal")
 entry = tk.Entry(entry_frame, font=("Sitka Display", 12), width=50, bg="white", fg="black", xscrollcommand=scrollbar.set)
 entry.focus()
-entry.bind("<Return>", lambda x: print(entry.get()))
+#entry.bind("<Return>", lambda x: scrap.__main__(entry.get()))
 entry.pack(fill=tk.X, padx=10)
 scrollbar.config(command=entry.xview)
 scrollbar.pack(fill=tk.X, padx=10)
@@ -66,8 +67,12 @@ frame.pack(padx=10,expand=1, fill=tk.X)
 
 button_frame = tk.Frame(ventana, bg=ORANGE)
 
-search_button = tk.Button(button_frame, text="Buscar", font=("Sitka Display", 11), bg="white", fg="black", command=lambda: print(entry.get()))
-search_button.config(width=10, height=1, activebackground=ORANGE, activeforeground="white", bd=3, highlightthickness=0, highlightbackground="white")
+search_button = tk.Button(button_frame, text="Buscar", font=("Sitka Display", 11), bg="white", fg="black",
+                          command=lambda: scrap.__main__(entry.get()))
+
+search_button.config(width=10, height=1, activebackground=ORANGE, activeforeground="white",
+                     highlightthickness=0, highlightbackground="white")
+
 search_button.pack(ipadx=15, ipady=5, padx=10, pady=10)
 button_frame.pack(padx=10, ipady=20)
 
