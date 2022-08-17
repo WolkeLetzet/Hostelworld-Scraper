@@ -1,4 +1,3 @@
-from csv import excel
 from pprint import pprint
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -79,8 +78,8 @@ class HostelScraper:
       self.driver.close()
       self.driver.quit()
 
-def __main__(url):
-   excel_name="Santiago.xlsx"
+def __main__(url,excel_name="reviews.xlsx",options=None):
+
    driver= HostelScraper()
    links=driver.get_hostel_coments_url(url)
    pprint(links)
@@ -125,9 +124,6 @@ def __main__(url):
                      excel_book.wb.save(excel_name)
                except:
                   pass
-         
-         
-         
          if "disabled" in next_page.get_attribute("class"):
             break
          else:
