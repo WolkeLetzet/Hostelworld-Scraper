@@ -16,7 +16,8 @@ class HostelScraper:
       self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=self.options)
       self.wait = WebDriverWait(self.driver, 10)
         
-   def get_hostel_coments_url(self, url,limit=1):
+   def get_hostels_url(self, url,limit=1):
+      """obitene una lista de urls de hostales en la pagina de la url dada"""
       self.go_to_url_by_class_name(url, "info")
       review_url = self.driver.find_elements(By.CSS_SELECTOR, "div.bottom-rating > a")
       urls= [x for x in review_url if x.get_attribute("href")]
@@ -24,13 +25,17 @@ class HostelScraper:
       return urls
    
    def go_to_url_by_class_name(self, url,class_name):
+      """se dirige a la pagina dada y espera a que se cargue el elemento con el nombre de clase dado"""
       self.driver.get(url)
       self.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, class_name)))
    
    def go_to_url_by_css_selector(self, url,css_selector):
+      """se dirige a la pagina dada y espera a que se cargue el elemento con el selector CSS dado"""
       self.driver.get(url)
       self.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, css_selector)))
+   
    def go_to_url_by_name(self, url,name):
+      """se dirige a la pagina dada y espera a que se cargue el elemento con el atributo 'name' dado"""
       self.driver.get(url)
       self.wait.until(EC.presence_of_all_elements_located((By.NAME, name)))
          
@@ -42,7 +47,6 @@ class HostelScraper:
       rate.append(float(score))
       return rate
 
-   
    def change_reviews_lang(self):
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
       filtershow.find_element(By.CLASS_NAME, "select-list-slot-wrapper").click()
@@ -78,62 +82,23 @@ class HostelScraper:
       self.driver.close()
       self.driver.quit()
 
-def main(url,excel_name="reviews.xlsx",options=None):
-
-   driver= HostelScraper()
-   links=driver.get_hostel_coments_url(url)
-   pprint(links)
-   driver2= HostelScraper()
-   excel_book=ToExcel(excel_name)
-
-   for link in links:
-      driver.go_to_url_by_class_name(link, "pagination-next")
-      try:
-         driver.change_reviews_lang()
-      except:
-         driver.change_reviews_lang()
-         pass
-      review_list=driver.driver.find_elements(By.CSS_SELECTOR, "div.review-item")
-      reviews=[]
-      hostel_name=driver.driver.find_element(By.CSS_SELECTOR, "div.title-2").text
-      continuar=True
+class ThreadScraper:
+   
+   def __init__(self,url):
+      self.url=url
+      self.hostel_scraper=HostelScraper()
+      self.to_excel=ToExcel()
       
-      while continuar:
-         next_page=driver.driver.find_element(By.CSS_SELECTOR, "div.pagination-next")
-         
-         for item in review_list:
-            reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
-            reviews_num = int(reviews_num)
-            
-            review_date= item.find_element(By.CSS_SELECTOR, "div.review-header > div.date").text
-            
-            if "2019" in review_date:
-               continuar=False
-               break
-            
-            if reviews_num > 1:
-               reviewer_url=item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child > a").get_attribute("href")
-               driver2.go_to_url_by_class_name(reviewer_url, "reviewdetails")
-               reviews=driver2.get_reviews_in_user_page(hostel_name)
-               
-               pprint(reviews)
-               try:
-                  for rev in reviews:
-                     
-                     excel_book.add_review(rev)
-                     excel_book.wb.save(excel_name)
-               except:
-                  pass
-         if "disabled" in next_page.get_attribute("class"):
-            break
-         else:
-            try:
-               next_page.click()
-            except:
-               break
-            
-   excel_book.save()
+   def get_hostels_url(self):
+      return self.hostel_scraper.get_hostels_url(self.url) 
+   
+   
+   
 
-   driver.close()
-   driver2.close()
+def main(url,options=None):
+   global ventana1, current_review
+   ventana1=HostelScraper()
+   
+   
 
+   
