@@ -1,5 +1,5 @@
 import tkinter as tk
-from scrap import Scrap
+import scrap
 from PIL import Image as Img
 from PIL import ImageTk as ImgTk
 from GifTk import GifTk
@@ -103,9 +103,3 @@ class GUI:
    def destroy_main_frame(self):
       self.mainFrame.destroy()
       self.ventana.update()
-   
-   
-      
-gui=GUI()
-
-gui.ventana.mainloop()

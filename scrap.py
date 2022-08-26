@@ -30,6 +30,7 @@ class HostelScraper:
    def go_to_url_by_css_selector(self, url,css_selector):
       self.driver.get(url)
       self.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, css_selector)))
+   
    def go_to_url_by_name(self, url,name):
       self.driver.get(url)
       self.wait.until(EC.presence_of_all_elements_located((By.NAME, name)))
@@ -42,7 +43,6 @@ class HostelScraper:
       rate.append(float(score))
       return rate
 
-   
    def change_reviews_lang(self):
       filtershow= self.driver.find_element(By.CLASS_NAME, "filter.show")
       filtershow.find_element(By.CLASS_NAME, "select-list-slot-wrapper").click()
@@ -78,7 +78,7 @@ class HostelScraper:
       self.driver.close()
       self.driver.quit()
 
-def main(url,excel_name="reviews.xlsx",options=None):
+def main(url="",excel_name="reviews.xlsx",options=None):
 
    driver= HostelScraper()
    links=driver.get_hostel_coments_url(url)
@@ -116,7 +116,6 @@ def main(url,excel_name="reviews.xlsx",options=None):
                driver2.go_to_url_by_class_name(reviewer_url, "reviewdetails")
                reviews=driver2.get_reviews_in_user_page(hostel_name)
                
-               pprint(reviews)
                try:
                   for rev in reviews:
                      

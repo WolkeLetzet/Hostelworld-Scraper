@@ -1,3 +1,4 @@
+from re import I
 from threading import Thread
 import tkinter as tk
 from PIL import Image as Img
@@ -87,8 +88,13 @@ class GUI:
       self.ventana.config(cursor="")
       self.ventana.update()
        
-   def build_loading_frame(self):
-      self.loading_frame = tk.Frame(self.ventana, bg=ORANGE)
+   def build_loading_frame(self,frame=None):
+      
+      if frame is None:
+         self.loading_frame = tk.Frame(self.ventana, bg=ORANGE)
+      else:
+         self.loading_frame = tk.Frame(frame, bg=ORANGE)
+      
       self.loading_label = tk.Label(self.loading_frame, bg=ORANGE)
       self.loading_label.pack()
       self.loading_frame.pack(fill=tk.BOTH, expand=True)
@@ -103,27 +109,13 @@ class GUI:
    def destroy_main_frame(self):
       self.mainFrame.destroy()
       self.ventana.update()
-   
-   
-   def create_new_window(self,title):
-      newWindow = tk.Toplevel(self.ventana)
-      frame= tk.Frame(newWindow, bg=ORANGE)
-      
-      label = tk.Label(frame, text=title, bg=ORANGE, fg="black", font=("Sitka Display", 12))
-      
-      
-      frame.pack(fill=tk.BOTH, expand=True)
-   
-gui=GUI()
 
-th = Thread(target=gui.mainloop)
 
-th.daemon
+
+gui= GUI()
 
 gui.build_main_frame()
 
-gui.button_scrap.config(command=lambda: [gui.destroy_main_frame(),gui.build_loading_frame()])
-
-
+gui.button_scrap.configure(command=lambda : [gui.destroy_main_frame(),gui.build_loading_frame()])
 
 gui.mainloop()
