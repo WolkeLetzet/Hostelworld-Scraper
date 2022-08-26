@@ -80,7 +80,7 @@ class HostelScraper:
       self.driver.quit()
 
 def __main__(url):
-   excel_name="Santiago.xlsx"
+   excel_name="reviews.xlsx"
    driver= HostelScraper()
    links=driver.get_hostel_coments_url(url)
    pprint(links)
