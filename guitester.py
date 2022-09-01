@@ -1,5 +1,7 @@
-from re import I
+
+from logging import root
 from threading import Thread
+from time import sleep
 import tkinter as tk
 from PIL import Image as Img
 from PIL import ImageTk as ImgTk
@@ -15,8 +17,10 @@ class GUI:
       self.ventana.iconbitmap("icon.ico")
       self.ventana.config(bg=ORANGE)
       self.ventana.resizable(0, 0)
+            
+      self.options = [tk.BooleanVar(),tk.BooleanVar(),tk.BooleanVar(),tk.BooleanVar()]
       
-      self.options = [tk.BooleanVar(),tk.BooleanVar(),tk.BooleanVar()]
+      self.build_main_frame()
       
    def build_title_frame(self,frame=None):
       if frame is None:
@@ -45,6 +49,7 @@ class GUI:
       self.options[0].set(True)
       self.options[1].set(True)
       self.options[2].set(True)
+      self.options[3].set(True)
       
       self.options_frame=tk.Frame(self.mainFrame, bg=ORANGE)
       self.checkbutton1=tk.Checkbutton(self.options_frame, text="Puntaje",
@@ -56,10 +61,14 @@ class GUI:
       self.checkbutton3=tk.Checkbutton(self.options_frame, text="Incluir Comnetarios",
                                        variable=self.options[2], onvalue=True, offvalue=False,
                                        bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white")
+      self.checkbutton4=tk.Checkbutton(self.options_frame, text="Reseñas sin rate",
+                                       variable=self.options[3], onvalue=True, offvalue=False,
+                                       bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white")
       
       self.checkbutton1.pack(side=tk.LEFT, padx=10)
       self.checkbutton2.pack(side=tk.LEFT, padx=10)
       self.checkbutton3.pack(side=tk.LEFT, padx=10)
+      self.checkbutton4.pack(side=tk.LEFT, padx=10)
       self.options_frame.pack(side=tk.TOP, fill=tk.X)
    
    def build_button_frame(self):
@@ -76,7 +85,8 @@ class GUI:
       self.build_options_frame()
       self.build_button_frame()
       self.mainFrame.pack(fill=tk.BOTH, expand=True)
-      
+      self.ventana.update()      
+   
    def mainloop(self):
       self.ventana.mainloop()
    
@@ -110,12 +120,11 @@ class GUI:
       self.mainFrame.destroy()
       self.ventana.update()
 
+   def after(self, ms, func=None, *args):
+      self.ventana.after(ms,func,args)
 
 
-gui= GUI()
 
-gui.build_main_frame()
+root = GUI()
 
-gui.button_scrap.configure(command=lambda : [gui.destroy_main_frame(),gui.build_loading_frame()])
-
-gui.mainloop()
+root.mainloop()
