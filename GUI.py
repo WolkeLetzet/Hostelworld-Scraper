@@ -14,8 +14,11 @@ class GUI:
       self.ventana.iconbitmap("icon.ico")
       self.ventana.config(bg=ORANGE)
       self.ventana.resizable(0, 0)
+      self.url= tk.StringVar()
+      self.options = [tk.BooleanVar(),tk.BooleanVar(),tk.BooleanVar(),tk.BooleanVar()]
+      self.build_main_frame()
       
-      self.options = [tk.BooleanVar(),tk.BooleanVar(),tk.BooleanVar()]
+      
       
    def build_title_frame(self,frame=None):
       if frame is None:
@@ -32,7 +35,7 @@ class GUI:
          
       self.entry_frame = tk.Frame(self.mainFrame, bg=ORANGE)
       self.scrollbar = tk.Scrollbar(self.entry_frame,orient="horizontal")
-      self.entry = tk.Entry(self.entry_frame, font=("Sitka Display", 12), width=50, bg="white", fg="black", xscrollcommand=self.scrollbar.set)
+      self.entry = tk.Entry(self.entry_frame,textvariable=self.url, font=("Sitka Display", 12), width=50, bg="white", fg="black", xscrollcommand=self.scrollbar.set)
       self.entry.focus()
       self.entry.pack(fill=tk.X, padx=10,ipady=5)
       self.scrollbar.config(command=self.entry.xview)
@@ -40,10 +43,11 @@ class GUI:
       self.entry_frame.pack( fill=tk.X,ipady=2)
       
    def build_options_frame(self):
-      
+            
       self.options[0].set(True)
       self.options[1].set(True)
       self.options[2].set(True)
+      self.options[3].set(True)
       
       self.options_frame=tk.Frame(self.mainFrame, bg=ORANGE)
       self.checkbutton1=tk.Checkbutton(self.options_frame, text="Puntaje",
@@ -55,10 +59,14 @@ class GUI:
       self.checkbutton3=tk.Checkbutton(self.options_frame, text="Incluir Comnetarios",
                                        variable=self.options[2], onvalue=True, offvalue=False,
                                        bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white")
+      self.checkbutton4=tk.Checkbutton(self.options_frame, text="Reseñas sin rate",
+                                       variable=self.options[3], onvalue=True, offvalue=False,
+                                       bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white")
       
       self.checkbutton1.pack(side=tk.LEFT, padx=10)
       self.checkbutton2.pack(side=tk.LEFT, padx=10)
       self.checkbutton3.pack(side=tk.LEFT, padx=10)
+      self.checkbutton4.pack(side=tk.LEFT, padx=10)
       self.options_frame.pack(side=tk.TOP, fill=tk.X)
    
    def build_button_frame(self):
@@ -103,3 +111,6 @@ class GUI:
    def destroy_main_frame(self):
       self.mainFrame.destroy()
       self.ventana.update()
+      
+   def get_entry(self):
+      return self.url.get()
