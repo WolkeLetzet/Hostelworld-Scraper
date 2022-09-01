@@ -1,4 +1,3 @@
-from distutils.command.build import build
 from logging import root
 from GUI import GUI
 from threading import Thread
