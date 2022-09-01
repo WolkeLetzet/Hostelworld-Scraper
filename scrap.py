@@ -148,7 +148,7 @@ def main(url="",excel_name="reviews.xlsx",options=[True,True,True,True]):
                
                try:
                   excel_book.add_review(review)
-                  excel_book.wb.save(excel_name)
+                  excel_book.save()
                except:
                   pass
                
