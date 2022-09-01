@@ -75,7 +75,7 @@ for item in reviews_list:
    hostel_review=item.find_element(By.CSS_SELECTOR, "div.popupreviewlocation >a").text
    if hostel_review==hostel_name:
       review['text']=item.find_element(By.CSS_SELECTOR, "div.reviewtext > p").text
-      review['score']=item.find_element(By.CSS_SELECTOR, "div.textrating").text
+      review[' score']=item.find_element(By.CSS_SELECTOR, "div.textrating").text
       review['date']=item.find_element(By.CSS_SELECTOR, "span.reviewdate").text
       review['author']=item.find_element(By.CSS_SELECTOR, "li.reviewername").text
       reviewer_details=item.find_element(By.CSS_SELECTOR, "li.reviewerdetails").text
@@ -83,7 +83,7 @@ for item in reviews_list:
       for field in reviewer_details:
          review['author-details'].append(field.strip())
       
-      for index in item.find_elements(By.CSS_SELECTOR, "li.ratinglist > ul > li > span"):
+      for index in item.find_elements(By.CSS_SELECTOR,"li.ratinglist > ul > li > span"):
          review["rate"].append(index.text)
       
       
