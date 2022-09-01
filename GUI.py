@@ -1,5 +1,4 @@
 import tkinter as tk
-import scrap
 from PIL import Image as Img
 from PIL import ImageTk as ImgTk
 from GifTk import GifTk

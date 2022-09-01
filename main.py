@@ -1,4 +1,3 @@
-from logging import root
 from GUI import GUI
 from threading import Thread
 import scrap
