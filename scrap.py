@@ -150,7 +150,7 @@ def main(url:str,excel_name:str="reviews.xlsx",options:list[bool]=[True,True,Tru
                
                try:
                   for rev in reviews:
-                     
+                     print(rev)
                      excel_book.add_review(rev,options)
                      excel_book.save()
                except:
@@ -173,6 +173,7 @@ def main(url:str,excel_name:str="reviews.xlsx",options:list[bool]=[True,True,Tru
                if options[0]:
                   review["rate"]=[0,0,0,0,0,0,0]
                try:
+                  print(review)
                   excel_book.add_review(review,options)
                   excel_book.save()
                except:
