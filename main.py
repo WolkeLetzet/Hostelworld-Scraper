@@ -1,4 +1,3 @@
-from logging import root
 from GUI import GUI
 from threading import Thread
 import scrap
@@ -10,7 +9,7 @@ def schedule_check(t):
     """
     root.ventana.after(1000, check_if_done, t)
 def check_if_done(t):
-    # Si el hilo ha finalizado, restaruar el botón y mostrar un mensaje.
+    # Si el hilo ha finalizado, restaruar la pantalla principal
     if not t.is_alive():
         root.destroy_loading_frame()
         root.build_main_frame()
@@ -20,7 +19,7 @@ def check_if_done(t):
         schedule_check(t)
 
 def scraping():
-    th  =Thread(target=scrap.main , args=[root.get_entry(),"reviews.xlsx",root.options])
+    th  =Thread(target=scrap.main , args=[root.get_entry(),"reviews.xlsx",root.get_options()])
     root.destroy_main_frame()
     root.build_loading_frame()
     th.start()

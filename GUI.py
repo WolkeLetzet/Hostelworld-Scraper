@@ -1,5 +1,4 @@
 import tkinter as tk
-import scrap
 from PIL import Image as Img
 from PIL import ImageTk as ImgTk
 from GifTk import GifTk
@@ -15,7 +14,13 @@ class GUI:
       self.ventana.config(bg=ORANGE)
       self.ventana.resizable(0, 0)
       self.url= tk.StringVar()
-      self.options = [tk.BooleanVar(),tk.BooleanVar(),tk.BooleanVar(),tk.BooleanVar()]
+      self.options = [tk.BooleanVar(),tk.BooleanVar(),tk.BooleanVar(),tk.BooleanVar()] #variables de opciones
+      
+      self.options[0].set(True)
+      self.options[1].set(True)
+      self.options[2].set(True)
+      self.options[3].set(True)
+      
       self.build_main_frame()
       
       
@@ -44,22 +49,19 @@ class GUI:
       
    def build_options_frame(self):
             
-      self.options[0].set(True)
-      self.options[1].set(True)
-      self.options[2].set(True)
-      self.options[3].set(True)
-      
+
       self.options_frame=tk.Frame(self.mainFrame, bg=ORANGE)
-      self.checkbutton1=tk.Checkbutton(self.options_frame, text="Puntaje",
+      
+      self.checkbutton1=tk.Checkbutton(self.options_frame, text="Valores",
                                        variable=self.options[0], onvalue=True, offvalue=False,
                                        bg=ORANGE, fg="black", font=("Sitka Display", 11), activebackground=ORANGE, activeforeground="white")
       self.checkbutton2=tk.Checkbutton(self.options_frame, text="Todos Los Idiomas",
                                        variable=self.options[1], onvalue=True, offvalue=False,
                                        bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white")
-      self.checkbutton3=tk.Checkbutton(self.options_frame, text="Incluir Comnetarios",
+      self.checkbutton3=tk.Checkbutton(self.options_frame, text="Comnetarios",
                                        variable=self.options[2], onvalue=True, offvalue=False,
                                        bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white")
-      self.checkbutton4=tk.Checkbutton(self.options_frame, text="Reseñas sin rate",
+      self.checkbutton4=tk.Checkbutton(self.options_frame, text="Reseñas sin valores",
                                        variable=self.options[3], onvalue=True, offvalue=False,
                                        bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white")
       
@@ -77,6 +79,8 @@ class GUI:
       
    def build_main_frame(self):
       
+      """Contstruir main frame en la ventana"""
+      
       self.mainFrame = tk.Frame(self.ventana, bg=ORANGE)
       self.build_title_frame(self.mainFrame)
       self.build_entry_frame()
@@ -85,17 +89,13 @@ class GUI:
       self.mainFrame.pack(fill=tk.BOTH, expand=True)
       
    def mainloop(self):
+      """iniciar mainloop"""
       self.ventana.mainloop()
    
-   def set_cursor_busy(self):
-      self.ventana.config(cursor="wait")
-      self.ventana.update()
-   
-   def reset_cursor(self):
-      self.ventana.config(cursor="")
-      self.ventana.update()
        
    def build_loading_frame(self):
+      """Construir pantalla de carga"""
+      
       self.loading_frame = tk.Frame(self.ventana, bg=ORANGE)
       self.loading_label = tk.Label(self.loading_frame, bg=ORANGE)
       self.loading_label.pack()
@@ -114,3 +114,6 @@ class GUI:
       
    def get_entry(self):
       return self.url.get()
+   
+   def get_options(self):
+      return [self.options[0].get(),self.options[1].get(),self.options[2].get(),self.options[3].get()]
