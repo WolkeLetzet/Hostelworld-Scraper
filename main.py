@@ -19,7 +19,7 @@ def check_if_done(t):
         schedule_check(t)
 
 def scraping():
-    th  =Thread(target=scrap.main , args=[root.get_entry(),"reviews.xlsx",root.get_options()])
+    th  =Thread(target=scrap.main , args=[root.get_url(),root.get_path(),root.get_options()])
     root.destroy_main_frame()
     root.build_loading_frame()
     th.start()

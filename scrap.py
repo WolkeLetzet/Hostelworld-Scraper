@@ -89,7 +89,7 @@ class HostelScraper:
                for index in item.find_elements(By.CSS_SELECTOR, "li.ratinglist > ul > li > span"): #obtiene los valores de la review
                   review["rate"].append(index.text)
             else:
-               review["rate"]=[0,0,0,0,0,0,0]
+               review["rate"]=['0','0','0','0','0','0','0']
             
             reviews.append(review) #agrega la review a la lista
             
@@ -171,7 +171,7 @@ def main(url:str,excel_name:str="reviews.xlsx",options:list[bool]=[True,True,Tru
                review['date']=item.find_element(By.CSS_SELECTOR,"div.date > span").text
                
                if options[0]:
-                  review["rate"]=[0,0,0,0,0,0,0]
+                  review["rate"]=['0','0','0','0','0','0','0']
                try:
                   excel_book.add_review(review,options)
                   excel_book.save()
