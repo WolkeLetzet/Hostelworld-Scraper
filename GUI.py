@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import Menu, filedialog
-from tkinter.filedialog import asksaveasfile
 from PIL import Image as Img
 from PIL import ImageTk as ImgTk
 from GifTk import GifTk
+import os
 
 ORANGE= '#f25621'
 
@@ -12,7 +12,7 @@ class GUI:
       self.ventana = tk.Tk()
       self.ventana.title("HostelWorldScraper")
       self.ventana.geometry("600x400")
-      self.ventana.iconbitmap("icon.ico")
+      self.ventana.iconbitmap(os.path.dirname(os.path.realpath(__file__))+"/"+"icon.ico")
       self.ventana.config(bg=ORANGE)
       self.ventana.resizable(0, 0)
       self.url= tk.StringVar()
@@ -28,14 +28,14 @@ class GUI:
       
       
       
-      self.build_main_frame()  
+      self.build_main_frame()
       
    def build_title_frame(self,frame=None):
       if frame is None:
          frame = self.mainFrame
          
       self.title_frame = tk.Frame(frame, bg=ORANGE)
-      self.logo=Img.open("logo.png")
+      self.logo=Img.open(os.path.dirname(os.path.realpath(__file__))+"/"+"logo.png")
       self.logo=ImgTk.PhotoImage(self.logo)
       self.label_logo=tk.Label(self.title_frame, image=self.logo, bg=ORANGE)
       self.label_logo.pack(padx=10, pady=10)
@@ -98,7 +98,7 @@ class GUI:
                                        bg=ORANGE, fg="black", font=("Sitka Display", 11), activebackground=ORANGE, activeforeground="white")
       self.checkbutton2=tk.Checkbutton(self.options_frame, text="Todos Los Idiomas",
                                        variable=self.options[1], onvalue=True, offvalue=False,
-                                       bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white")
+                                       bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white",state="disabled",disabledforeground="black",selectcolor="white")
       self.checkbutton3=tk.Checkbutton(self.options_frame, text="Comnetarios",
                                        variable=self.options[2], onvalue=True, offvalue=False,
                                        bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white")
@@ -141,9 +141,9 @@ class GUI:
       self.loading_frame = tk.Frame(self.ventana, bg=ORANGE)
       self.loading_label = tk.Label(self.loading_frame, bg=ORANGE)
       self.loading_label.pack()
-      self.loading_frame.pack(fill=tk.BOTH, expand=True)
+      self.loading_frame.pack(fill=tk.BOTH, expand=True,pady=60)
       
-      self.loading_gif = GifTk(self.loading_label, "loading.gif")
+      self.loading_gif = GifTk(self.loading_label, os.path.dirname(os.path.realpath(__file__))+"/"+"loading.gif")
       self.loading_gif.start(35)
 
    def destroy_loading_frame(self):
@@ -169,8 +169,3 @@ class GUI:
    def get_options(self):
       return [self.options[0].get(),self.options[1].get(),self.options[2].get(),self.options[3].get()]
    
-gui = GUI()
-
-
-
-gui.mainloop()

@@ -1,5 +1,4 @@
 from pprint import pprint
-from turtle import st
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -133,15 +132,19 @@ def main(url:str,excel_name:str="reviews.xlsx",options:list[bool]=[True,True,Tru
          
          for item in review_list: #por cada review
             #cantidad de reviews del reviewer
-            reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
-            reviews_num = int(reviews_num)
+            try:
+               reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
+               reviews_num = int(reviews_num)
+            
+            except: 
+               continue
             
             review_date= item.find_element(By.CSS_SELECTOR, "div.review-header > div.date").text #fecha de la review
             
-            #detener al llegar al año 
-            if "2019" in review_date: 
-               continuar=False
-               break
+            # #detener al llegar al año 
+            # if "2019" in review_date: 
+            #    continuar=False
+            #    break
             
             if reviews_num > 1: #si la cantidad de reviews es mayor a uno
                reviewer_url=item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child > a").get_attribute("href") #url hacia las reviews del reviwer
@@ -150,7 +153,9 @@ def main(url:str,excel_name:str="reviews.xlsx",options:list[bool]=[True,True,Tru
                
                try:
                   for rev in reviews:
-                     
+                     print("\n")
+                     pprint(rev)
+                     print("\n")
                      excel_book.add_review(rev,options)
                      excel_book.save()
                except:
@@ -173,6 +178,9 @@ def main(url:str,excel_name:str="reviews.xlsx",options:list[bool]=[True,True,Tru
                if options[0]:
                   review["rate"]=['0','0','0','0','0','0','0']
                try:
+                  print("\n")
+                  pprint(review)
+                  print("\n")
                   excel_book.add_review(review,options)
                   excel_book.save()
                except:
