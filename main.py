@@ -29,7 +29,7 @@ def scraping():
     
 
 root =GUI()
-
+root.build_main_frame()
 root.button_scrap.config(command=scraping)
 
 root.mainloop()

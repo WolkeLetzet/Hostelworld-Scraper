@@ -26,13 +26,6 @@ class GUI:
       self.options[3].set(True)
       
       
-<<<<<<< Updated upstream
-      
-      
-      self.build_main_frame()
-      
-=======
->>>>>>> Stashed changes
    def build_title_frame(self,frame=None):
       if frame is None:
          frame = self.mainFrame
@@ -47,20 +40,6 @@ class GUI:
    def build_entry_frame(self):
          
       self.entry_frame = tk.Frame(self.mainFrame, bg=ORANGE)
-<<<<<<< Updated upstream
-      
-      
-      self.scrollbar = tk.Scrollbar(self.entry_frame,orient="horizontal")
-      self.url_entry = tk.Entry(self.entry_frame,textvariable=self.url, font=("Sitka Display", 12), width=50, bg="white", fg="black", xscrollcommand=self.scrollbar.set)
-      self.url_entry.focus()
-      
-      self.rcm = Menu(self.entry_frame,tearoff= 0)
-      self.rcm.add_command(label ="Copy",command=self.__copy)
-      self.rcm.add_command(label ="Paste",command=self.__paste)
-      self.url_entry.bind("<Button-3>", self.do_popup)
-      self.url_entry.pack(fill=tk.X, padx=10,ipady=5)
-      self.scrollbar.config(command=self.url_entry.xview)
-=======
       self.entry_label = tk.Label(self.entry_frame,text="Ingresa URL de Ciudad",background=ORANGE,fg='white',font=("Sitka Display", 11))
       self.scrollbar = tk.Scrollbar(self.entry_frame,orient="horizontal")
       self.entry = tk.Entry(self.entry_frame,textvariable=self.url, font=("Sitka Display", 12), width=50, bg="white", fg="black", xscrollcommand=self.scrollbar.set)
@@ -68,7 +47,6 @@ class GUI:
       self.entry_label.pack()
       self.entry.pack(fill=tk.X, padx=10,ipady=5)
       self.scrollbar.config(command=self.entry.xview)
->>>>>>> Stashed changes
       self.scrollbar.pack(fill=tk.X, padx=10)
       
       
@@ -91,7 +69,7 @@ class GUI:
       self.path_label.pack(side=tk.LEFT,padx=10)
       self.path_entry.pack(side=tk.LEFT, padx=10)
       self.path_button.pack(side=tk.LEFT, padx=10)
-      self.path_frame.pack(side=tk.TOP, fill=tk.X,pady=20,padx=30)
+      self.path_frame.pack(side=tk.TOP, fill=tk.X,pady=10,padx=30)
       
    def saveAsDialogue(self):
       
@@ -127,7 +105,7 @@ class GUI:
    
    def build_button_frame(self):
       self.button_frame = tk.Frame(self.mainFrame, bg=ORANGE)
-      self.button_scrap = tk.Button(self.button_frame, text="Scrap", font=("Sitka Display", 12), bg='white', fg="black")
+      self.button_scrap = tk.Button(self.button_frame, text="Iniciar Extraccion", font=("Sitka Display", 12), bg='white', fg="black")
       self.button_scrap.pack(padx=10, pady=20,ipady=10, ipadx=20)
       self.button_frame.pack(side=tk.BOTTOM, fill=tk.X, padx=10, pady=10)
       
@@ -147,11 +125,7 @@ class GUI:
    def mainloop(self):
       """iniciar mainloop"""
       self.ventana.mainloop()
-<<<<<<< Updated upstream
       
-=======
-   
->>>>>>> Stashed changes
    def build_loading_frame(self):
       """Construir pantalla de carga"""
       
