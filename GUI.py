@@ -26,10 +26,13 @@ class GUI:
       self.options[3].set(True)
       
       
+<<<<<<< Updated upstream
       
       
       self.build_main_frame()
       
+=======
+>>>>>>> Stashed changes
    def build_title_frame(self,frame=None):
       if frame is None:
          frame = self.mainFrame
@@ -44,6 +47,7 @@ class GUI:
    def build_entry_frame(self):
          
       self.entry_frame = tk.Frame(self.mainFrame, bg=ORANGE)
+<<<<<<< Updated upstream
       
       
       self.scrollbar = tk.Scrollbar(self.entry_frame,orient="horizontal")
@@ -56,6 +60,15 @@ class GUI:
       self.url_entry.bind("<Button-3>", self.do_popup)
       self.url_entry.pack(fill=tk.X, padx=10,ipady=5)
       self.scrollbar.config(command=self.url_entry.xview)
+=======
+      self.entry_label = tk.Label(self.entry_frame,text="Ingresa URL de Ciudad",background=ORANGE,fg='white',font=("Sitka Display", 11))
+      self.scrollbar = tk.Scrollbar(self.entry_frame,orient="horizontal")
+      self.entry = tk.Entry(self.entry_frame,textvariable=self.url, font=("Sitka Display", 12), width=50, bg="white", fg="black", xscrollcommand=self.scrollbar.set)
+      self.entry.focus()
+      self.entry_label.pack()
+      self.entry.pack(fill=tk.X, padx=10,ipady=5)
+      self.scrollbar.config(command=self.entry.xview)
+>>>>>>> Stashed changes
       self.scrollbar.pack(fill=tk.X, padx=10)
       
       
@@ -134,7 +147,11 @@ class GUI:
    def mainloop(self):
       """iniciar mainloop"""
       self.ventana.mainloop()
+<<<<<<< Updated upstream
       
+=======
+   
+>>>>>>> Stashed changes
    def build_loading_frame(self):
       """Construir pantalla de carga"""
       

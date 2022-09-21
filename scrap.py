@@ -53,10 +53,10 @@ class HostelScraper:
    def get_reviews_in_user_page(self,hostel_name:str,options=[True,True,True]):
       
       """
-      Obtiene  una lista de criticas del hostal buscado en la pagina del usuario
+      Obtiene  una lista de reseña del hostal buscado en la pagina del usuario
       ----
       hostel_name : String
-         nombre del hostal cuya critica se busca
+         nombre del hostal cuya reseña se busca
       
       """
       
