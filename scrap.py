@@ -1,5 +1,4 @@
 from pprint import pprint
-from turtle import st
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -54,10 +53,10 @@ class HostelScraper:
    def get_reviews_in_user_page(self,hostel_name:str,options=[True,True,True]):
       
       """
-      Obtiene  una lista de criticas del hostal buscado en la pagina del usuario
+      Obtiene  una lista de reseña del hostal buscado en la pagina del usuario
       ----
       hostel_name : String
-         nombre del hostal cuya critica se busca
+         nombre del hostal cuya reseña se busca
       
       """
       
@@ -89,7 +88,7 @@ class HostelScraper:
                for index in item.find_elements(By.CSS_SELECTOR, "li.ratinglist > ul > li > span"): #obtiene los valores de la review
                   review["rate"].append(index.text)
             else:
-               review["rate"]=[0,0,0,0,0,0,0]
+               review["rate"]=['0','0','0','0','0','0','0']
             
             reviews.append(review) #agrega la review a la lista
             
@@ -133,15 +132,19 @@ def main(url:str,excel_name:str="reviews.xlsx",options:list[bool]=[True,True,Tru
          
          for item in review_list: #por cada review
             #cantidad de reviews del reviewer
-            reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
-            reviews_num = int(reviews_num)
+            try:
+               reviews_num = item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child").text[0]
+               reviews_num = int(reviews_num)
+            
+            except: 
+               continue
             
             review_date= item.find_element(By.CSS_SELECTOR, "div.review-header > div.date").text #fecha de la review
             
-            #detener al llegar al año 
-            if "2019" in review_date: 
-               continuar=False
-               break
+            # #detener al llegar al año 
+            # if "2019" in review_date: 
+            #    continuar=False
+            #    break
             
             if reviews_num > 1: #si la cantidad de reviews es mayor a uno
                reviewer_url=item.find_element(By.CSS_SELECTOR, "div.user-review > ul > li:last-child > a").get_attribute("href") #url hacia las reviews del reviwer
@@ -150,7 +153,9 @@ def main(url:str,excel_name:str="reviews.xlsx",options:list[bool]=[True,True,Tru
                
                try:
                   for rev in reviews:
-                     
+                     print("\n")
+                     pprint(rev)
+                     print("\n")
                      excel_book.add_review(rev,options)
                      excel_book.save()
                except:
@@ -171,8 +176,11 @@ def main(url:str,excel_name:str="reviews.xlsx",options:list[bool]=[True,True,Tru
                review['date']=item.find_element(By.CSS_SELECTOR,"div.date > span").text
                
                if options[0]:
-                  review["rate"]=[0,0,0,0,0,0,0]
+                  review["rate"]=['0','0','0','0','0','0','0']
                try:
+                  print("\n")
+                  pprint(review)
+                  print("\n")
                   excel_book.add_review(review,options)
                   excel_book.save()
                except:

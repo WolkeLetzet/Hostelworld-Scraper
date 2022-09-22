@@ -1,4 +1,3 @@
-from csv import excel
 import openpyxl
 
 class ToExcel:
