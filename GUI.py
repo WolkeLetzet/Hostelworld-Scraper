@@ -90,7 +90,7 @@ class GUI:
       self.checkbutton2=tk.Checkbutton(self.options_frame, text="Todos Los Idiomas",
                                        variable=self.options[1], onvalue=True, offvalue=False,
                                        bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white",state="disabled",disabledforeground="black",selectcolor="white")
-      self.checkbutton3=tk.Checkbutton(self.options_frame, text="Comnetarios",
+      self.checkbutton3=tk.Checkbutton(self.options_frame, text="Comentarios",
                                        variable=self.options[2], onvalue=True, offvalue=False,
                                        bg=ORANGE, fg="black", font=("Sitka Display", 11),activebackground=ORANGE, activeforeground="white")
       self.checkbutton4=tk.Checkbutton(self.options_frame, text="Reseñas sin valores",
