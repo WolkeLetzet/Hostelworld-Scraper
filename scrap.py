@@ -34,7 +34,7 @@ class HostelScraper:
    
    def go_to_url_by_css_selector(self, url,css_selector):
       self.driver.get(url)
-      self.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, css_selector)))
+      self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, css_selector)))
    
    def go_to_url_by_name(self, url,name):
       self.driver.get(url)

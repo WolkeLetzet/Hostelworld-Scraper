@@ -105,6 +105,7 @@ class GUI:
    
    def build_button_frame(self):
       self.button_frame = tk.Frame(self.mainFrame, bg=ORANGE)
+
       self.button_scrap = tk.Button(self.button_frame, text="Iniciar Extraccion", font=("Sitka Display", 12), bg='white', fg="black")
       self.button_scrap.pack(padx=10, pady=20,ipady=10, ipadx=20)
       self.button_frame.pack(side=tk.BOTTOM, fill=tk.X, padx=10, pady=10)
