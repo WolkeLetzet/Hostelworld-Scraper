@@ -13,7 +13,7 @@ python.exe -m pip install --upgrade pip luego el comando: py -m pip install pill
 python -m pip install -U selenium
 * La librería Tkinter permite trabajar con interfaces gráficas en Python:
 import tkinter as tk
-Luego descargamos la biblioteca Openpyxl para leer y escribir en archivos Excel:
+* Luego descargamos la biblioteca Openpyxl para leer y escribir en archivos Excel:
 python -m pip install openpyxl 
 * Para facilitar la legibilidad de las estructuras utilizadas descargamos pprint():
 pip install pprintpp
