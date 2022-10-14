@@ -214,7 +214,7 @@ class GUI:
         return[x.get() for x in self.options]
 
     def updateProgressbar(self, num):
-        self. .set(num)
+        self.progVar.set(num)
 
     def build_progressBar_window(self, max):
         self.pgw = tk.Toplevel(background=ORANGE)
