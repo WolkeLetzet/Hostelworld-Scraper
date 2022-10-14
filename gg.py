@@ -88,7 +88,6 @@ class GUI:
 
         logo = Img.open(self.path+"/logo.png")
         self.logo = ImgTk.PhotoImage(logo)
-        print(self.path)
         self.label_logo = tk.Label(self.title_frame, image=self.logo, bg=RED)
         self.label_logo.grid(row=0, column=0, sticky="ns")
         self.title_frame.grid(row=0, column=0, sticky="ew")
@@ -240,7 +239,6 @@ class GUI:
         self.ciudades = {}
         for i in self.paises_file[self.countriesBox.get()]:
             self.ciudades[i['name']] = i['urlFriendlyName']
-        print(self.ciudades)
         self.citiesBox.config(values=tuple(self.ciudades.keys()))
 
     def unlock_button(self, *arg):
