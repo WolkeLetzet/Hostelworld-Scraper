@@ -1,6 +1,7 @@
-from GUI import GUI
 from threading import Thread
-import scrap
+import tkinter as tk
+from Scraper import Scraper
+from gg import GUI
 
 def schedule_check(t):
     """
@@ -19,17 +20,21 @@ def check_if_done(t):
         schedule_check(t)
 
 def scraping():
-    th  =Thread(target=scrap.main , args=[root.get_url(),root.get_path(),root.get_options()])
-    root.destroy_main_frame()
-    root.build_loading_frame()
-    th.start()
+    #th  =Thread(target=scrap.main , args=[root.get_url(),root.get_path(),root.get_options()])
+    gui.savePath.get()
+    
+    scraper.setPropertiesIDs()
+    #th.start()
     
     schedule_check(th)
     
     
+path='C:\\Users\\n1_na\\Repositorios\\hostelworld scraper'     
+root =tk.Tk()
+gui = GUI(path,root)
+scraper = Scraper()
 
-root =GUI()
 
-root.button_scrap.config(command=scraping)
+
 
 root.mainloop()

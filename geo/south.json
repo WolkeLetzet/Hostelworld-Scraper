@@ -1,0 +1,1550 @@
+{
+   "Argentina": [
+      {
+         "id": 37,
+         "name": "Buenos Aires",
+         "urlFriendlyName": "buenos-aires"
+      },
+      {
+         "id": 268,
+         "name": "Mendoza",
+         "urlFriendlyName": "mendoza"
+      },
+      {
+         "id": 237,
+         "name": "Salta",
+         "urlFriendlyName": "salta"
+      },
+      {
+         "id": 402,
+         "name": "Cordoba",
+         "urlFriendlyName": "cordoba"
+      },
+      {
+         "id": 94,
+         "name": "Bariloche",
+         "urlFriendlyName": "bariloche"
+      },
+      {
+         "id": 1056,
+         "name": "Puerto Iguazu",
+         "urlFriendlyName": "puerto-iguazu"
+      },
+      {
+         "id": 343,
+         "name": "El Calafate",
+         "urlFriendlyName": "el-calafate"
+      },
+      {
+         "id": 1900,
+         "name": "Mar del Plata",
+         "urlFriendlyName": "mar-del-plata"
+      },
+      {
+         "id": 4717,
+         "name": "Rosario",
+         "urlFriendlyName": "rosario"
+      },
+      {
+         "id": 1949,
+         "name": "San Miguel de Tucuman",
+         "urlFriendlyName": "san-miguel-de-tucuman"
+      },
+      {
+         "id": 128,
+         "name": "El Chalten",
+         "urlFriendlyName": "el-chalten"
+      },
+      {
+         "id": 3725,
+         "name": "El Bolson",
+         "urlFriendlyName": "el-bolson"
+      },
+      {
+         "id": 112,
+         "name": "Ushuaia",
+         "urlFriendlyName": "ushuaia"
+      },
+      {
+         "id": 1068,
+         "name": "Tilcara",
+         "urlFriendlyName": "tilcara"
+      },
+      {
+         "id": 2828,
+         "name": "San Rafael",
+         "urlFriendlyName": "san-rafael"
+      },
+      {
+         "id": 782,
+         "name": "Puerto Madryn",
+         "urlFriendlyName": "puerto-madryn"
+      },
+      {
+         "id": 3655,
+         "name": "Cafayate",
+         "urlFriendlyName": "cafayate"
+      },
+      {
+         "id": 3934,
+         "name": "San Juan",
+         "urlFriendlyName": "san-juan"
+      },
+      {
+         "id": 2757,
+         "name": "Humahuaca",
+         "urlFriendlyName": "humahuaca"
+      },
+      {
+         "id": 2729,
+         "name": "San Salvador de Jujuy",
+         "urlFriendlyName": "san-salvador-de-jujuy"
+      },
+      {
+         "id": 10408,
+         "name": "Potrerillos",
+         "urlFriendlyName": "potrerillos"
+      },
+      {
+         "id": 19701,
+         "name": "San Martin De Los Andes",
+         "urlFriendlyName": "san-martin-de-los-andes"
+      },
+      {
+         "id": 9497,
+         "name": "La Plata",
+         "urlFriendlyName": "la-plata"
+      },
+      {
+         "id": 2918,
+         "name": "Neuquen",
+         "urlFriendlyName": "neuquen"
+      },
+      {
+         "id": 1072,
+         "name": "Villa La Angostura",
+         "urlFriendlyName": "villa-la-angostura"
+      },
+      {
+         "id": 9121,
+         "name": "San Ignacio",
+         "urlFriendlyName": "san-ignacio"
+      },
+      {
+         "id": 12705,
+         "name": "Tandil",
+         "urlFriendlyName": "tandil"
+      },
+      {
+         "id": 289,
+         "name": "Esquel",
+         "urlFriendlyName": "esquel"
+      },
+      {
+         "id": 19261,
+         "name": "El Soberbio",
+         "urlFriendlyName": "el-soberbio"
+      },
+      {
+         "id": 8631,
+         "name": "San Lorenzo",
+         "urlFriendlyName": "san-lorenzo"
+      },
+      {
+         "id": 10606,
+         "name": "Villa de Merlo",
+         "urlFriendlyName": "villa-de-merlo"
+      },
+      {
+         "id": 3860,
+         "name": "Capilla del Monte",
+         "urlFriendlyName": "capilla-del-monte"
+      },
+      {
+         "id": 19155,
+         "name": "Concepcion del Uruguay",
+         "urlFriendlyName": "concepcion-del-uruguay"
+      },
+      {
+         "id": 7689,
+         "name": "San Marcos Sierras",
+         "urlFriendlyName": "san-marcos-sierras"
+      },
+      {
+         "id": 20666,
+         "name": "Bahia Blanca",
+         "urlFriendlyName": "bahia-blanca"
+      },
+      {
+         "id": 17500,
+         "name": "Villa Pehuenia",
+         "urlFriendlyName": "villa-pehuenia"
+      },
+      {
+         "id": 6528,
+         "name": "Tanti",
+         "urlFriendlyName": "tanti"
+      },
+      {
+         "id": 20558,
+         "name": "Gualjaina",
+         "urlFriendlyName": "gualjaina"
+      },
+      {
+         "id": 10136,
+         "name": "San Pedro",
+         "urlFriendlyName": "san-pedro"
+      },
+      {
+         "id": 13735,
+         "name": "El Soberbio",
+         "urlFriendlyName": "el-soberbio"
+      },
+      {
+         "id": 5242,
+         "name": "Villa Carlos Paz",
+         "urlFriendlyName": "villa-carlos-paz"
+      },
+      {
+         "id": 12792,
+         "name": "Perito Moreno",
+         "urlFriendlyName": "perito-moreno"
+      },
+      {
+         "id": 19681,
+         "name": "Barreal",
+         "urlFriendlyName": "barreal"
+      }
+   ],
+   "Aruba": [
+      {
+         "id": 8974,
+         "name": "Oranjestad",
+         "urlFriendlyName": "oranjestad"
+      }
+   ],
+   "Bolivia": [
+      {
+         "id": 327,
+         "name": "La Paz",
+         "urlFriendlyName": "la-paz"
+      },
+      {
+         "id": 3032,
+         "name": "Copacabana",
+         "urlFriendlyName": "copacabana"
+      },
+      {
+         "id": 2437,
+         "name": "Cochabamba",
+         "urlFriendlyName": "cochabamba"
+      },
+      {
+         "id": 2472,
+         "name": "Sucre",
+         "urlFriendlyName": "sucre"
+      },
+      {
+         "id": 2697,
+         "name": "Uyuni",
+         "urlFriendlyName": "uyuni"
+      },
+      {
+         "id": 16870,
+         "name": "Santa Cruz de la Sierra",
+         "urlFriendlyName": "santa-cruz-de-la-sierra"
+      },
+      {
+         "id": 11279,
+         "name": "Rurrenabaque",
+         "urlFriendlyName": "rurrenabaque"
+      },
+      {
+         "id": 2556,
+         "name": "Tupiza",
+         "urlFriendlyName": "tupiza"
+      },
+      {
+         "id": 12030,
+         "name": "Villa Tunari",
+         "urlFriendlyName": "villa-tunari"
+      },
+      {
+         "id": 11950,
+         "name": "Torotoro",
+         "urlFriendlyName": "torotoro"
+      },
+      {
+         "id": 2135,
+         "name": "Samaipata",
+         "urlFriendlyName": "samaipata"
+      }
+   ],
+   "Brazil": [
+      {
+         "id": 127,
+         "name": "Rio de Janeiro",
+         "urlFriendlyName": "rio-de-janeiro"
+      },
+      {
+         "id": 786,
+         "name": "Sao Paulo",
+         "urlFriendlyName": "sao-paulo"
+      },
+      {
+         "id": 2796,
+         "name": "Florianopolis",
+         "urlFriendlyName": "florianopolis"
+      },
+      {
+         "id": 258,
+         "name": "Salvador",
+         "urlFriendlyName": "salvador"
+      },
+      {
+         "id": 3836,
+         "name": "Foz do Iguacu",
+         "urlFriendlyName": "foz-do-iguacu"
+      },
+      {
+         "id": 828,
+         "name": "Buzios",
+         "urlFriendlyName": "buzios"
+      },
+      {
+         "id": 512,
+         "name": "Fortaleza",
+         "urlFriendlyName": "fortaleza"
+      },
+      {
+         "id": 508,
+         "name": "Maceio",
+         "urlFriendlyName": "maceio"
+      },
+      {
+         "id": 4200,
+         "name": "Curitiba",
+         "urlFriendlyName": "curitiba"
+      },
+      {
+         "id": 5095,
+         "name": "Belo Horizonte",
+         "urlFriendlyName": "belo-horizonte"
+      },
+      {
+         "id": 2730,
+         "name": "Gramado",
+         "urlFriendlyName": "gramado"
+      },
+      {
+         "id": 3598,
+         "name": "Natal",
+         "urlFriendlyName": "natal"
+      },
+      {
+         "id": 2925,
+         "name": "Manaus",
+         "urlFriendlyName": "manaus"
+      },
+      {
+         "id": 2976,
+         "name": "Angra dos Reis",
+         "urlFriendlyName": "angra-dos-reis"
+      },
+      {
+         "id": 2866,
+         "name": "Paraty",
+         "urlFriendlyName": "paraty"
+      },
+      {
+         "id": 3847,
+         "name": "Ilha Grande",
+         "urlFriendlyName": "ilha-grande"
+      },
+      {
+         "id": 2886,
+         "name": "Ubatuba",
+         "urlFriendlyName": "ubatuba"
+      },
+      {
+         "id": 6064,
+         "name": "Morro de Sao Paulo",
+         "urlFriendlyName": "morro-de-sao-paulo"
+      },
+      {
+         "id": 5137,
+         "name": "Arraial do Cabo",
+         "urlFriendlyName": "arraial-do-cabo"
+      },
+      {
+         "id": 252,
+         "name": "Bonito",
+         "urlFriendlyName": "bonito"
+      },
+      {
+         "id": 2916,
+         "name": "Cabo Frio",
+         "urlFriendlyName": "cabo-frio"
+      },
+      {
+         "id": 3225,
+         "name": "Itacare",
+         "urlFriendlyName": "itacare"
+      },
+      {
+         "id": 7963,
+         "name": "Recife",
+         "urlFriendlyName": "recife"
+      },
+      {
+         "id": 7619,
+         "name": "Jericoacoara",
+         "urlFriendlyName": "jericoacoara"
+      },
+      {
+         "id": 5177,
+         "name": "Pipa",
+         "urlFriendlyName": "pipa"
+      },
+      {
+         "id": 6231,
+         "name": "Ilhabela",
+         "urlFriendlyName": "ilhabela"
+      },
+      {
+         "id": 19380,
+         "name": "Fortaleza",
+         "urlFriendlyName": "fortaleza"
+      },
+      {
+         "id": 13729,
+         "name": "Praia do Rosa",
+         "urlFriendlyName": "praia-do-rosa"
+      },
+      {
+         "id": 9178,
+         "name": "Sao Sebastiao",
+         "urlFriendlyName": "sao-sebastiao"
+      },
+      {
+         "id": 5007,
+         "name": "Balneario Camboriu",
+         "urlFriendlyName": "balneario-camboriu"
+      },
+      {
+         "id": 12448,
+         "name": "Sao Luis",
+         "urlFriendlyName": "sao-luis"
+      },
+      {
+         "id": 12421,
+         "name": "Fernando de Noronha",
+         "urlFriendlyName": "fernando-de-noronha"
+      },
+      {
+         "id": 10749,
+         "name": "Porto de Galinhas",
+         "urlFriendlyName": "porto-de-galinhas"
+      },
+      {
+         "id": 13106,
+         "name": "Vitoria",
+         "urlFriendlyName": "vitoria"
+      },
+      {
+         "id": 7408,
+         "name": "Ouro Preto",
+         "urlFriendlyName": "ouro-preto"
+      },
+      {
+         "id": 10233,
+         "name": "Porto Alegre",
+         "urlFriendlyName": "porto-alegre"
+      },
+      {
+         "id": 12462,
+         "name": "Barreirinhas",
+         "urlFriendlyName": "barreirinhas"
+      },
+      {
+         "id": 4513,
+         "name": "Lencois",
+         "urlFriendlyName": "lencois"
+      },
+      {
+         "id": 9472,
+         "name": "Cumbuco",
+         "urlFriendlyName": "cumbuco"
+      },
+      {
+         "id": 6264,
+         "name": "Joao Pessoa",
+         "urlFriendlyName": "joao-pessoa"
+      },
+      {
+         "id": 606,
+         "name": "Porto Seguro",
+         "urlFriendlyName": "porto-seguro"
+      },
+      {
+         "id": 18031,
+         "name": "Praia Grande",
+         "urlFriendlyName": "praia-grande"
+      },
+      {
+         "id": 8118,
+         "name": "Guaruja",
+         "urlFriendlyName": "guaruja"
+      },
+      {
+         "id": 13910,
+         "name": "Parnaiba",
+         "urlFriendlyName": "parnaiba"
+      },
+      {
+         "id": 3775,
+         "name": "Bombinhas",
+         "urlFriendlyName": "bombinhas"
+      },
+      {
+         "id": 2543,
+         "name": "Imbassai",
+         "urlFriendlyName": "imbassai"
+      },
+      {
+         "id": 13290,
+         "name": "Alter do Chao",
+         "urlFriendlyName": "alter-do-chao"
+      },
+      {
+         "id": 11954,
+         "name": "Caxias Do Sul",
+         "urlFriendlyName": "caxias-do-sul"
+      },
+      {
+         "id": 20544,
+         "name": "Embu das Artes",
+         "urlFriendlyName": "embu-das-artes"
+      },
+      {
+         "id": 12268,
+         "name": "Santos",
+         "urlFriendlyName": "santos"
+      },
+      {
+         "id": 15489,
+         "name": "Rio Branco",
+         "urlFriendlyName": "rio-branco"
+      },
+      {
+         "id": 5138,
+         "name": "Tiradentes",
+         "urlFriendlyName": "tiradentes"
+      },
+      {
+         "id": 10716,
+         "name": "Niteroi",
+         "urlFriendlyName": "niteroi"
+      },
+      {
+         "id": 12707,
+         "name": "Torres",
+         "urlFriendlyName": "torres"
+      },
+      {
+         "id": 18988,
+         "name": "Presidente Figuereido",
+         "urlFriendlyName": "presidente-figuereido"
+      },
+      {
+         "id": 3152,
+         "name": "Rio das Ostras",
+         "urlFriendlyName": "rio-das-ostras"
+      },
+      {
+         "id": 11908,
+         "name": "Palmas",
+         "urlFriendlyName": "palmas"
+      },
+      {
+         "id": 13585,
+         "name": "Arraial D'Ajuda",
+         "urlFriendlyName": "arraial-d-ajuda"
+      },
+      {
+         "id": 20357,
+         "name": "Sao Bento do Sul",
+         "urlFriendlyName": "sao-bento-do-sul"
+      },
+      {
+         "id": 8363,
+         "name": "Belem",
+         "urlFriendlyName": "belem"
+      },
+      {
+         "id": 12134,
+         "name": "Diamantina",
+         "urlFriendlyName": "diamantina"
+      },
+      {
+         "id": 14608,
+         "name": "Pelotas",
+         "urlFriendlyName": "pelotas"
+      },
+      {
+         "id": 10442,
+         "name": "Piracicaba",
+         "urlFriendlyName": "piracicaba"
+      },
+      {
+         "id": 12513,
+         "name": "Chapada Diamantina",
+         "urlFriendlyName": "chapada-diamantina"
+      },
+      {
+         "id": 11796,
+         "name": "Rio Branco",
+         "urlFriendlyName": "rio-branco"
+      },
+      {
+         "id": 13510,
+         "name": "Tibau do Sul",
+         "urlFriendlyName": "tibau-do-sul"
+      },
+      {
+         "id": 19538,
+         "name": "Andarai",
+         "urlFriendlyName": "andarai"
+      },
+      {
+         "id": 12023,
+         "name": "Brasilia",
+         "urlFriendlyName": "brasilia"
+      },
+      {
+         "id": 17747,
+         "name": "Itanhaem",
+         "urlFriendlyName": "itanhaem"
+      },
+      {
+         "id": 11748,
+         "name": "Praia do Forte",
+         "urlFriendlyName": "praia-do-forte"
+      },
+      {
+         "id": 13310,
+         "name": "Sao Luiz do Paraitinga",
+         "urlFriendlyName": "sao-luiz-do-paraitinga"
+      },
+      {
+         "id": 12022,
+         "name": "Boa Vista",
+         "urlFriendlyName": "boa-vista"
+      },
+      {
+         "id": 13793,
+         "name": "Pirenopolis",
+         "urlFriendlyName": "pirenopolis"
+      },
+      {
+         "id": 20684,
+         "name": "Bananeiras",
+         "urlFriendlyName": "bananeiras"
+      },
+      {
+         "id": 9888,
+         "name": "Corumba",
+         "urlFriendlyName": "corumba"
+      },
+      {
+         "id": 17647,
+         "name": "Barra Grande - State of Piaui",
+         "urlFriendlyName": "barra-grande-state-of-piaui"
+      },
+      {
+         "id": 5354,
+         "name": "Maragogi",
+         "urlFriendlyName": "maragogi"
+      },
+      {
+         "id": 10977,
+         "name": "Guarapari",
+         "urlFriendlyName": "guarapari"
+      },
+      {
+         "id": 19271,
+         "name": "Guarulhos",
+         "urlFriendlyName": "guarulhos"
+      },
+      {
+         "id": 11969,
+         "name": "Olinda",
+         "urlFriendlyName": "olinda"
+      },
+      {
+         "id": 13760,
+         "name": "Bertioga",
+         "urlFriendlyName": "bertioga"
+      },
+      {
+         "id": 20591,
+         "name": "Alcantara",
+         "urlFriendlyName": "alcantara"
+      },
+      {
+         "id": 17180,
+         "name": "Cambara do Sul",
+         "urlFriendlyName": "cambara-do-sul"
+      },
+      {
+         "id": 19005,
+         "name": "Balneario Picarras",
+         "urlFriendlyName": "balneario-picarras"
+      }
+   ],
+   "Chile": [
+      {
+         "id": 267,
+         "name": "Santiago",
+         "urlFriendlyName": "santiago"
+      },
+      {
+         "id": 135,
+         "name": "Pucon",
+         "urlFriendlyName": "pucon"
+      },
+      {
+         "id": 1070,
+         "name": "Iquique",
+         "urlFriendlyName": "iquique"
+      },
+      {
+         "id": 827,
+         "name": "Punta Arenas",
+         "urlFriendlyName": "punta-arenas"
+      },
+      {
+         "id": 271,
+         "name": "Vina del Mar",
+         "urlFriendlyName": "vina-del-mar"
+      },
+      {
+         "id": 1171,
+         "name": "Valdivia",
+         "urlFriendlyName": "valdivia"
+      },
+      {
+         "id": 1868,
+         "name": "Valparaiso",
+         "urlFriendlyName": "valparaiso"
+      },
+      {
+         "id": 2932,
+         "name": "Arica",
+         "urlFriendlyName": "arica"
+      },
+      {
+         "id": 2766,
+         "name": "San Pedro de Atacama",
+         "urlFriendlyName": "san-pedro-de-atacama"
+      },
+      {
+         "id": 3561,
+         "name": "Puerto Natales",
+         "urlFriendlyName": "puerto-natales"
+      },
+      {
+         "id": 6791,
+         "name": "Pichilemu",
+         "urlFriendlyName": "pichilemu"
+      },
+      {
+         "id": 2865,
+         "name": "Puerto Varas",
+         "urlFriendlyName": "puerto-varas"
+      },
+      {
+         "id": 419,
+         "name": "La Serena",
+         "urlFriendlyName": "la-serena"
+      },
+      {
+         "id": 14949,
+         "name": "Vicuna",
+         "urlFriendlyName": "vicuna"
+      },
+      {
+         "id": 9484,
+         "name": "Chiloe",
+         "urlFriendlyName": "chiloe"
+      },
+      {
+         "id": 269,
+         "name": "Easter Island",
+         "urlFriendlyName": "easter-island"
+      },
+      {
+         "id": 12901,
+         "name": "Elqui Valley",
+         "urlFriendlyName": "elqui-valley"
+      },
+      {
+         "id": 9100,
+         "name": "Coyhaique",
+         "urlFriendlyName": "coyhaique"
+      },
+      {
+         "id": 4130,
+         "name": "Coquimbo",
+         "urlFriendlyName": "coquimbo"
+      }
+   ],
+   "Colombia": [
+      {
+         "id": 661,
+         "name": "Medellin",
+         "urlFriendlyName": "medellin"
+      },
+      {
+         "id": 89,
+         "name": "Bogota",
+         "urlFriendlyName": "bogota"
+      },
+      {
+         "id": 2539,
+         "name": "Cartagena",
+         "urlFriendlyName": "cartagena"
+      },
+      {
+         "id": 2399,
+         "name": "San Andres Island",
+         "urlFriendlyName": "san-andres-island"
+      },
+      {
+         "id": 2261,
+         "name": "Cali",
+         "urlFriendlyName": "cali"
+      },
+      {
+         "id": 747,
+         "name": "Bucaramanga",
+         "urlFriendlyName": "bucaramanga"
+      },
+      {
+         "id": 3304,
+         "name": "Santa Marta",
+         "urlFriendlyName": "santa-marta"
+      },
+      {
+         "id": 12026,
+         "name": "Minca",
+         "urlFriendlyName": "minca"
+      },
+      {
+         "id": 9922,
+         "name": "Palomino",
+         "urlFriendlyName": "palomino"
+      },
+      {
+         "id": 10055,
+         "name": "Salento",
+         "urlFriendlyName": "salento"
+      },
+      {
+         "id": 5794,
+         "name": "San Gil",
+         "urlFriendlyName": "san-gil"
+      },
+      {
+         "id": 10528,
+         "name": "Villa de Leyva",
+         "urlFriendlyName": "villa-de-leyva"
+      },
+      {
+         "id": 11271,
+         "name": "Guatape",
+         "urlFriendlyName": "guatape"
+      },
+      {
+         "id": 7754,
+         "name": "Leticia",
+         "urlFriendlyName": "leticia"
+      },
+      {
+         "id": 4827,
+         "name": "Taganga",
+         "urlFriendlyName": "taganga"
+      },
+      {
+         "id": 11284,
+         "name": "Barranquilla",
+         "urlFriendlyName": "barranquilla"
+      },
+      {
+         "id": 4728,
+         "name": "Manizales",
+         "urlFriendlyName": "manizales"
+      },
+      {
+         "id": 10755,
+         "name": "Riohacha",
+         "urlFriendlyName": "riohacha"
+      },
+      {
+         "id": 13090,
+         "name": "Jardin",
+         "urlFriendlyName": "jardin"
+      },
+      {
+         "id": 18250,
+         "name": "Buenaventura",
+         "urlFriendlyName": "buenaventura"
+      },
+      {
+         "id": 11654,
+         "name": "Barichara",
+         "urlFriendlyName": "barichara"
+      },
+      {
+         "id": 11492,
+         "name": "Pereira",
+         "urlFriendlyName": "pereira"
+      },
+      {
+         "id": 8196,
+         "name": "San Agustin",
+         "urlFriendlyName": "san-agustin"
+      },
+      {
+         "id": 15034,
+         "name": "Filandia",
+         "urlFriendlyName": "filandia"
+      },
+      {
+         "id": 17165,
+         "name": "Rincon del Mar",
+         "urlFriendlyName": "rincon-del-mar"
+      },
+      {
+         "id": 19325,
+         "name": "Bahia Solano",
+         "urlFriendlyName": "bahia-solano"
+      },
+      {
+         "id": 13045,
+         "name": "Capurgana",
+         "urlFriendlyName": "capurgana"
+      },
+      {
+         "id": 20219,
+         "name": "Buritaca",
+         "urlFriendlyName": "buritaca"
+      },
+      {
+         "id": 17189,
+         "name": "Guachaca",
+         "urlFriendlyName": "guachaca"
+      },
+      {
+         "id": 19239,
+         "name": "Baru Island",
+         "urlFriendlyName": "baru-island"
+      },
+      {
+         "id": 10644,
+         "name": "Isla Fuerte",
+         "urlFriendlyName": "isla-fuerte"
+      },
+      {
+         "id": 9526,
+         "name": "Villavicencio",
+         "urlFriendlyName": "villavicencio"
+      },
+      {
+         "id": 14002,
+         "name": "Jerico",
+         "urlFriendlyName": "jerico"
+      },
+      {
+         "id": 12153,
+         "name": "Pasto",
+         "urlFriendlyName": "pasto"
+      },
+      {
+         "id": 17683,
+         "name": "San Rafael",
+         "urlFriendlyName": "san-rafael"
+      },
+      {
+         "id": 18271,
+         "name": "Mongui",
+         "urlFriendlyName": "mongui"
+      },
+      {
+         "id": 15556,
+         "name": "Arcabuco",
+         "urlFriendlyName": "arcabuco"
+      },
+      {
+         "id": 8051,
+         "name": "Mompos",
+         "urlFriendlyName": "mompos"
+      },
+      {
+         "id": 17218,
+         "name": "Rosario Island",
+         "urlFriendlyName": "rosario-island"
+      },
+      {
+         "id": 13835,
+         "name": "La Vega",
+         "urlFriendlyName": "la-vega"
+      },
+      {
+         "id": 11875,
+         "name": "Santa Rosa de Cabal",
+         "urlFriendlyName": "santa-rosa-de-cabal"
+      },
+      {
+         "id": 13802,
+         "name": "Sapzurro",
+         "urlFriendlyName": "sapzurro"
+      },
+      {
+         "id": 18237,
+         "name": "San Bernardo del Viento",
+         "urlFriendlyName": "san-bernardo-del-viento"
+      },
+      {
+         "id": 9543,
+         "name": "Santa Fe de Antioquia",
+         "urlFriendlyName": "santa-fe-de-antioquia"
+      },
+      {
+         "id": 17843,
+         "name": "Choachi",
+         "urlFriendlyName": "choachi"
+      },
+      {
+         "id": 15788,
+         "name": "Doradal",
+         "urlFriendlyName": "doradal"
+      },
+      {
+         "id": 19207,
+         "name": "La Mesa",
+         "urlFriendlyName": "la-mesa"
+      },
+      {
+         "id": 19446,
+         "name": "Paicol",
+         "urlFriendlyName": "paicol"
+      },
+      {
+         "id": 13902,
+         "name": "Guaduas",
+         "urlFriendlyName": "guaduas"
+      },
+      {
+         "id": 20225,
+         "name": "Isla Palma",
+         "urlFriendlyName": "isla-palma"
+      },
+      {
+         "id": 19043,
+         "name": "Carmen de Viboral",
+         "urlFriendlyName": "carmen-de-viboral"
+      },
+      {
+         "id": 20786,
+         "name": "Ginebra",
+         "urlFriendlyName": "ginebra"
+      },
+      {
+         "id": 19330,
+         "name": "Puerto Narino",
+         "urlFriendlyName": "puerto-narino"
+      },
+      {
+         "id": 20220,
+         "name": "Los Naranjos",
+         "urlFriendlyName": "los-naranjos"
+      },
+      {
+         "id": 10842,
+         "name": "Mocoa",
+         "urlFriendlyName": "mocoa"
+      },
+      {
+         "id": 15331,
+         "name": "Ipiales",
+         "urlFriendlyName": "ipiales"
+      },
+      {
+         "id": 19028,
+         "name": "El Darien",
+         "urlFriendlyName": "el-darien"
+      },
+      {
+         "id": 20780,
+         "name": "Tello",
+         "urlFriendlyName": "tello"
+      },
+      {
+         "id": 9899,
+         "name": "Sogamoso",
+         "urlFriendlyName": "sogamoso"
+      },
+      {
+         "id": 18945,
+         "name": "Monitos",
+         "urlFriendlyName": "monitos"
+      },
+      {
+         "id": 20757,
+         "name": "Juan de Acosta",
+         "urlFriendlyName": "juan-de-acosta"
+      },
+      {
+         "id": 6991,
+         "name": "Popayan",
+         "urlFriendlyName": "popayan"
+      },
+      {
+         "id": 17968,
+         "name": "Acacias",
+         "urlFriendlyName": "acacias"
+      },
+      {
+         "id": 20152,
+         "name": "Puerto Colombia",
+         "urlFriendlyName": "puerto-colombia"
+      },
+      {
+         "id": 14295,
+         "name": "El Penol",
+         "urlFriendlyName": "el-penol"
+      },
+      {
+         "id": 18508,
+         "name": "Jamundi",
+         "urlFriendlyName": "jamundi"
+      },
+      {
+         "id": 20637,
+         "name": "Galerazamba",
+         "urlFriendlyName": "galerazamba"
+      },
+      {
+         "id": 16824,
+         "name": "Zipaquira",
+         "urlFriendlyName": "zipaquira"
+      },
+      {
+         "id": 19208,
+         "name": "Villavieja",
+         "urlFriendlyName": "villavieja"
+      },
+      {
+         "id": 19605,
+         "name": "Salgar",
+         "urlFriendlyName": "salgar"
+      },
+      {
+         "id": 18306,
+         "name": "Neiva",
+         "urlFriendlyName": "neiva"
+      },
+      {
+         "id": 20388,
+         "name": "Tintipan Island",
+         "urlFriendlyName": "tintipan-island"
+      }
+   ],
+   "Ecuador": [
+      {
+         "id": 160,
+         "name": "Quito",
+         "urlFriendlyName": "quito"
+      },
+      {
+         "id": 2414,
+         "name": "Guayaquil",
+         "urlFriendlyName": "guayaquil"
+      },
+      {
+         "id": 2307,
+         "name": "Cuenca",
+         "urlFriendlyName": "cuenca"
+      },
+      {
+         "id": 339,
+         "name": "Montanita",
+         "urlFriendlyName": "montanita"
+      },
+      {
+         "id": 871,
+         "name": "Banos",
+         "urlFriendlyName": "banos"
+      },
+      {
+         "id": 956,
+         "name": "Mindo",
+         "urlFriendlyName": "mindo"
+      },
+      {
+         "id": 10927,
+         "name": "Banos de Agua Santa",
+         "urlFriendlyName": "banos-de-agua-santa"
+      },
+      {
+         "id": 10706,
+         "name": "Mompiche",
+         "urlFriendlyName": "mompiche"
+      },
+      {
+         "id": 2740,
+         "name": "Tena",
+         "urlFriendlyName": "tena"
+      },
+      {
+         "id": 2486,
+         "name": "Otavalo",
+         "urlFriendlyName": "otavalo"
+      },
+      {
+         "id": 7210,
+         "name": "Latacunga",
+         "urlFriendlyName": "latacunga"
+      },
+      {
+         "id": 9560,
+         "name": "Puerto Ayora",
+         "urlFriendlyName": "puerto-ayora"
+      },
+      {
+         "id": 13772,
+         "name": "Vilcabamba",
+         "urlFriendlyName": "vilcabamba"
+      },
+      {
+         "id": 4983,
+         "name": "Puerto Lopez",
+         "urlFriendlyName": "puerto-lopez"
+      },
+      {
+         "id": 3879,
+         "name": "Ibarra",
+         "urlFriendlyName": "ibarra"
+      },
+      {
+         "id": 8895,
+         "name": "Canoa",
+         "urlFriendlyName": "canoa"
+      },
+      {
+         "id": 10518,
+         "name": "Playas",
+         "urlFriendlyName": "playas"
+      },
+      {
+         "id": 8981,
+         "name": "Chugchilan",
+         "urlFriendlyName": "chugchilan"
+      },
+      {
+         "id": 15230,
+         "name": "Olon",
+         "urlFriendlyName": "olon"
+      },
+      {
+         "id": 15121,
+         "name": "Alausi",
+         "urlFriendlyName": "alausi"
+      },
+      {
+         "id": 15120,
+         "name": "Tababela",
+         "urlFriendlyName": "tababela"
+      },
+      {
+         "id": 20564,
+         "name": "Tonsupa",
+         "urlFriendlyName": "tonsupa"
+      },
+      {
+         "id": 19949,
+         "name": "Santa Marianita",
+         "urlFriendlyName": "santa-marianita"
+      },
+      {
+         "id": 869,
+         "name": "Riobamba",
+         "urlFriendlyName": "riobamba"
+      },
+      {
+         "id": 11357,
+         "name": "Misahualli",
+         "urlFriendlyName": "misahualli"
+      },
+      {
+         "id": 19624,
+         "name": "Las Tunas",
+         "urlFriendlyName": "las-tunas"
+      }
+   ],
+   "Martinique": [
+      {
+         "id": 1345,
+         "name": "Sainte Luce",
+         "urlFriendlyName": "sainte-luce"
+      },
+      {
+         "id": 7785,
+         "name": "Fort-de-France",
+         "urlFriendlyName": "fort-de-france"
+      }
+   ],
+   "Netherlands Antilles": [
+      {
+         "id": 9660,
+         "name": "Curacao",
+         "urlFriendlyName": "curacao"
+      },
+      {
+         "id": 1335,
+         "name": "St. Maarten",
+         "urlFriendlyName": "st-maarten"
+      }
+   ],
+   "Paraguay": [
+      {
+         "id": 640,
+         "name": "Asuncion",
+         "urlFriendlyName": "asuncion"
+      },
+      {
+         "id": 10963,
+         "name": "Ciudad del Este",
+         "urlFriendlyName": "ciudad-del-este"
+      }
+   ],
+   "Peru": [
+      {
+         "id": 325,
+         "name": "Cusco",
+         "urlFriendlyName": "cusco"
+      },
+      {
+         "id": 158,
+         "name": "Lima",
+         "urlFriendlyName": "lima"
+      },
+      {
+         "id": 459,
+         "name": "Arequipa",
+         "urlFriendlyName": "arequipa"
+      },
+      {
+         "id": 1126,
+         "name": "Puno",
+         "urlFriendlyName": "puno"
+      },
+      {
+         "id": 1767,
+         "name": "Urubamba",
+         "urlFriendlyName": "urubamba"
+      },
+      {
+         "id": 1453,
+         "name": "Iquitos",
+         "urlFriendlyName": "iquitos"
+      },
+      {
+         "id": 2249,
+         "name": "Huaraz",
+         "urlFriendlyName": "huaraz"
+      },
+      {
+         "id": 344,
+         "name": "Machu Picchu",
+         "urlFriendlyName": "machu-picchu"
+      },
+      {
+         "id": 9966,
+         "name": "Ollantaytambo",
+         "urlFriendlyName": "ollantaytambo"
+      },
+      {
+         "id": 8107,
+         "name": "Mancora",
+         "urlFriendlyName": "mancora"
+      },
+      {
+         "id": 8007,
+         "name": "Huacachina",
+         "urlFriendlyName": "huacachina"
+      },
+      {
+         "id": 12860,
+         "name": "Huanchaco",
+         "urlFriendlyName": "huanchaco"
+      },
+      {
+         "id": 2734,
+         "name": "Ica",
+         "urlFriendlyName": "ica"
+      },
+      {
+         "id": 6490,
+         "name": "Nazca",
+         "urlFriendlyName": "nazca"
+      },
+      {
+         "id": 15330,
+         "name": "Tarapoto",
+         "urlFriendlyName": "tarapoto"
+      },
+      {
+         "id": 460,
+         "name": "Trujillo",
+         "urlFriendlyName": "trujillo"
+      },
+      {
+         "id": 12196,
+         "name": "Pisac",
+         "urlFriendlyName": "pisac"
+      },
+      {
+         "id": 5258,
+         "name": "Puerto Maldonado",
+         "urlFriendlyName": "puerto-maldonado"
+      },
+      {
+         "id": 11135,
+         "name": "Paracas",
+         "urlFriendlyName": "paracas"
+      },
+      {
+         "id": 13986,
+         "name": "Chachapoyas",
+         "urlFriendlyName": "chachapoyas"
+      },
+      {
+         "id": 13167,
+         "name": "Lobitos",
+         "urlFriendlyName": "lobitos"
+      },
+      {
+         "id": 14241,
+         "name": "Ayacucho",
+         "urlFriendlyName": "ayacucho"
+      },
+      {
+         "id": 3613,
+         "name": "Carhuaz",
+         "urlFriendlyName": "carhuaz"
+      },
+      {
+         "id": 16032,
+         "name": "Puerto Malabrigo Chicama",
+         "urlFriendlyName": "puerto-malabrigo-chicama"
+      }
+   ],
+   "Puerto Rico": [
+      {
+         "id": 1268,
+         "name": "San Juan",
+         "urlFriendlyName": "san-juan"
+      },
+      {
+         "id": 2889,
+         "name": "Vieques",
+         "urlFriendlyName": "vieques"
+      },
+      {
+         "id": 11610,
+         "name": "Luquillo",
+         "urlFriendlyName": "luquillo"
+      },
+      {
+         "id": 20762,
+         "name": "Carolina",
+         "urlFriendlyName": "carolina"
+      },
+      {
+         "id": 1248,
+         "name": "Rincon",
+         "urlFriendlyName": "rincon"
+      },
+      {
+         "id": 12535,
+         "name": "Fajardo",
+         "urlFriendlyName": "fajardo"
+      },
+      {
+         "id": 3773,
+         "name": "Aguadilla",
+         "urlFriendlyName": "aguadilla"
+      }
+   ],
+   "Suriname": [
+      {
+         "id": 11381,
+         "name": "Paramaribo",
+         "urlFriendlyName": "paramaribo"
+      }
+   ],
+   "Uruguay": [
+      {
+         "id": 1976,
+         "name": "Montevideo",
+         "urlFriendlyName": "montevideo"
+      },
+      {
+         "id": 641,
+         "name": "Punta del Este",
+         "urlFriendlyName": "punta-del-este"
+      },
+      {
+         "id": 2014,
+         "name": "Colonia del Sacramento",
+         "urlFriendlyName": "colonia-del-sacramento"
+      },
+      {
+         "id": 7267,
+         "name": "La Pedrera",
+         "urlFriendlyName": "la-pedrera"
+      },
+      {
+         "id": 8288,
+         "name": "Cabo Polonio",
+         "urlFriendlyName": "cabo-polonio"
+      },
+      {
+         "id": 7460,
+         "name": "La Paloma",
+         "urlFriendlyName": "la-paloma"
+      },
+      {
+         "id": 7141,
+         "name": "Punta del Diablo",
+         "urlFriendlyName": "punta-del-diablo"
+      },
+      {
+         "id": 1185,
+         "name": "Piriapolis",
+         "urlFriendlyName": "piriapolis"
+      },
+      {
+         "id": 665,
+         "name": "Atlantida",
+         "urlFriendlyName": "atlantida"
+      },
+      {
+         "id": 15465,
+         "name": "Carmelo",
+         "urlFriendlyName": "carmelo"
+      }
+   ]
+}

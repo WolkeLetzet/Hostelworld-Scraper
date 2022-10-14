@@ -1,0 +1,4230 @@
+{
+   "Albania": [
+      {
+         "id": 4547,
+         "name": "Tirana",
+         "urlFriendlyName": "tirana"
+      },
+      {
+         "id": 4531,
+         "name": "Saranda",
+         "urlFriendlyName": "saranda"
+      },
+      {
+         "id": 7284,
+         "name": "Shkoder",
+         "urlFriendlyName": "shkoder"
+      },
+      {
+         "id": 4530,
+         "name": "Berat",
+         "urlFriendlyName": "berat"
+      },
+      {
+         "id": 13228,
+         "name": "Himare",
+         "urlFriendlyName": "himare"
+      },
+      {
+         "id": 5421,
+         "name": "Vlore",
+         "urlFriendlyName": "vlore"
+      },
+      {
+         "id": 4816,
+         "name": "Durres",
+         "urlFriendlyName": "durres"
+      },
+      {
+         "id": 15758,
+         "name": "Elbasan",
+         "urlFriendlyName": "elbasan"
+      },
+      {
+         "id": 4548,
+         "name": "Gjirokaster",
+         "urlFriendlyName": "gjirokaster"
+      }
+   ],
+   "Andorra": [
+      {
+         "id": 1212,
+         "name": "La Massana",
+         "urlFriendlyName": "la-massana"
+      },
+      {
+         "id": 13597,
+         "name": "El Tarter",
+         "urlFriendlyName": "el-tarter"
+      }
+   ],
+   "Armenia": [
+      {
+         "id": 80,
+         "name": "Yerevan",
+         "urlFriendlyName": "yerevan"
+      },
+      {
+         "id": 14757,
+         "name": "Tsaghkadzor",
+         "urlFriendlyName": "tsaghkadzor"
+      },
+      {
+         "id": 16198,
+         "name": "Tumanyan",
+         "urlFriendlyName": "tumanyan"
+      }
+   ],
+   "Austria": [
+      {
+         "id": 38,
+         "name": "Vienna",
+         "urlFriendlyName": "vienna"
+      },
+      {
+         "id": 1817,
+         "name": "Graz",
+         "urlFriendlyName": "graz"
+      },
+      {
+         "id": 39,
+         "name": "Salzburg",
+         "urlFriendlyName": "salzburg"
+      },
+      {
+         "id": 807,
+         "name": "Innsbruck",
+         "urlFriendlyName": "innsbruck"
+      },
+      {
+         "id": 862,
+         "name": "Kitzbuhel",
+         "urlFriendlyName": "kitzbuhel"
+      },
+      {
+         "id": 1501,
+         "name": "Bad Gastein",
+         "urlFriendlyName": "bad-gastein"
+      },
+      {
+         "id": 2006,
+         "name": "Linz",
+         "urlFriendlyName": "linz"
+      },
+      {
+         "id": 20605,
+         "name": "Schruns",
+         "urlFriendlyName": "schruns"
+      },
+      {
+         "id": 12991,
+         "name": "Mondsee",
+         "urlFriendlyName": "mondsee"
+      },
+      {
+         "id": 20217,
+         "name": "Hopfgarten im Brixental",
+         "urlFriendlyName": "hopfgarten-im-brixental"
+      },
+      {
+         "id": 10562,
+         "name": "Imst",
+         "urlFriendlyName": "imst"
+      },
+      {
+         "id": 18762,
+         "name": "Mayrhofen",
+         "urlFriendlyName": "mayrhofen"
+      },
+      {
+         "id": 8122,
+         "name": "Villach",
+         "urlFriendlyName": "villach"
+      },
+      {
+         "id": 18220,
+         "name": "Ehrwald",
+         "urlFriendlyName": "ehrwald"
+      },
+      {
+         "id": 6792,
+         "name": "Bad Ischl",
+         "urlFriendlyName": "bad-ischl"
+      },
+      {
+         "id": 17835,
+         "name": "Bad Goisern am Hallstattersee",
+         "urlFriendlyName": "bad-goisern-am-hallstattersee"
+      },
+      {
+         "id": 5181,
+         "name": "St. Gilgen",
+         "urlFriendlyName": "st-gilgen"
+      },
+      {
+         "id": 17667,
+         "name": "Leutasch",
+         "urlFriendlyName": "leutasch"
+      }
+   ],
+   "Belgium": [
+      {
+         "id": 35,
+         "name": "Brussels",
+         "urlFriendlyName": "brussels"
+      },
+      {
+         "id": 352,
+         "name": "Antwerp",
+         "urlFriendlyName": "antwerp"
+      },
+      {
+         "id": 361,
+         "name": "Namur",
+         "urlFriendlyName": "namur"
+      },
+      {
+         "id": 5557,
+         "name": "Liege",
+         "urlFriendlyName": "liege"
+      },
+      {
+         "id": 2232,
+         "name": "Leuven",
+         "urlFriendlyName": "leuven"
+      },
+      {
+         "id": 5556,
+         "name": "Mons",
+         "urlFriendlyName": "mons"
+      },
+      {
+         "id": 5709,
+         "name": "Bouillon",
+         "urlFriendlyName": "bouillon"
+      },
+      {
+         "id": 79,
+         "name": "Bruges",
+         "urlFriendlyName": "bruges"
+      },
+      {
+         "id": 17067,
+         "name": "Ghent",
+         "urlFriendlyName": "ghent"
+      },
+      {
+         "id": 7473,
+         "name": "Ostend",
+         "urlFriendlyName": "ostend"
+      },
+      {
+         "id": 12960,
+         "name": "kortrijk",
+         "urlFriendlyName": "kortrijk"
+      },
+      {
+         "id": 8991,
+         "name": "Charleroi",
+         "urlFriendlyName": "charleroi"
+      },
+      {
+         "id": 2587,
+         "name": "Malmedy",
+         "urlFriendlyName": "malmedy"
+      },
+      {
+         "id": 5711,
+         "name": "Tournai",
+         "urlFriendlyName": "tournai"
+      },
+      {
+         "id": 5710,
+         "name": "Champlon",
+         "urlFriendlyName": "champlon"
+      },
+      {
+         "id": 16534,
+         "name": "Hasselt",
+         "urlFriendlyName": "hasselt"
+      }
+   ],
+   "Bosnia And Herzegovina": [
+      {
+         "id": 444,
+         "name": "Sarajevo",
+         "urlFriendlyName": "sarajevo"
+      },
+      {
+         "id": 5965,
+         "name": "Mostar",
+         "urlFriendlyName": "mostar"
+      },
+      {
+         "id": 9362,
+         "name": "Banja Luka",
+         "urlFriendlyName": "banja-luka"
+      }
+   ],
+   "Bulgaria": [
+      {
+         "id": 566,
+         "name": "Plovdiv",
+         "urlFriendlyName": "plovdiv"
+      },
+      {
+         "id": 3220,
+         "name": "Veliko Tarnovo",
+         "urlFriendlyName": "veliko-tarnovo"
+      },
+      {
+         "id": 5724,
+         "name": "Bansko",
+         "urlFriendlyName": "bansko"
+      },
+      {
+         "id": 3290,
+         "name": "Burgas",
+         "urlFriendlyName": "burgas"
+      },
+      {
+         "id": 319,
+         "name": "Sofia",
+         "urlFriendlyName": "sofia"
+      },
+      {
+         "id": 569,
+         "name": "Varna",
+         "urlFriendlyName": "varna"
+      },
+      {
+         "id": 4736,
+         "name": "Sozopol",
+         "urlFriendlyName": "sozopol"
+      }
+   ],
+   "Croatia": [
+      {
+         "id": 1023,
+         "name": "Zagreb",
+         "urlFriendlyName": "zagreb"
+      },
+      {
+         "id": 589,
+         "name": "Dubrovnik",
+         "urlFriendlyName": "dubrovnik"
+      },
+      {
+         "id": 1845,
+         "name": "Split",
+         "urlFriendlyName": "split"
+      },
+      {
+         "id": 1915,
+         "name": "Zadar",
+         "urlFriendlyName": "zadar"
+      },
+      {
+         "id": 1752,
+         "name": "Hvar",
+         "urlFriendlyName": "hvar"
+      },
+      {
+         "id": 2328,
+         "name": "Pula",
+         "urlFriendlyName": "pula"
+      },
+      {
+         "id": 7212,
+         "name": "Plitvice Lakes",
+         "urlFriendlyName": "plitvice-lakes"
+      },
+      {
+         "id": 6667,
+         "name": "Rijeka",
+         "urlFriendlyName": "rijeka"
+      },
+      {
+         "id": 2008,
+         "name": "Sibenik",
+         "urlFriendlyName": "sibenik"
+      },
+      {
+         "id": 4861,
+         "name": "Korcula",
+         "urlFriendlyName": "korcula"
+      },
+      {
+         "id": 2974,
+         "name": "Trogir",
+         "urlFriendlyName": "trogir"
+      },
+      {
+         "id": 2192,
+         "name": "Brac",
+         "urlFriendlyName": "brac"
+      },
+      {
+         "id": 1922,
+         "name": "Pag",
+         "urlFriendlyName": "pag"
+      },
+      {
+         "id": 13300,
+         "name": "Marusici",
+         "urlFriendlyName": "marusici"
+      },
+      {
+         "id": 4268,
+         "name": "Novalja",
+         "urlFriendlyName": "novalja"
+      },
+      {
+         "id": 7762,
+         "name": "Bol",
+         "urlFriendlyName": "bol"
+      },
+      {
+         "id": 2163,
+         "name": "Makarska",
+         "urlFriendlyName": "makarska"
+      },
+      {
+         "id": 4254,
+         "name": "Omis",
+         "urlFriendlyName": "omis"
+      },
+      {
+         "id": 7213,
+         "name": "Lovran",
+         "urlFriendlyName": "lovran"
+      },
+      {
+         "id": 4208,
+         "name": "Osijek",
+         "urlFriendlyName": "osijek"
+      }
+   ],
+   "Cyprus": [
+      {
+         "id": 923,
+         "name": "Nicosia",
+         "urlFriendlyName": "nicosia"
+      },
+      {
+         "id": 775,
+         "name": "Limassol",
+         "urlFriendlyName": "limassol"
+      },
+      {
+         "id": 1278,
+         "name": "Larnaca",
+         "urlFriendlyName": "larnaca"
+      },
+      {
+         "id": 1319,
+         "name": "Ayia Napa",
+         "urlFriendlyName": "ayia-napa"
+      }
+   ],
+   "Czech Republic": [
+      {
+         "id": 19,
+         "name": "Prague",
+         "urlFriendlyName": "prague"
+      },
+      {
+         "id": 1844,
+         "name": "Brno",
+         "urlFriendlyName": "brno"
+      },
+      {
+         "id": 497,
+         "name": "Cesky Krumlov",
+         "urlFriendlyName": "cesky-krumlov"
+      },
+      {
+         "id": 2273,
+         "name": "Olomouc",
+         "urlFriendlyName": "olomouc"
+      },
+      {
+         "id": 10413,
+         "name": "Tabor",
+         "urlFriendlyName": "tabor"
+      },
+      {
+         "id": 7117,
+         "name": "Ceske Budejovice",
+         "urlFriendlyName": "ceske-budejovice"
+      }
+   ],
+   "Denmark": [
+      {
+         "id": 48,
+         "name": "Copenhagen",
+         "urlFriendlyName": "copenhagen"
+      },
+      {
+         "id": 2692,
+         "name": "Aarhus",
+         "urlFriendlyName": "aarhus"
+      },
+      {
+         "id": 3981,
+         "name": "Ishoj",
+         "urlFriendlyName": "ishoj"
+      }
+   ],
+   "England": [
+      {
+         "id": 3,
+         "name": "London",
+         "urlFriendlyName": "london"
+      },
+      {
+         "id": 3019,
+         "name": "Cambridge",
+         "urlFriendlyName": "cambridge"
+      },
+      {
+         "id": 2989,
+         "name": "Leeds",
+         "urlFriendlyName": "leeds"
+      },
+      {
+         "id": 687,
+         "name": "Liverpool",
+         "urlFriendlyName": "liverpool"
+      },
+      {
+         "id": 171,
+         "name": "Manchester",
+         "urlFriendlyName": "manchester"
+      },
+      {
+         "id": 718,
+         "name": "Birmingham",
+         "urlFriendlyName": "birmingham"
+      },
+      {
+         "id": 114,
+         "name": "Canterbury",
+         "urlFriendlyName": "canterbury"
+      },
+      {
+         "id": 164,
+         "name": "Oxford",
+         "urlFriendlyName": "oxford"
+      },
+      {
+         "id": 5383,
+         "name": "Exeter",
+         "urlFriendlyName": "exeter"
+      },
+      {
+         "id": 2628,
+         "name": "Sheffield",
+         "urlFriendlyName": "sheffield"
+      },
+      {
+         "id": 2237,
+         "name": "Nottingham",
+         "urlFriendlyName": "nottingham"
+      },
+      {
+         "id": 3062,
+         "name": "Newcastle upon Tyne",
+         "urlFriendlyName": "newcastle-upon-tyne"
+      },
+      {
+         "id": 172,
+         "name": "York",
+         "urlFriendlyName": "york"
+      },
+      {
+         "id": 2829,
+         "name": "Bristol",
+         "urlFriendlyName": "bristol"
+      },
+      {
+         "id": 463,
+         "name": "Brighton",
+         "urlFriendlyName": "brighton"
+      },
+      {
+         "id": 2035,
+         "name": "Newquay",
+         "urlFriendlyName": "newquay"
+      },
+      {
+         "id": 1984,
+         "name": "Cheltenham",
+         "urlFriendlyName": "cheltenham"
+      },
+      {
+         "id": 3498,
+         "name": "Skipton",
+         "urlFriendlyName": "skipton"
+      },
+      {
+         "id": 2139,
+         "name": "Plymouth",
+         "urlFriendlyName": "plymouth"
+      },
+      {
+         "id": 3035,
+         "name": "Stratford-upon-Avon",
+         "urlFriendlyName": "stratford-upon-avon"
+      },
+      {
+         "id": 3902,
+         "name": "Hull",
+         "urlFriendlyName": "hull"
+      },
+      {
+         "id": 3023,
+         "name": "Dover",
+         "urlFriendlyName": "dover"
+      },
+      {
+         "id": 3886,
+         "name": "Derby",
+         "urlFriendlyName": "derby"
+      },
+      {
+         "id": 3046,
+         "name": "Lake District",
+         "urlFriendlyName": "lake-district"
+      },
+      {
+         "id": 242,
+         "name": "Bath",
+         "urlFriendlyName": "bath"
+      },
+      {
+         "id": 13246,
+         "name": "Carlisle",
+         "urlFriendlyName": "carlisle"
+      },
+      {
+         "id": 1052,
+         "name": "Cornwall",
+         "urlFriendlyName": "cornwall"
+      },
+      {
+         "id": 2181,
+         "name": "Harlow",
+         "urlFriendlyName": "harlow"
+      },
+      {
+         "id": 10950,
+         "name": "Peak District",
+         "urlFriendlyName": "peak-district"
+      },
+      {
+         "id": 13645,
+         "name": "Lewes",
+         "urlFriendlyName": "lewes"
+      },
+      {
+         "id": 18995,
+         "name": "Burley",
+         "urlFriendlyName": "burley"
+      },
+      {
+         "id": 7391,
+         "name": "Whitby",
+         "urlFriendlyName": "whitby"
+      },
+      {
+         "id": 16665,
+         "name": "Dulverton",
+         "urlFriendlyName": "dulverton"
+      },
+      {
+         "id": 6417,
+         "name": "Haworth",
+         "urlFriendlyName": "haworth"
+      },
+      {
+         "id": 12604,
+         "name": "Devon",
+         "urlFriendlyName": "devon"
+      },
+      {
+         "id": 15558,
+         "name": "Alnwick",
+         "urlFriendlyName": "alnwick"
+      },
+      {
+         "id": 12403,
+         "name": "Helston",
+         "urlFriendlyName": "helston"
+      },
+      {
+         "id": 15094,
+         "name": "Cirencester",
+         "urlFriendlyName": "cirencester"
+      },
+      {
+         "id": 20369,
+         "name": "Morpeth",
+         "urlFriendlyName": "morpeth"
+      },
+      {
+         "id": 11860,
+         "name": "Kirkby Stephen",
+         "urlFriendlyName": "kirkby-stephen"
+      },
+      {
+         "id": 14746,
+         "name": "Berwick-Upon-Tweed",
+         "urlFriendlyName": "berwick-upon-tweed"
+      },
+      {
+         "id": 20362,
+         "name": "Over Stowey",
+         "urlFriendlyName": "over-stowey"
+      }
+   ],
+   "Estonia": [
+      {
+         "id": 451,
+         "name": "Tallinn",
+         "urlFriendlyName": "tallinn"
+      },
+      {
+         "id": 1360,
+         "name": "Parnu",
+         "urlFriendlyName": "parnu"
+      },
+      {
+         "id": 1791,
+         "name": "Tartu",
+         "urlFriendlyName": "tartu"
+      },
+      {
+         "id": 16541,
+         "name": "Valga",
+         "urlFriendlyName": "valga"
+      }
+   ],
+   "Finland": [
+      {
+         "id": 612,
+         "name": "Helsinki",
+         "urlFriendlyName": "helsinki"
+      },
+      {
+         "id": 4800,
+         "name": "Rovaniemi",
+         "urlFriendlyName": "rovaniemi"
+      },
+      {
+         "id": 15430,
+         "name": "Akaslompolo",
+         "urlFriendlyName": "akaslompolo"
+      },
+      {
+         "id": 9512,
+         "name": "Tampere",
+         "urlFriendlyName": "tampere"
+      },
+      {
+         "id": 7813,
+         "name": "Turku",
+         "urlFriendlyName": "turku"
+      }
+   ],
+   "France": [
+      {
+         "id": 14,
+         "name": "Paris",
+         "urlFriendlyName": "paris"
+      },
+      {
+         "id": 560,
+         "name": "Nice",
+         "urlFriendlyName": "nice"
+      },
+      {
+         "id": 428,
+         "name": "Marseille",
+         "urlFriendlyName": "marseille"
+      },
+      {
+         "id": 1180,
+         "name": "Lyon",
+         "urlFriendlyName": "lyon"
+      },
+      {
+         "id": 1054,
+         "name": "Lille",
+         "urlFriendlyName": "lille"
+      },
+      {
+         "id": 894,
+         "name": "Rouen",
+         "urlFriendlyName": "rouen"
+      },
+      {
+         "id": 1542,
+         "name": "Grenoble",
+         "urlFriendlyName": "grenoble"
+      },
+      {
+         "id": 895,
+         "name": "Poitiers",
+         "urlFriendlyName": "poitiers"
+      },
+      {
+         "id": 1796,
+         "name": "Saumur",
+         "urlFriendlyName": "saumur"
+      },
+      {
+         "id": 2210,
+         "name": "Brest",
+         "urlFriendlyName": "brest"
+      },
+      {
+         "id": 504,
+         "name": "Bordeaux",
+         "urlFriendlyName": "bordeaux"
+      },
+      {
+         "id": 1979,
+         "name": "Biarritz",
+         "urlFriendlyName": "biarritz"
+      },
+      {
+         "id": 1978,
+         "name": "Chamonix",
+         "urlFriendlyName": "chamonix"
+      },
+      {
+         "id": 1222,
+         "name": "Toulouse",
+         "urlFriendlyName": "toulouse"
+      },
+      {
+         "id": 2155,
+         "name": "Nimes",
+         "urlFriendlyName": "nimes"
+      },
+      {
+         "id": 627,
+         "name": "Carcassonne",
+         "urlFriendlyName": "carcassonne"
+      },
+      {
+         "id": 1282,
+         "name": "Antibes",
+         "urlFriendlyName": "antibes"
+      },
+      {
+         "id": 1279,
+         "name": "Cassis",
+         "urlFriendlyName": "cassis"
+      },
+      {
+         "id": 4111,
+         "name": "Tours",
+         "urlFriendlyName": "tours"
+      },
+      {
+         "id": 3054,
+         "name": "Annecy",
+         "urlFriendlyName": "annecy"
+      },
+      {
+         "id": 19376,
+         "name": "Toulouse",
+         "urlFriendlyName": "toulouse"
+      },
+      {
+         "id": 797,
+         "name": "Strasbourg",
+         "urlFriendlyName": "strasbourg"
+      },
+      {
+         "id": 6884,
+         "name": "Aix-en-Provence",
+         "urlFriendlyName": "aix-en-provence"
+      },
+      {
+         "id": 8144,
+         "name": "Hossegor",
+         "urlFriendlyName": "hossegor"
+      },
+      {
+         "id": 5857,
+         "name": "Clermont Ferrand",
+         "urlFriendlyName": "clermont-ferrand"
+      },
+      {
+         "id": 7846,
+         "name": "Rennes",
+         "urlFriendlyName": "rennes"
+      },
+      {
+         "id": 18515,
+         "name": "Mont Saint Michel",
+         "urlFriendlyName": "mont-saint-michel"
+      },
+      {
+         "id": 8119,
+         "name": "Capbreton",
+         "urlFriendlyName": "capbreton"
+      },
+      {
+         "id": 20738,
+         "name": "La Salle-Les-Alpes",
+         "urlFriendlyName": "la-salle-les-alpes"
+      },
+      {
+         "id": 10952,
+         "name": "Les Deux Alpes",
+         "urlFriendlyName": "les-deux-alpes"
+      },
+      {
+         "id": 8080,
+         "name": "Sete",
+         "urlFriendlyName": "sete"
+      },
+      {
+         "id": 20720,
+         "name": "Amiens",
+         "urlFriendlyName": "amiens"
+      },
+      {
+         "id": 9620,
+         "name": "Lorient",
+         "urlFriendlyName": "lorient"
+      },
+      {
+         "id": 5680,
+         "name": "La Reole",
+         "urlFriendlyName": "la-reole"
+      },
+      {
+         "id": 19026,
+         "name": "Frejus",
+         "urlFriendlyName": "frejus"
+      },
+      {
+         "id": 20203,
+         "name": "Pontarlier",
+         "urlFriendlyName": "pontarlier"
+      },
+      {
+         "id": 9584,
+         "name": "Morlaix",
+         "urlFriendlyName": "morlaix"
+      },
+      {
+         "id": 18924,
+         "name": "La Plagne",
+         "urlFriendlyName": "la-plagne"
+      },
+      {
+         "id": 7828,
+         "name": "Roissy",
+         "urlFriendlyName": "roissy"
+      },
+      {
+         "id": 20194,
+         "name": "Cancale",
+         "urlFriendlyName": "cancale"
+      },
+      {
+         "id": 8328,
+         "name": "Les Menuires",
+         "urlFriendlyName": "les-menuires"
+      },
+      {
+         "id": 20820,
+         "name": "Saint-Guilhem-le-D\u00c3\u00a9sert",
+         "urlFriendlyName": "saint-guilhem-le-da-sert"
+      },
+      {
+         "id": 20103,
+         "name": "Modane",
+         "urlFriendlyName": "modane"
+      },
+      {
+         "id": 20745,
+         "name": "Erquy",
+         "urlFriendlyName": "erquy"
+      },
+      {
+         "id": 14243,
+         "name": "Fontainebleau",
+         "urlFriendlyName": "fontainebleau"
+      },
+      {
+         "id": 6523,
+         "name": "Deauville",
+         "urlFriendlyName": "deauville"
+      },
+      {
+         "id": 19942,
+         "name": "Bidart",
+         "urlFriendlyName": "bidart"
+      }
+   ],
+   "Georgia": [
+      {
+         "id": 8127,
+         "name": "Tbilisi",
+         "urlFriendlyName": "tbilisi"
+      },
+      {
+         "id": 10654,
+         "name": "Batumi",
+         "urlFriendlyName": "batumi"
+      },
+      {
+         "id": 8762,
+         "name": "Kutaisi",
+         "urlFriendlyName": "kutaisi"
+      },
+      {
+         "id": 10893,
+         "name": "Gudauri",
+         "urlFriendlyName": "gudauri"
+      },
+      {
+         "id": 18818,
+         "name": "Martvili",
+         "urlFriendlyName": "martvili"
+      }
+   ],
+   "Germany": [
+      {
+         "id": 26,
+         "name": "Berlin",
+         "urlFriendlyName": "berlin"
+      },
+      {
+         "id": 20,
+         "name": "Munich",
+         "urlFriendlyName": "munich"
+      },
+      {
+         "id": 24,
+         "name": "Cologne",
+         "urlFriendlyName": "cologne"
+      },
+      {
+         "id": 407,
+         "name": "Dusseldorf",
+         "urlFriendlyName": "dusseldorf"
+      },
+      {
+         "id": 1168,
+         "name": "Hamburg",
+         "urlFriendlyName": "hamburg"
+      },
+      {
+         "id": 746,
+         "name": "Frankfurt",
+         "urlFriendlyName": "frankfurt"
+      },
+      {
+         "id": 92,
+         "name": "Dresden",
+         "urlFriendlyName": "dresden"
+      },
+      {
+         "id": 722,
+         "name": "Nuremberg",
+         "urlFriendlyName": "nuremberg"
+      },
+      {
+         "id": 388,
+         "name": "Augsburg",
+         "urlFriendlyName": "augsburg"
+      },
+      {
+         "id": 1661,
+         "name": "Stuttgart",
+         "urlFriendlyName": "stuttgart"
+      },
+      {
+         "id": 1807,
+         "name": "Dortmund",
+         "urlFriendlyName": "dortmund"
+      },
+      {
+         "id": 4352,
+         "name": "Wurzburg",
+         "urlFriendlyName": "wurzburg"
+      },
+      {
+         "id": 1804,
+         "name": "Bremen",
+         "urlFriendlyName": "bremen"
+      },
+      {
+         "id": 1675,
+         "name": "Bonn",
+         "urlFriendlyName": "bonn"
+      },
+      {
+         "id": 813,
+         "name": "Leipzig",
+         "urlFriendlyName": "leipzig"
+      },
+      {
+         "id": 1025,
+         "name": "Heidelberg",
+         "urlFriendlyName": "heidelberg"
+      },
+      {
+         "id": 3731,
+         "name": "Fussen",
+         "urlFriendlyName": "fussen"
+      },
+      {
+         "id": 3493,
+         "name": "Aachen",
+         "urlFriendlyName": "aachen"
+      },
+      {
+         "id": 2888,
+         "name": "Rostock",
+         "urlFriendlyName": "rostock"
+      },
+      {
+         "id": 2111,
+         "name": "Flensburg",
+         "urlFriendlyName": "flensburg"
+      },
+      {
+         "id": 1850,
+         "name": "Garmisch-Partenkirchen",
+         "urlFriendlyName": "garmisch-partenkirchen"
+      },
+      {
+         "id": 4801,
+         "name": "Duisburg",
+         "urlFriendlyName": "duisburg"
+      },
+      {
+         "id": 2891,
+         "name": "Freiburg",
+         "urlFriendlyName": "freiburg"
+      },
+      {
+         "id": 1184,
+         "name": "Weimar",
+         "urlFriendlyName": "weimar"
+      },
+      {
+         "id": 4182,
+         "name": "Regensburg",
+         "urlFriendlyName": "regensburg"
+      },
+      {
+         "id": 435,
+         "name": "Osnabruck",
+         "urlFriendlyName": "osnabruck"
+      },
+      {
+         "id": 1708,
+         "name": "Essen",
+         "urlFriendlyName": "essen"
+      },
+      {
+         "id": 5226,
+         "name": "Erfurt",
+         "urlFriendlyName": "erfurt"
+      },
+      {
+         "id": 2040,
+         "name": "Mannheim",
+         "urlFriendlyName": "mannheim"
+      },
+      {
+         "id": 3635,
+         "name": "Schweinfurt",
+         "urlFriendlyName": "schweinfurt"
+      },
+      {
+         "id": 1016,
+         "name": "Hannover",
+         "urlFriendlyName": "hannover"
+      },
+      {
+         "id": 6955,
+         "name": "Karlsruhe",
+         "urlFriendlyName": "karlsruhe"
+      },
+      {
+         "id": 1790,
+         "name": "Lubeck",
+         "urlFriendlyName": "lubeck"
+      },
+      {
+         "id": 6246,
+         "name": "Muenster",
+         "urlFriendlyName": "muenster"
+      },
+      {
+         "id": 16265,
+         "name": "Loerrach",
+         "urlFriendlyName": "loerrach"
+      },
+      {
+         "id": 13452,
+         "name": "Marburg",
+         "urlFriendlyName": "marburg"
+      },
+      {
+         "id": 10238,
+         "name": "Oberstdorf",
+         "urlFriendlyName": "oberstdorf"
+      },
+      {
+         "id": 12305,
+         "name": "Bayreuth",
+         "urlFriendlyName": "bayreuth"
+      },
+      {
+         "id": 16331,
+         "name": "Rottweil",
+         "urlFriendlyName": "rottweil"
+      },
+      {
+         "id": 9566,
+         "name": "Bremerhaven",
+         "urlFriendlyName": "bremerhaven"
+      },
+      {
+         "id": 19281,
+         "name": "Duren",
+         "urlFriendlyName": "duren"
+      },
+      {
+         "id": 10551,
+         "name": "Schliersee",
+         "urlFriendlyName": "schliersee"
+      },
+      {
+         "id": 7957,
+         "name": "Gottingen",
+         "urlFriendlyName": "gottingen"
+      },
+      {
+         "id": 18993,
+         "name": "Lindau",
+         "urlFriendlyName": "lindau"
+      },
+      {
+         "id": 10329,
+         "name": "Starnberg",
+         "urlFriendlyName": "starnberg"
+      },
+      {
+         "id": 5210,
+         "name": "Rothenburg",
+         "urlFriendlyName": "rothenburg"
+      },
+      {
+         "id": 15808,
+         "name": "Schwedeneck",
+         "urlFriendlyName": "schwedeneck"
+      },
+      {
+         "id": 7069,
+         "name": "Boppard",
+         "urlFriendlyName": "boppard"
+      },
+      {
+         "id": 18507,
+         "name": "Gustrow",
+         "urlFriendlyName": "gustrow"
+      },
+      {
+         "id": 10270,
+         "name": "Dachau",
+         "urlFriendlyName": "dachau"
+      },
+      {
+         "id": 6989,
+         "name": "Passau",
+         "urlFriendlyName": "passau"
+      },
+      {
+         "id": 17510,
+         "name": "Singen",
+         "urlFriendlyName": "singen"
+      },
+      {
+         "id": 19764,
+         "name": "Burghausen",
+         "urlFriendlyName": "burghausen"
+      },
+      {
+         "id": 12965,
+         "name": "Goslar",
+         "urlFriendlyName": "goslar"
+      },
+      {
+         "id": 16976,
+         "name": "Triberg",
+         "urlFriendlyName": "triberg"
+      },
+      {
+         "id": 10237,
+         "name": "Bischofswiesen",
+         "urlFriendlyName": "bischofswiesen"
+      },
+      {
+         "id": 19535,
+         "name": "Kamenz",
+         "urlFriendlyName": "kamenz"
+      }
+   ],
+   "Gibraltar": [
+      {
+         "id": 5309,
+         "name": "Gibraltar",
+         "urlFriendlyName": "gibraltar"
+      }
+   ],
+   "Greece": [
+      {
+         "id": 588,
+         "name": "Athens",
+         "urlFriendlyName": "athens"
+      },
+      {
+         "id": 1290,
+         "name": "Paros",
+         "urlFriendlyName": "paros"
+      },
+      {
+         "id": 2842,
+         "name": "Thessaloniki",
+         "urlFriendlyName": "thessaloniki"
+      },
+      {
+         "id": 765,
+         "name": "Heraklion",
+         "urlFriendlyName": "heraklion"
+      },
+      {
+         "id": 2080,
+         "name": "Andros",
+         "urlFriendlyName": "andros"
+      },
+      {
+         "id": 768,
+         "name": "Santorini",
+         "urlFriendlyName": "santorini"
+      },
+      {
+         "id": 3119,
+         "name": "Chania",
+         "urlFriendlyName": "chania"
+      },
+      {
+         "id": 528,
+         "name": "Ios",
+         "urlFriendlyName": "ios"
+      },
+      {
+         "id": 41,
+         "name": "Corfu",
+         "urlFriendlyName": "corfu"
+      },
+      {
+         "id": 360,
+         "name": "Crete",
+         "urlFriendlyName": "crete"
+      },
+      {
+         "id": 762,
+         "name": "Rhodes",
+         "urlFriendlyName": "rhodes"
+      },
+      {
+         "id": 1934,
+         "name": "Naxos",
+         "urlFriendlyName": "naxos"
+      },
+      {
+         "id": 1854,
+         "name": "Mykonos",
+         "urlFriendlyName": "mykonos"
+      },
+      {
+         "id": 6905,
+         "name": "Kalambaka",
+         "urlFriendlyName": "kalambaka"
+      },
+      {
+         "id": 4457,
+         "name": "Kissamos",
+         "urlFriendlyName": "kissamos"
+      },
+      {
+         "id": 8777,
+         "name": "Kalamata",
+         "urlFriendlyName": "kalamata"
+      },
+      {
+         "id": 8590,
+         "name": "Ioannina",
+         "urlFriendlyName": "ioannina"
+      },
+      {
+         "id": 600,
+         "name": "Syros",
+         "urlFriendlyName": "syros"
+      },
+      {
+         "id": 19120,
+         "name": "Makrinitsa",
+         "urlFriendlyName": "makrinitsa"
+      },
+      {
+         "id": 6788,
+         "name": "Litohoro",
+         "urlFriendlyName": "litohoro"
+      }
+   ],
+   "Hungary": [
+      {
+         "id": 50,
+         "name": "Budapest",
+         "urlFriendlyName": "budapest"
+      },
+      {
+         "id": 964,
+         "name": "Pecs",
+         "urlFriendlyName": "pecs"
+      },
+      {
+         "id": 5368,
+         "name": "Keszthely",
+         "urlFriendlyName": "keszthely"
+      }
+   ],
+   "Iceland": [
+      {
+         "id": 456,
+         "name": "Reykjavik",
+         "urlFriendlyName": "reykjavik"
+      },
+      {
+         "id": 1557,
+         "name": "Keflavik",
+         "urlFriendlyName": "keflavik"
+      },
+      {
+         "id": 5762,
+         "name": "Akureyri",
+         "urlFriendlyName": "akureyri"
+      },
+      {
+         "id": 14633,
+         "name": "Seydisfjordur",
+         "urlFriendlyName": "seydisfjordur"
+      },
+      {
+         "id": 6741,
+         "name": "Hvammstangi",
+         "urlFriendlyName": "hvammstangi"
+      },
+      {
+         "id": 11302,
+         "name": "Stykkisholmur",
+         "urlFriendlyName": "stykkisholmur"
+      },
+      {
+         "id": 18474,
+         "name": "Egilsstadir",
+         "urlFriendlyName": "egilsstadir"
+      },
+      {
+         "id": 1553,
+         "name": "Grundarfjordur",
+         "urlFriendlyName": "grundarfjordur"
+      },
+      {
+         "id": 10872,
+         "name": "Eyrarbakki",
+         "urlFriendlyName": "eyrarbakki"
+      },
+      {
+         "id": 15184,
+         "name": "Snaefellsbaer",
+         "urlFriendlyName": "snaefellsbaer"
+      },
+      {
+         "id": 7019,
+         "name": "Siglufjordur",
+         "urlFriendlyName": "siglufjordur"
+      },
+      {
+         "id": 13346,
+         "name": "Dalvik",
+         "urlFriendlyName": "dalvik"
+      },
+      {
+         "id": 11600,
+         "name": "Hvolsvollur",
+         "urlFriendlyName": "hvolsvollur"
+      }
+   ],
+   "Ireland": [
+      {
+         "id": 5,
+         "name": "Dublin",
+         "urlFriendlyName": "dublin"
+      },
+      {
+         "id": 1,
+         "name": "Cork",
+         "urlFriendlyName": "cork"
+      },
+      {
+         "id": 12,
+         "name": "Kilkenny",
+         "urlFriendlyName": "kilkenny"
+      },
+      {
+         "id": 7,
+         "name": "Galway",
+         "urlFriendlyName": "galway"
+      },
+      {
+         "id": 384,
+         "name": "Dingle",
+         "urlFriendlyName": "dingle"
+      },
+      {
+         "id": 382,
+         "name": "Killarney",
+         "urlFriendlyName": "killarney"
+      },
+      {
+         "id": 64,
+         "name": "Donegal",
+         "urlFriendlyName": "donegal"
+      },
+      {
+         "id": 10,
+         "name": "Tralee",
+         "urlFriendlyName": "tralee"
+      },
+      {
+         "id": 2642,
+         "name": "Kenmare",
+         "urlFriendlyName": "kenmare"
+      },
+      {
+         "id": 60,
+         "name": "Wicklow",
+         "urlFriendlyName": "wicklow"
+      },
+      {
+         "id": 3085,
+         "name": "Waterford",
+         "urlFriendlyName": "waterford"
+      },
+      {
+         "id": 381,
+         "name": "Westport",
+         "urlFriendlyName": "westport"
+      },
+      {
+         "id": 5070,
+         "name": "Letterkenny",
+         "urlFriendlyName": "letterkenny"
+      },
+      {
+         "id": 4690,
+         "name": "Cong",
+         "urlFriendlyName": "cong"
+      },
+      {
+         "id": 5071,
+         "name": "Bundoran",
+         "urlFriendlyName": "bundoran"
+      },
+      {
+         "id": 2991,
+         "name": "Connemara",
+         "urlFriendlyName": "connemara"
+      },
+      {
+         "id": 6477,
+         "name": "The Burren",
+         "urlFriendlyName": "the-burren"
+      },
+      {
+         "id": 4354,
+         "name": "Doolin",
+         "urlFriendlyName": "doolin"
+      },
+      {
+         "id": 6019,
+         "name": "Drogheda",
+         "urlFriendlyName": "drogheda"
+      },
+      {
+         "id": 18550,
+         "name": "Louisburgh",
+         "urlFriendlyName": "louisburgh"
+      },
+      {
+         "id": 6630,
+         "name": "Achill",
+         "urlFriendlyName": "achill"
+      },
+      {
+         "id": 2456,
+         "name": "Cashel",
+         "urlFriendlyName": "cashel"
+      },
+      {
+         "id": 4682,
+         "name": "Cliffs of Moher",
+         "urlFriendlyName": "cliffs-of-moher"
+      }
+   ],
+   "Italy": [
+      {
+         "id": 36,
+         "name": "Rome",
+         "urlFriendlyName": "rome"
+      },
+      {
+         "id": 649,
+         "name": "Milan",
+         "urlFriendlyName": "milan"
+      },
+      {
+         "id": 68,
+         "name": "Venice",
+         "urlFriendlyName": "venice"
+      },
+      {
+         "id": 1216,
+         "name": "Palermo",
+         "urlFriendlyName": "palermo"
+      },
+      {
+         "id": 743,
+         "name": "Verona",
+         "urlFriendlyName": "verona"
+      },
+      {
+         "id": 1742,
+         "name": "Bari",
+         "urlFriendlyName": "bari"
+      },
+      {
+         "id": 2901,
+         "name": "Perugia",
+         "urlFriendlyName": "perugia"
+      },
+      {
+         "id": 1446,
+         "name": "Trieste",
+         "urlFriendlyName": "trieste"
+      },
+      {
+         "id": 280,
+         "name": "Naples",
+         "urlFriendlyName": "naples"
+      },
+      {
+         "id": 2364,
+         "name": "Catania",
+         "urlFriendlyName": "catania"
+      },
+      {
+         "id": 495,
+         "name": "Sorrento",
+         "urlFriendlyName": "sorrento"
+      },
+      {
+         "id": 1447,
+         "name": "Bologna",
+         "urlFriendlyName": "bologna"
+      },
+      {
+         "id": 3544,
+         "name": "Lecce",
+         "urlFriendlyName": "lecce"
+      },
+      {
+         "id": 5754,
+         "name": "Pompei",
+         "urlFriendlyName": "pompei"
+      },
+      {
+         "id": 2279,
+         "name": "Positano",
+         "urlFriendlyName": "positano"
+      },
+      {
+         "id": 32,
+         "name": "Florence",
+         "urlFriendlyName": "florence"
+      },
+      {
+         "id": 1037,
+         "name": "Turin",
+         "urlFriendlyName": "turin"
+      },
+      {
+         "id": 2749,
+         "name": "Cagliari",
+         "urlFriendlyName": "cagliari"
+      },
+      {
+         "id": 3819,
+         "name": "Trapani",
+         "urlFriendlyName": "trapani"
+      },
+      {
+         "id": 1322,
+         "name": "Pisa",
+         "urlFriendlyName": "pisa"
+      },
+      {
+         "id": 3301,
+         "name": "La Spezia",
+         "urlFriendlyName": "la-spezia"
+      },
+      {
+         "id": 1019,
+         "name": "Genoa",
+         "urlFriendlyName": "genoa"
+      },
+      {
+         "id": 321,
+         "name": "Taormina",
+         "urlFriendlyName": "taormina"
+      },
+      {
+         "id": 3374,
+         "name": "Bergamo",
+         "urlFriendlyName": "bergamo"
+      },
+      {
+         "id": 2940,
+         "name": "Ischia",
+         "urlFriendlyName": "ischia"
+      },
+      {
+         "id": 3940,
+         "name": "Syracuse",
+         "urlFriendlyName": "syracuse"
+      },
+      {
+         "id": 1448,
+         "name": "Agrigento",
+         "urlFriendlyName": "agrigento"
+      },
+      {
+         "id": 1150,
+         "name": "Lucca",
+         "urlFriendlyName": "lucca"
+      },
+      {
+         "id": 3487,
+         "name": "Treviso",
+         "urlFriendlyName": "treviso"
+      },
+      {
+         "id": 1253,
+         "name": "Amalfi",
+         "urlFriendlyName": "amalfi"
+      },
+      {
+         "id": 2895,
+         "name": "Parma",
+         "urlFriendlyName": "parma"
+      },
+      {
+         "id": 2166,
+         "name": "Assisi",
+         "urlFriendlyName": "assisi"
+      },
+      {
+         "id": 2443,
+         "name": "Ferrara",
+         "urlFriendlyName": "ferrara"
+      },
+      {
+         "id": 3469,
+         "name": "Foligno",
+         "urlFriendlyName": "foligno"
+      },
+      {
+         "id": 3411,
+         "name": "Rovereto",
+         "urlFriendlyName": "rovereto"
+      },
+      {
+         "id": 1169,
+         "name": "Rimini",
+         "urlFriendlyName": "rimini"
+      },
+      {
+         "id": 882,
+         "name": "Cinque Terre",
+         "urlFriendlyName": "cinque-terre"
+      },
+      {
+         "id": 8918,
+         "name": "Lake Como",
+         "urlFriendlyName": "lake-como"
+      },
+      {
+         "id": 2054,
+         "name": "Marsala",
+         "urlFriendlyName": "marsala"
+      },
+      {
+         "id": 5568,
+         "name": "Lake Garda",
+         "urlFriendlyName": "lake-garda"
+      },
+      {
+         "id": 2188,
+         "name": "Volterra",
+         "urlFriendlyName": "volterra"
+      },
+      {
+         "id": 2927,
+         "name": "Malpensa",
+         "urlFriendlyName": "malpensa"
+      },
+      {
+         "id": 12109,
+         "name": "Belluno",
+         "urlFriendlyName": "belluno"
+      },
+      {
+         "id": 7539,
+         "name": "Agerola",
+         "urlFriendlyName": "agerola"
+      },
+      {
+         "id": 6364,
+         "name": "Milazzo",
+         "urlFriendlyName": "milazzo"
+      },
+      {
+         "id": 3560,
+         "name": "Padua",
+         "urlFriendlyName": "padua"
+      },
+      {
+         "id": 4895,
+         "name": "San Vito Lo Capo",
+         "urlFriendlyName": "san-vito-lo-capo"
+      },
+      {
+         "id": 13630,
+         "name": "Pavia",
+         "urlFriendlyName": "pavia"
+      },
+      {
+         "id": 7008,
+         "name": "Matera",
+         "urlFriendlyName": "matera"
+      },
+      {
+         "id": 6689,
+         "name": "Bormio",
+         "urlFriendlyName": "bormio"
+      },
+      {
+         "id": 17682,
+         "name": "Valfabbrica",
+         "urlFriendlyName": "valfabbrica"
+      },
+      {
+         "id": 8267,
+         "name": "Enna",
+         "urlFriendlyName": "enna"
+      },
+      {
+         "id": 11112,
+         "name": "Ercolano",
+         "urlFriendlyName": "ercolano"
+      },
+      {
+         "id": 6579,
+         "name": "Vicenza",
+         "urlFriendlyName": "vicenza"
+      },
+      {
+         "id": 17221,
+         "name": "Casalzuigno",
+         "urlFriendlyName": "casalzuigno"
+      },
+      {
+         "id": 20748,
+         "name": "Cassano delle Murge",
+         "urlFriendlyName": "cassano-delle-murge"
+      },
+      {
+         "id": 5348,
+         "name": "Magliano Sabina",
+         "urlFriendlyName": "magliano-sabina"
+      },
+      {
+         "id": 10934,
+         "name": "Monza",
+         "urlFriendlyName": "monza"
+      },
+      {
+         "id": 14747,
+         "name": "Lecco",
+         "urlFriendlyName": "lecco"
+      },
+      {
+         "id": 7337,
+         "name": "Aosta",
+         "urlFriendlyName": "aosta"
+      },
+      {
+         "id": 20671,
+         "name": "Butera",
+         "urlFriendlyName": "butera"
+      },
+      {
+         "id": 8919,
+         "name": "Lake Iseo",
+         "urlFriendlyName": "lake-iseo"
+      },
+      {
+         "id": 6200,
+         "name": "Agropoli",
+         "urlFriendlyName": "agropoli"
+      },
+      {
+         "id": 1441,
+         "name": "Aquileia",
+         "urlFriendlyName": "aquileia"
+      },
+      {
+         "id": 7243,
+         "name": "Reggio Calabria",
+         "urlFriendlyName": "reggio-calabria"
+      },
+      {
+         "id": 20659,
+         "name": "Castione Andevenno",
+         "urlFriendlyName": "castione-andevenno"
+      },
+      {
+         "id": 4033,
+         "name": "Gallipoli",
+         "urlFriendlyName": "gallipoli"
+      },
+      {
+         "id": 6199,
+         "name": "Alessandria",
+         "urlFriendlyName": "alessandria"
+      },
+      {
+         "id": 12190,
+         "name": "Itri",
+         "urlFriendlyName": "itri"
+      },
+      {
+         "id": 20586,
+         "name": "Roccantica",
+         "urlFriendlyName": "roccantica"
+      },
+      {
+         "id": 3955,
+         "name": "Tropea",
+         "urlFriendlyName": "tropea"
+      },
+      {
+         "id": 8732,
+         "name": "Portofino",
+         "urlFriendlyName": "portofino"
+      }
+   ],
+   "Kosovo": [
+      {
+         "id": 8635,
+         "name": "Pristina",
+         "urlFriendlyName": "pristina"
+      },
+      {
+         "id": 10424,
+         "name": "Prizren",
+         "urlFriendlyName": "prizren"
+      }
+   ],
+   "Latvia": [
+      {
+         "id": 224,
+         "name": "Riga",
+         "urlFriendlyName": "riga"
+      }
+   ],
+   "Liechtenstein": [
+      {
+         "id": 3922,
+         "name": "Schaan",
+         "urlFriendlyName": "schaan"
+      }
+   ],
+   "Lithuania": [
+      {
+         "id": 583,
+         "name": "Vilnius",
+         "urlFriendlyName": "vilnius"
+      },
+      {
+         "id": 585,
+         "name": "Kaunas",
+         "urlFriendlyName": "kaunas"
+      },
+      {
+         "id": 666,
+         "name": "Klaipeda",
+         "urlFriendlyName": "klaipeda"
+      },
+      {
+         "id": 11557,
+         "name": "Nida",
+         "urlFriendlyName": "nida"
+      },
+      {
+         "id": 11200,
+         "name": "Panevezys",
+         "urlFriendlyName": "panevezys"
+      }
+   ],
+   "Luxembourg": [
+      {
+         "id": 8225,
+         "name": "Luxembourg City",
+         "urlFriendlyName": "luxembourg-city"
+      },
+      {
+         "id": 8447,
+         "name": "Vianden",
+         "urlFriendlyName": "vianden"
+      },
+      {
+         "id": 8439,
+         "name": "Larochette",
+         "urlFriendlyName": "larochette"
+      },
+      {
+         "id": 8437,
+         "name": "Lultzhausen",
+         "urlFriendlyName": "lultzhausen"
+      },
+      {
+         "id": 8434,
+         "name": "Echternach",
+         "urlFriendlyName": "echternach"
+      },
+      {
+         "id": 18021,
+         "name": "Esch-sur-Alzette",
+         "urlFriendlyName": "esch-sur-alzette"
+      },
+      {
+         "id": 8432,
+         "name": "Beaufort",
+         "urlFriendlyName": "beaufort"
+      },
+      {
+         "id": 8482,
+         "name": "Schengen",
+         "urlFriendlyName": "schengen"
+      }
+   ],
+   "Malta": [
+      {
+         "id": 922,
+         "name": "St. Julians",
+         "urlFriendlyName": "st-julians"
+      },
+      {
+         "id": 924,
+         "name": "Sliema",
+         "urlFriendlyName": "sliema"
+      },
+      {
+         "id": 4127,
+         "name": "Valletta",
+         "urlFriendlyName": "valletta"
+      }
+   ],
+   "Moldova": [
+      {
+         "id": 2853,
+         "name": "Chisinau",
+         "urlFriendlyName": "chisinau"
+      },
+      {
+         "id": 4858,
+         "name": "Tiraspol",
+         "urlFriendlyName": "tiraspol"
+      }
+   ],
+   "Montenegro": [
+      {
+         "id": 5781,
+         "name": "Kotor",
+         "urlFriendlyName": "kotor"
+      },
+      {
+         "id": 5466,
+         "name": "Budva",
+         "urlFriendlyName": "budva"
+      },
+      {
+         "id": 7128,
+         "name": "Bar",
+         "urlFriendlyName": "bar"
+      },
+      {
+         "id": 8484,
+         "name": "Ulcinj",
+         "urlFriendlyName": "ulcinj"
+      },
+      {
+         "id": 8848,
+         "name": "Tivat",
+         "urlFriendlyName": "tivat"
+      },
+      {
+         "id": 8769,
+         "name": "Podgorica",
+         "urlFriendlyName": "podgorica"
+      },
+      {
+         "id": 19373,
+         "name": "Zabljak",
+         "urlFriendlyName": "zabljak"
+      },
+      {
+         "id": 15066,
+         "name": "Niksic",
+         "urlFriendlyName": "niksic"
+      },
+      {
+         "id": 11731,
+         "name": "Cetinje",
+         "urlFriendlyName": "cetinje"
+      }
+   ],
+   "Netherlands": [
+      {
+         "id": 15,
+         "name": "Amsterdam",
+         "urlFriendlyName": "amsterdam"
+      },
+      {
+         "id": 858,
+         "name": "Rotterdam",
+         "urlFriendlyName": "rotterdam"
+      },
+      {
+         "id": 5107,
+         "name": "Groningen",
+         "urlFriendlyName": "groningen"
+      },
+      {
+         "id": 2413,
+         "name": "Apeldoorn",
+         "urlFriendlyName": "apeldoorn"
+      },
+      {
+         "id": 4946,
+         "name": "Dordrecht",
+         "urlFriendlyName": "dordrecht"
+      },
+      {
+         "id": 263,
+         "name": "Utrecht",
+         "urlFriendlyName": "utrecht"
+      },
+      {
+         "id": 2417,
+         "name": "The Hague",
+         "urlFriendlyName": "the-hague"
+      },
+      {
+         "id": 3992,
+         "name": "Alkmaar",
+         "urlFriendlyName": "alkmaar"
+      },
+      {
+         "id": 31,
+         "name": "Noordwijk",
+         "urlFriendlyName": "noordwijk"
+      },
+      {
+         "id": 2281,
+         "name": "Arnhem",
+         "urlFriendlyName": "arnhem"
+      },
+      {
+         "id": 3232,
+         "name": "Heemskerk",
+         "urlFriendlyName": "heemskerk"
+      },
+      {
+         "id": 369,
+         "name": "Tilburg",
+         "urlFriendlyName": "tilburg"
+      },
+      {
+         "id": 3268,
+         "name": "Maastricht",
+         "urlFriendlyName": "maastricht"
+      },
+      {
+         "id": 2416,
+         "name": "Haarlem",
+         "urlFriendlyName": "haarlem"
+      },
+      {
+         "id": 4944,
+         "name": "Egmond",
+         "urlFriendlyName": "egmond"
+      },
+      {
+         "id": 4949,
+         "name": "Domburg",
+         "urlFriendlyName": "domburg"
+      },
+      {
+         "id": 2415,
+         "name": "Soest",
+         "urlFriendlyName": "soest"
+      },
+      {
+         "id": 14749,
+         "name": "leeuwarden",
+         "urlFriendlyName": "leeuwarden"
+      },
+      {
+         "id": 4948,
+         "name": "West-Terschelling",
+         "urlFriendlyName": "west-terschelling"
+      },
+      {
+         "id": 13764,
+         "name": "Vlissingen",
+         "urlFriendlyName": "vlissingen"
+      },
+      {
+         "id": 4947,
+         "name": "Den Burg",
+         "urlFriendlyName": "den-burg"
+      },
+      {
+         "id": 12735,
+         "name": "Gorssel",
+         "urlFriendlyName": "gorssel"
+      },
+      {
+         "id": 7508,
+         "name": "Eindhoven",
+         "urlFriendlyName": "eindhoven"
+      },
+      {
+         "id": 17800,
+         "name": "Giethoorn",
+         "urlFriendlyName": "giethoorn"
+      },
+      {
+         "id": 4945,
+         "name": "Valkenswaard",
+         "urlFriendlyName": "valkenswaard"
+      },
+      {
+         "id": 14920,
+         "name": "Zaandam",
+         "urlFriendlyName": "zaandam"
+      }
+   ],
+   "North Macedonia": [
+      {
+         "id": 5173,
+         "name": "Ohrid",
+         "urlFriendlyName": "ohrid"
+      },
+      {
+         "id": 2772,
+         "name": "Skopje",
+         "urlFriendlyName": "skopje"
+      },
+      {
+         "id": 10533,
+         "name": "Bitola",
+         "urlFriendlyName": "bitola"
+      },
+      {
+         "id": 16979,
+         "name": "Gostivar",
+         "urlFriendlyName": "gostivar"
+      }
+   ],
+   "Northern Ireland": [
+      {
+         "id": 56,
+         "name": "Ballycastle",
+         "urlFriendlyName": "ballycastle"
+      },
+      {
+         "id": 476,
+         "name": "Bushmills",
+         "urlFriendlyName": "bushmills"
+      },
+      {
+         "id": 2528,
+         "name": "Portrush",
+         "urlFriendlyName": "portrush"
+      },
+      {
+         "id": 11,
+         "name": "Belfast",
+         "urlFriendlyName": "belfast"
+      },
+      {
+         "id": 111,
+         "name": "Cushendall",
+         "urlFriendlyName": "cushendall"
+      },
+      {
+         "id": 4211,
+         "name": "Portstewart",
+         "urlFriendlyName": "portstewart"
+      },
+      {
+         "id": 4055,
+         "name": "Mourne Mountains",
+         "urlFriendlyName": "mourne-mountains"
+      }
+   ],
+   "Norway": [
+      {
+         "id": 138,
+         "name": "Oslo",
+         "urlFriendlyName": "oslo"
+      },
+      {
+         "id": 1545,
+         "name": "Lillehammer",
+         "urlFriendlyName": "lillehammer"
+      },
+      {
+         "id": 2878,
+         "name": "Ulvik",
+         "urlFriendlyName": "ulvik"
+      },
+      {
+         "id": 1645,
+         "name": "Bergen",
+         "urlFriendlyName": "bergen"
+      },
+      {
+         "id": 10219,
+         "name": "Tromso",
+         "urlFriendlyName": "tromso"
+      },
+      {
+         "id": 9432,
+         "name": "Lofoten",
+         "urlFriendlyName": "lofoten"
+      },
+      {
+         "id": 19682,
+         "name": "Kongsberg",
+         "urlFriendlyName": "kongsberg"
+      },
+      {
+         "id": 8360,
+         "name": "Sognefjord",
+         "urlFriendlyName": "sognefjord"
+      },
+      {
+         "id": 18232,
+         "name": "Svalbard",
+         "urlFriendlyName": "svalbard"
+      },
+      {
+         "id": 3639,
+         "name": "Voss",
+         "urlFriendlyName": "voss"
+      },
+      {
+         "id": 10831,
+         "name": "Bodo",
+         "urlFriendlyName": "bodo"
+      },
+      {
+         "id": 9600,
+         "name": "Ringebu",
+         "urlFriendlyName": "ringebu"
+      }
+   ],
+   "Poland": [
+      {
+         "id": 884,
+         "name": "Warsaw",
+         "urlFriendlyName": "warsaw"
+      },
+      {
+         "id": 2274,
+         "name": "Gdansk",
+         "urlFriendlyName": "gdansk"
+      },
+      {
+         "id": 3048,
+         "name": "Poznan",
+         "urlFriendlyName": "poznan"
+      },
+      {
+         "id": 1163,
+         "name": "Katowice",
+         "urlFriendlyName": "katowice"
+      },
+      {
+         "id": 285,
+         "name": "Krakow",
+         "urlFriendlyName": "krakow"
+      },
+      {
+         "id": 1162,
+         "name": "Wroclaw",
+         "urlFriendlyName": "wroclaw"
+      },
+      {
+         "id": 1123,
+         "name": "Zakopane",
+         "urlFriendlyName": "zakopane"
+      },
+      {
+         "id": 3002,
+         "name": "Bialystok",
+         "urlFriendlyName": "bialystok"
+      },
+      {
+         "id": 18536,
+         "name": "Swinoujscie",
+         "urlFriendlyName": "swinoujscie"
+      },
+      {
+         "id": 16019,
+         "name": "Opole",
+         "urlFriendlyName": "opole"
+      },
+      {
+         "id": 15144,
+         "name": "Zamosc",
+         "urlFriendlyName": "zamosc"
+      },
+      {
+         "id": 9513,
+         "name": "Oswiecim",
+         "urlFriendlyName": "oswiecim"
+      }
+   ],
+   "Portugal": [
+      {
+         "id": 725,
+         "name": "Lisbon",
+         "urlFriendlyName": "lisbon"
+      },
+      {
+         "id": 3871,
+         "name": "Porto",
+         "urlFriendlyName": "porto"
+      },
+      {
+         "id": 2936,
+         "name": "Coimbra",
+         "urlFriendlyName": "coimbra"
+      },
+      {
+         "id": 1642,
+         "name": "Lagos",
+         "urlFriendlyName": "lagos"
+      },
+      {
+         "id": 3857,
+         "name": "Peniche",
+         "urlFriendlyName": "peniche"
+      },
+      {
+         "id": 3190,
+         "name": "Faro",
+         "urlFriendlyName": "faro"
+      },
+      {
+         "id": 5151,
+         "name": "Albufeira",
+         "urlFriendlyName": "albufeira"
+      },
+      {
+         "id": 2275,
+         "name": "Cascais",
+         "urlFriendlyName": "cascais"
+      },
+      {
+         "id": 4041,
+         "name": "Fatima",
+         "urlFriendlyName": "fatima"
+      },
+      {
+         "id": 2933,
+         "name": "Funchal",
+         "urlFriendlyName": "funchal"
+      },
+      {
+         "id": 447,
+         "name": "Sintra",
+         "urlFriendlyName": "sintra"
+      },
+      {
+         "id": 5654,
+         "name": "Evora",
+         "urlFriendlyName": "evora"
+      },
+      {
+         "id": 5239,
+         "name": "Figueira da Foz",
+         "urlFriendlyName": "figueira-da-foz"
+      },
+      {
+         "id": 5714,
+         "name": "Nazare",
+         "urlFriendlyName": "nazare"
+      },
+      {
+         "id": 2331,
+         "name": "Setubal",
+         "urlFriendlyName": "setubal"
+      },
+      {
+         "id": 4970,
+         "name": "Obidos",
+         "urlFriendlyName": "obidos"
+      },
+      {
+         "id": 2397,
+         "name": "Tavira",
+         "urlFriendlyName": "tavira"
+      },
+      {
+         "id": 331,
+         "name": "Oeiras",
+         "urlFriendlyName": "oeiras"
+      },
+      {
+         "id": 5144,
+         "name": "Viseu",
+         "urlFriendlyName": "viseu"
+      },
+      {
+         "id": 4565,
+         "name": "Ponta Delgada",
+         "urlFriendlyName": "ponta-delgada"
+      },
+      {
+         "id": 8902,
+         "name": "Ericeira",
+         "urlFriendlyName": "ericeira"
+      },
+      {
+         "id": 6032,
+         "name": "Braga",
+         "urlFriendlyName": "braga"
+      },
+      {
+         "id": 8186,
+         "name": "Sagres",
+         "urlFriendlyName": "sagres"
+      },
+      {
+         "id": 8879,
+         "name": "Aljezur",
+         "urlFriendlyName": "aljezur"
+      },
+      {
+         "id": 9469,
+         "name": "Vila Nova de Milfontes",
+         "urlFriendlyName": "vila-nova-de-milfontes"
+      },
+      {
+         "id": 2873,
+         "name": "Costa da Caparica",
+         "urlFriendlyName": "costa-da-caparica"
+      },
+      {
+         "id": 9137,
+         "name": "Aveiro",
+         "urlFriendlyName": "aveiro"
+      },
+      {
+         "id": 14019,
+         "name": "Carcavelos",
+         "urlFriendlyName": "carcavelos"
+      },
+      {
+         "id": 11013,
+         "name": "Angra do Heroismo",
+         "urlFriendlyName": "angra-do-heroismo"
+      },
+      {
+         "id": 15113,
+         "name": "Castelo Branco",
+         "urlFriendlyName": "castelo-branco"
+      },
+      {
+         "id": 6557,
+         "name": "Portimao",
+         "urlFriendlyName": "portimao"
+      },
+      {
+         "id": 15987,
+         "name": "Geres",
+         "urlFriendlyName": "geres"
+      },
+      {
+         "id": 7003,
+         "name": "Leiria",
+         "urlFriendlyName": "leiria"
+      },
+      {
+         "id": 7736,
+         "name": "Tomar",
+         "urlFriendlyName": "tomar"
+      },
+      {
+         "id": 11149,
+         "name": "Lourinha",
+         "urlFriendlyName": "lourinha"
+      },
+      {
+         "id": 14212,
+         "name": "Almada",
+         "urlFriendlyName": "almada"
+      },
+      {
+         "id": 11148,
+         "name": "Guimaraes",
+         "urlFriendlyName": "guimaraes"
+      },
+      {
+         "id": 15266,
+         "name": "Porto Covo",
+         "urlFriendlyName": "porto-covo"
+      },
+      {
+         "id": 6770,
+         "name": "Torres Vedras",
+         "urlFriendlyName": "torres-vedras"
+      },
+      {
+         "id": 15208,
+         "name": "Horta",
+         "urlFriendlyName": "horta"
+      },
+      {
+         "id": 7156,
+         "name": "Esposende",
+         "urlFriendlyName": "esposende"
+      },
+      {
+         "id": 5197,
+         "name": "Viana do Castelo",
+         "urlFriendlyName": "viana-do-castelo"
+      },
+      {
+         "id": 13950,
+         "name": "Santarem",
+         "urlFriendlyName": "santarem"
+      },
+      {
+         "id": 7060,
+         "name": "Espinho",
+         "urlFriendlyName": "espinho"
+      },
+      {
+         "id": 15425,
+         "name": "Vila do Conde",
+         "urlFriendlyName": "vila-do-conde"
+      },
+      {
+         "id": 14255,
+         "name": "Alcobaca",
+         "urlFriendlyName": "alcobaca"
+      },
+      {
+         "id": 6977,
+         "name": "Quarteira",
+         "urlFriendlyName": "quarteira"
+      },
+      {
+         "id": 7686,
+         "name": "Armacao de Pera",
+         "urlFriendlyName": "armacao-de-pera"
+      },
+      {
+         "id": 11813,
+         "name": "Porto de Mos",
+         "urlFriendlyName": "porto-de-mos"
+      },
+      {
+         "id": 15395,
+         "name": "Alcoutim",
+         "urlFriendlyName": "alcoutim"
+      },
+      {
+         "id": 3192,
+         "name": "Sao Pedro do Sul",
+         "urlFriendlyName": "sao-pedro-do-sul"
+      },
+      {
+         "id": 10009,
+         "name": "Lousa",
+         "urlFriendlyName": "lousa"
+      },
+      {
+         "id": 17484,
+         "name": "Vila Nova de Famalicao",
+         "urlFriendlyName": "vila-nova-de-famalicao"
+      },
+      {
+         "id": 7226,
+         "name": "Vila Nova de Cerveira",
+         "urlFriendlyName": "vila-nova-de-cerveira"
+      },
+      {
+         "id": 11100,
+         "name": "Lamego",
+         "urlFriendlyName": "lamego"
+      },
+      {
+         "id": 11689,
+         "name": "Santa Maria da Feira",
+         "urlFriendlyName": "santa-maria-da-feira"
+      },
+      {
+         "id": 15394,
+         "name": "Alijo",
+         "urlFriendlyName": "alijo"
+      },
+      {
+         "id": 6712,
+         "name": "Batalha",
+         "urlFriendlyName": "batalha"
+      },
+      {
+         "id": 13964,
+         "name": "Praia da Areia Branca",
+         "urlFriendlyName": "praia-da-areia-branca"
+      },
+      {
+         "id": 16338,
+         "name": "Caminha",
+         "urlFriendlyName": "caminha"
+      },
+      {
+         "id": 20802,
+         "name": "Porto Santo Island",
+         "urlFriendlyName": "porto-santo-island"
+      },
+      {
+         "id": 11678,
+         "name": "Maceda",
+         "urlFriendlyName": "maceda"
+      },
+      {
+         "id": 15387,
+         "name": "Vila Nova de Foz Coa",
+         "urlFriendlyName": "vila-nova-de-foz-coa"
+      },
+      {
+         "id": 9351,
+         "name": "Felgueiras",
+         "urlFriendlyName": "felgueiras"
+      },
+      {
+         "id": 3999,
+         "name": "Madeira Island",
+         "urlFriendlyName": "madeira-island"
+      },
+      {
+         "id": 10838,
+         "name": "Amarante",
+         "urlFriendlyName": "amarante"
+      },
+      {
+         "id": 14788,
+         "name": "Ovar",
+         "urlFriendlyName": "ovar"
+      },
+      {
+         "id": 20657,
+         "name": "Baleal ",
+         "urlFriendlyName": "baleal"
+      },
+      {
+         "id": 7863,
+         "name": "Beja",
+         "urlFriendlyName": "beja"
+      },
+      {
+         "id": 11150,
+         "name": "Alfeizerao",
+         "urlFriendlyName": "alfeizerao"
+      },
+      {
+         "id": 15386,
+         "name": "Penhas da Saude",
+         "urlFriendlyName": "penhas-da-saude"
+      },
+      {
+         "id": 13403,
+         "name": "Vila Real",
+         "urlFriendlyName": "vila-real"
+      },
+      {
+         "id": 10557,
+         "name": "Maia",
+         "urlFriendlyName": "maia"
+      },
+      {
+         "id": 18942,
+         "name": "Porto Da Cruz",
+         "urlFriendlyName": "porto-da-cruz"
+      },
+      {
+         "id": 15373,
+         "name": "Abrantes",
+         "urlFriendlyName": "abrantes"
+      },
+      {
+         "id": 9061,
+         "name": "Ponte de Lima",
+         "urlFriendlyName": "ponte-de-lima"
+      },
+      {
+         "id": 12386,
+         "name": "Loule",
+         "urlFriendlyName": "loule"
+      },
+      {
+         "id": 15396,
+         "name": "Braganca",
+         "urlFriendlyName": "braganca"
+      },
+      {
+         "id": 10488,
+         "name": "Covilha",
+         "urlFriendlyName": "covilha"
+      },
+      {
+         "id": 18619,
+         "name": "Parede",
+         "urlFriendlyName": "parede"
+      }
+   ],
+   "Romania": [
+      {
+         "id": 395,
+         "name": "Bucharest",
+         "urlFriendlyName": "bucharest"
+      },
+      {
+         "id": 1302,
+         "name": "Sibiu",
+         "urlFriendlyName": "sibiu"
+      },
+      {
+         "id": 2224,
+         "name": "Sighisoara",
+         "urlFriendlyName": "sighisoara"
+      },
+      {
+         "id": 2396,
+         "name": "Brasov",
+         "urlFriendlyName": "brasov"
+      },
+      {
+         "id": 8316,
+         "name": "Constanta",
+         "urlFriendlyName": "constanta"
+      },
+      {
+         "id": 6289,
+         "name": "Timisoara",
+         "urlFriendlyName": "timisoara"
+      },
+      {
+         "id": 9545,
+         "name": "Cluj Napoca",
+         "urlFriendlyName": "cluj-napoca"
+      },
+      {
+         "id": 9159,
+         "name": "Iasi",
+         "urlFriendlyName": "iasi"
+      },
+      {
+         "id": 17224,
+         "name": "Sfantu Gheorghe",
+         "urlFriendlyName": "sfantu-gheorghe"
+      },
+      {
+         "id": 6867,
+         "name": "Oradea",
+         "urlFriendlyName": "oradea"
+      },
+      {
+         "id": 5162,
+         "name": "Maramures",
+         "urlFriendlyName": "maramures"
+      },
+      {
+         "id": 17393,
+         "name": "Sulina",
+         "urlFriendlyName": "sulina"
+      },
+      {
+         "id": 16341,
+         "name": "Sovata",
+         "urlFriendlyName": "sovata"
+      },
+      {
+         "id": 11151,
+         "name": "Deva",
+         "urlFriendlyName": "deva"
+      },
+      {
+         "id": 9568,
+         "name": "Baia Mare",
+         "urlFriendlyName": "baia-mare"
+      }
+   ],
+   "San Marino": [
+      {
+         "id": 11500,
+         "name": "San Marino",
+         "urlFriendlyName": "san-marino"
+      }
+   ],
+   "Scotland": [
+      {
+         "id": 22,
+         "name": "Edinburgh",
+         "urlFriendlyName": "edinburgh"
+      },
+      {
+         "id": 23,
+         "name": "Glasgow",
+         "urlFriendlyName": "glasgow"
+      },
+      {
+         "id": 45,
+         "name": "Stirling",
+         "urlFriendlyName": "stirling"
+      },
+      {
+         "id": 2645,
+         "name": "Perth",
+         "urlFriendlyName": "perth"
+      },
+      {
+         "id": 99,
+         "name": "Isle of Skye",
+         "urlFriendlyName": "isle-of-skye"
+      },
+      {
+         "id": 100,
+         "name": "Fort William",
+         "urlFriendlyName": "fort-william"
+      },
+      {
+         "id": 102,
+         "name": "Inverness",
+         "urlFriendlyName": "inverness"
+      },
+      {
+         "id": 101,
+         "name": "Oban",
+         "urlFriendlyName": "oban"
+      },
+      {
+         "id": 103,
+         "name": "Pitlochry",
+         "urlFriendlyName": "pitlochry"
+      },
+      {
+         "id": 1254,
+         "name": "Aviemore",
+         "urlFriendlyName": "aviemore"
+      },
+      {
+         "id": 3224,
+         "name": "Gairloch",
+         "urlFriendlyName": "gairloch"
+      },
+      {
+         "id": 2469,
+         "name": "Thurso",
+         "urlFriendlyName": "thurso"
+      },
+      {
+         "id": 3442,
+         "name": "Ullapool",
+         "urlFriendlyName": "ullapool"
+      },
+      {
+         "id": 4846,
+         "name": "Loch Ness",
+         "urlFriendlyName": "loch-ness"
+      },
+      {
+         "id": 7688,
+         "name": "Dundee",
+         "urlFriendlyName": "dundee"
+      },
+      {
+         "id": 6411,
+         "name": "Durness",
+         "urlFriendlyName": "durness"
+      },
+      {
+         "id": 14976,
+         "name": "Achmelvich",
+         "urlFriendlyName": "achmelvich"
+      },
+      {
+         "id": 4734,
+         "name": "Isle of Arran",
+         "urlFriendlyName": "isle-of-arran"
+      },
+      {
+         "id": 5899,
+         "name": "Kirkwall",
+         "urlFriendlyName": "kirkwall"
+      },
+      {
+         "id": 14773,
+         "name": "Rowardennan",
+         "urlFriendlyName": "rowardennan"
+      },
+      {
+         "id": 4733,
+         "name": "Braemar",
+         "urlFriendlyName": "braemar"
+      },
+      {
+         "id": 5898,
+         "name": "Tobermory",
+         "urlFriendlyName": "tobermory"
+      },
+      {
+         "id": 9732,
+         "name": "Dalwhinnie",
+         "urlFriendlyName": "dalwhinnie"
+      },
+      {
+         "id": 4706,
+         "name": "Crianlarich",
+         "urlFriendlyName": "crianlarich"
+      },
+      {
+         "id": 20499,
+         "name": "Lochaline",
+         "urlFriendlyName": "lochaline"
+      },
+      {
+         "id": 5895,
+         "name": "Inveraray",
+         "urlFriendlyName": "inveraray"
+      },
+      {
+         "id": 4464,
+         "name": "Torridon",
+         "urlFriendlyName": "torridon"
+      },
+      {
+         "id": 16832,
+         "name": "Anstruther",
+         "urlFriendlyName": "anstruther"
+      },
+      {
+         "id": 5154,
+         "name": "Isle of Islay",
+         "urlFriendlyName": "isle-of-islay"
+      },
+      {
+         "id": 763,
+         "name": "Glencoe",
+         "urlFriendlyName": "glencoe"
+      },
+      {
+         "id": 6548,
+         "name": "Ratagan",
+         "urlFriendlyName": "ratagan"
+      },
+      {
+         "id": 15059,
+         "name": "Moffat",
+         "urlFriendlyName": "moffat"
+      }
+   ],
+   "Serbia": [
+      {
+         "id": 2779,
+         "name": "Belgrade",
+         "urlFriendlyName": "belgrade"
+      },
+      {
+         "id": 6695,
+         "name": "Novi Sad",
+         "urlFriendlyName": "novi-sad"
+      },
+      {
+         "id": 6855,
+         "name": "Nis",
+         "urlFriendlyName": "nis"
+      },
+      {
+         "id": 8960,
+         "name": "Subotica",
+         "urlFriendlyName": "subotica"
+      },
+      {
+         "id": 6915,
+         "name": "Bajina Basta",
+         "urlFriendlyName": "bajina-basta"
+      },
+      {
+         "id": 6881,
+         "name": "Bajina Ba\u0161ta",
+         "urlFriendlyName": "bajina-basta"
+      }
+   ],
+   "Slovakia": [
+      {
+         "id": 470,
+         "name": "Bratislava",
+         "urlFriendlyName": "bratislava"
+      },
+      {
+         "id": 3569,
+         "name": "Kosice",
+         "urlFriendlyName": "kosice"
+      },
+      {
+         "id": 14304,
+         "name": "Nitra",
+         "urlFriendlyName": "nitra"
+      }
+   ],
+   "Slovenia": [
+      {
+         "id": 306,
+         "name": "Ljubljana",
+         "urlFriendlyName": "ljubljana"
+      },
+      {
+         "id": 108,
+         "name": "Bled",
+         "urlFriendlyName": "bled"
+      },
+      {
+         "id": 4212,
+         "name": "Maribor",
+         "urlFriendlyName": "maribor"
+      },
+      {
+         "id": 1735,
+         "name": "Bohinj",
+         "urlFriendlyName": "bohinj"
+      },
+      {
+         "id": 1663,
+         "name": "Bovec",
+         "urlFriendlyName": "bovec"
+      },
+      {
+         "id": 8712,
+         "name": "Kranj",
+         "urlFriendlyName": "kranj"
+      },
+      {
+         "id": 8229,
+         "name": "Novo mesto",
+         "urlFriendlyName": "novo-mesto"
+      },
+      {
+         "id": 1024,
+         "name": "Kobarid",
+         "urlFriendlyName": "kobarid"
+      },
+      {
+         "id": 2619,
+         "name": "Postojna",
+         "urlFriendlyName": "postojna"
+      },
+      {
+         "id": 7026,
+         "name": "Celje",
+         "urlFriendlyName": "celje"
+      },
+      {
+         "id": 17872,
+         "name": "Kocevje",
+         "urlFriendlyName": "kocevje"
+      },
+      {
+         "id": 1780,
+         "name": "Ajdovscina",
+         "urlFriendlyName": "ajdovscina"
+      },
+      {
+         "id": 6546,
+         "name": "Izola",
+         "urlFriendlyName": "izola"
+      },
+      {
+         "id": 15480,
+         "name": "Mojstrana",
+         "urlFriendlyName": "mojstrana"
+      },
+      {
+         "id": 1762,
+         "name": "Portoroz",
+         "urlFriendlyName": "portoroz"
+      },
+      {
+         "id": 5595,
+         "name": "Piran",
+         "urlFriendlyName": "piran"
+      },
+      {
+         "id": 9223,
+         "name": "Kamnik",
+         "urlFriendlyName": "kamnik"
+      },
+      {
+         "id": 5326,
+         "name": "Kranjska Gora",
+         "urlFriendlyName": "kranjska-gora"
+      }
+   ],
+   "Spain": [
+      {
+         "id": 83,
+         "name": "Barcelona",
+         "urlFriendlyName": "barcelona"
+      },
+      {
+         "id": 117,
+         "name": "Madrid",
+         "urlFriendlyName": "madrid"
+      },
+      {
+         "id": 563,
+         "name": "Malaga",
+         "urlFriendlyName": "malaga"
+      },
+      {
+         "id": 526,
+         "name": "Valencia",
+         "urlFriendlyName": "valencia"
+      },
+      {
+         "id": 2127,
+         "name": "Salamanca",
+         "urlFriendlyName": "salamanca"
+      },
+      {
+         "id": 2959,
+         "name": "Tarragona",
+         "urlFriendlyName": "tarragona"
+      },
+      {
+         "id": 479,
+         "name": "Zaragoza",
+         "urlFriendlyName": "zaragoza"
+      },
+      {
+         "id": 5474,
+         "name": "Oviedo",
+         "urlFriendlyName": "oviedo"
+      },
+      {
+         "id": 4988,
+         "name": "Cartagena",
+         "urlFriendlyName": "cartagena"
+      },
+      {
+         "id": 4253,
+         "name": "Logrono",
+         "urlFriendlyName": "logrono"
+      },
+      {
+         "id": 1565,
+         "name": "Seville",
+         "urlFriendlyName": "seville"
+      },
+      {
+         "id": 338,
+         "name": "Granada",
+         "urlFriendlyName": "granada"
+      },
+      {
+         "id": 519,
+         "name": "San Sebastian",
+         "urlFriendlyName": "san-sebastian"
+      },
+      {
+         "id": 3299,
+         "name": "Bilbao",
+         "urlFriendlyName": "bilbao"
+      },
+      {
+         "id": 2056,
+         "name": "Alicante",
+         "urlFriendlyName": "alicante"
+      },
+      {
+         "id": 473,
+         "name": "Cordoba",
+         "urlFriendlyName": "cordoba"
+      },
+      {
+         "id": 121,
+         "name": "Cadiz",
+         "urlFriendlyName": "cadiz"
+      },
+      {
+         "id": 2144,
+         "name": "Santiago de Compostela",
+         "urlFriendlyName": "santiago-de-compostela"
+      },
+      {
+         "id": 4456,
+         "name": "Pamplona",
+         "urlFriendlyName": "pamplona"
+      },
+      {
+         "id": 3325,
+         "name": "Leon",
+         "urlFriendlyName": "leon"
+      },
+      {
+         "id": 3584,
+         "name": "Santander",
+         "urlFriendlyName": "santander"
+      },
+      {
+         "id": 1327,
+         "name": "Nerja",
+         "urlFriendlyName": "nerja"
+      },
+      {
+         "id": 2949,
+         "name": "Ronda",
+         "urlFriendlyName": "ronda"
+      },
+      {
+         "id": 2142,
+         "name": "Tarifa",
+         "urlFriendlyName": "tarifa"
+      },
+      {
+         "id": 535,
+         "name": "Sitges",
+         "urlFriendlyName": "sitges"
+      },
+      {
+         "id": 2488,
+         "name": "Marbella",
+         "urlFriendlyName": "marbella"
+      },
+      {
+         "id": 5145,
+         "name": "Toledo",
+         "urlFriendlyName": "toledo"
+      },
+      {
+         "id": 2581,
+         "name": "Girona",
+         "urlFriendlyName": "girona"
+      },
+      {
+         "id": 1197,
+         "name": "Pontevedra",
+         "urlFriendlyName": "pontevedra"
+      },
+      {
+         "id": 2720,
+         "name": "Almeria",
+         "urlFriendlyName": "almeria"
+      },
+      {
+         "id": 2906,
+         "name": "Murcia",
+         "urlFriendlyName": "murcia"
+      },
+      {
+         "id": 2724,
+         "name": "Lloret de Mar",
+         "urlFriendlyName": "lloret-de-mar"
+      },
+      {
+         "id": 5538,
+         "name": "Aviles",
+         "urlFriendlyName": "aviles"
+      },
+      {
+         "id": 2475,
+         "name": "Estepona",
+         "urlFriendlyName": "estepona"
+      },
+      {
+         "id": 2151,
+         "name": "Calpe",
+         "urlFriendlyName": "calpe"
+      },
+      {
+         "id": 579,
+         "name": "L'Estartit",
+         "urlFriendlyName": "l-estartit"
+      },
+      {
+         "id": 1082,
+         "name": "Tenerife",
+         "urlFriendlyName": "tenerife"
+      },
+      {
+         "id": 329,
+         "name": "Palma de Mallorca",
+         "urlFriendlyName": "palma-de-mallorca"
+      },
+      {
+         "id": 9324,
+         "name": "Gran Canaria",
+         "urlFriendlyName": "gran-canaria"
+      },
+      {
+         "id": 979,
+         "name": "Ibiza",
+         "urlFriendlyName": "ibiza"
+      },
+      {
+         "id": 1507,
+         "name": "Mallorca",
+         "urlFriendlyName": "mallorca"
+      },
+      {
+         "id": 7769,
+         "name": "Las Palmas",
+         "urlFriendlyName": "las-palmas"
+      },
+      {
+         "id": 10149,
+         "name": "test",
+         "urlFriendlyName": "test"
+      },
+      {
+         "id": 4015,
+         "name": "Fuerteventura",
+         "urlFriendlyName": "fuerteventura"
+      },
+      {
+         "id": 6177,
+         "name": "Lanzarote",
+         "urlFriendlyName": "lanzarote"
+      },
+      {
+         "id": 9714,
+         "name": "Gijon",
+         "urlFriendlyName": "gijon"
+      },
+      {
+         "id": 8866,
+         "name": "El Prat de Llobregat",
+         "urlFriendlyName": "el-prat-de-llobregat"
+      },
+      {
+         "id": 10028,
+         "name": "La Palma",
+         "urlFriendlyName": "la-palma"
+      },
+      {
+         "id": 15582,
+         "name": "Haro",
+         "urlFriendlyName": "haro"
+      },
+      {
+         "id": 17370,
+         "name": "Carballo",
+         "urlFriendlyName": "carballo"
+      },
+      {
+         "id": 12925,
+         "name": "Sarria",
+         "urlFriendlyName": "sarria"
+      },
+      {
+         "id": 15042,
+         "name": "Muxia",
+         "urlFriendlyName": "muxia"
+      },
+      {
+         "id": 14817,
+         "name": "Corralejo",
+         "urlFriendlyName": "corralejo"
+      },
+      {
+         "id": 6697,
+         "name": "Zarautz",
+         "urlFriendlyName": "zarautz"
+      },
+      {
+         "id": 13104,
+         "name": "Cuenca",
+         "urlFriendlyName": "cuenca"
+      },
+      {
+         "id": 20706,
+         "name": "Can Picafort",
+         "urlFriendlyName": "can-picafort"
+      },
+      {
+         "id": 5808,
+         "name": "Alcala de Henares",
+         "urlFriendlyName": "alcala-de-henares"
+      },
+      {
+         "id": 11415,
+         "name": "Alhaurin el Grande",
+         "urlFriendlyName": "alhaurin-el-grande"
+      },
+      {
+         "id": 19792,
+         "name": "Benarraba",
+         "urlFriendlyName": "benarraba"
+      },
+      {
+         "id": 7696,
+         "name": "Ferrol",
+         "urlFriendlyName": "ferrol"
+      },
+      {
+         "id": 20673,
+         "name": "Chantada",
+         "urlFriendlyName": "chantada"
+      },
+      {
+         "id": 9639,
+         "name": "Montilla",
+         "urlFriendlyName": "montilla"
+      },
+      {
+         "id": 16329,
+         "name": "ESPOT",
+         "urlFriendlyName": "espot"
+      },
+      {
+         "id": 5587,
+         "name": "Ponferrada",
+         "urlFriendlyName": "ponferrada"
+      },
+      {
+         "id": 10955,
+         "name": "Cee",
+         "urlFriendlyName": "cee"
+      },
+      {
+         "id": 19551,
+         "name": "Santanyi",
+         "urlFriendlyName": "santanyi"
+      },
+      {
+         "id": 7224,
+         "name": "Cudillero",
+         "urlFriendlyName": "cudillero"
+      },
+      {
+         "id": 12803,
+         "name": "Lekeitio",
+         "urlFriendlyName": "lekeitio"
+      },
+      {
+         "id": 20592,
+         "name": "Cabo de Palos",
+         "urlFriendlyName": "cabo-de-palos"
+      },
+      {
+         "id": 16105,
+         "name": "Loredo",
+         "urlFriendlyName": "loredo"
+      },
+      {
+         "id": 10752,
+         "name": "Guadix",
+         "urlFriendlyName": "guadix"
+      },
+      {
+         "id": 19474,
+         "name": "Tragacete",
+         "urlFriendlyName": "tragacete"
+      },
+      {
+         "id": 3547,
+         "name": "Llanes Asturias",
+         "urlFriendlyName": "llanes-asturias"
+      },
+      {
+         "id": 12653,
+         "name": "Tui",
+         "urlFriendlyName": "tui"
+      },
+      {
+         "id": 20516,
+         "name": "Monforte de Lemos",
+         "urlFriendlyName": "monforte-de-lemos"
+      },
+      {
+         "id": 14762,
+         "name": "Llanca",
+         "urlFriendlyName": "llanca"
+      },
+      {
+         "id": 16060,
+         "name": "Villafranca del Bierzo",
+         "urlFriendlyName": "villafranca-del-bierzo"
+      },
+      {
+         "id": 2781,
+         "name": "Tossa de Mar",
+         "urlFriendlyName": "tossa-de-mar"
+      },
+      {
+         "id": 5536,
+         "name": "Asturias",
+         "urlFriendlyName": "asturias"
+      },
+      {
+         "id": 19007,
+         "name": "Manzanares el Real",
+         "urlFriendlyName": "manzanares-el-real"
+      },
+      {
+         "id": 12595,
+         "name": "La Orotava",
+         "urlFriendlyName": "la-orotava"
+      },
+      {
+         "id": 20364,
+         "name": "Budia",
+         "urlFriendlyName": "budia"
+      },
+      {
+         "id": 4205,
+         "name": "Alora",
+         "urlFriendlyName": "alora"
+      },
+      {
+         "id": 8660,
+         "name": "Mundaka",
+         "urlFriendlyName": "mundaka"
+      },
+      {
+         "id": 15983,
+         "name": "Igantzi",
+         "urlFriendlyName": "igantzi"
+      },
+      {
+         "id": 20760,
+         "name": "Picassent",
+         "urlFriendlyName": "picassent"
+      },
+      {
+         "id": 18901,
+         "name": "Aguilas",
+         "urlFriendlyName": "aguilas"
+      },
+      {
+         "id": 5820,
+         "name": "Conil de la Frontera",
+         "urlFriendlyName": "conil-de-la-frontera"
+      },
+      {
+         "id": 11941,
+         "name": "Ourense",
+         "urlFriendlyName": "ourense"
+      },
+      {
+         "id": 20195,
+         "name": "Hinojedo",
+         "urlFriendlyName": "hinojedo"
+      },
+      {
+         "id": 4105,
+         "name": "Oliva de Plasencia",
+         "urlFriendlyName": "oliva-de-plasencia"
+      },
+      {
+         "id": 13034,
+         "name": "Vilafranca del Penedes",
+         "urlFriendlyName": "vilafranca-del-penedes"
+      }
+   ],
+   "Sweden": [
+      {
+         "id": 143,
+         "name": "Stockholm",
+         "urlFriendlyName": "stockholm"
+      },
+      {
+         "id": 1530,
+         "name": "Gothenburg",
+         "urlFriendlyName": "gothenburg"
+      },
+      {
+         "id": 2881,
+         "name": "Uppsala",
+         "urlFriendlyName": "uppsala"
+      },
+      {
+         "id": 13007,
+         "name": "Salen",
+         "urlFriendlyName": "salen"
+      },
+      {
+         "id": 10878,
+         "name": "Oland",
+         "urlFriendlyName": "oland"
+      },
+      {
+         "id": 20744,
+         "name": "Urshult",
+         "urlFriendlyName": "urshult"
+      },
+      {
+         "id": 14972,
+         "name": "Orsa",
+         "urlFriendlyName": "orsa"
+      }
+   ],
+   "Switzerland": [
+      {
+         "id": 82,
+         "name": "Geneva",
+         "urlFriendlyName": "geneva"
+      },
+      {
+         "id": 3514,
+         "name": "Basel",
+         "urlFriendlyName": "basel"
+      },
+      {
+         "id": 340,
+         "name": "Zurich",
+         "urlFriendlyName": "zurich"
+      },
+      {
+         "id": 279,
+         "name": "Bern",
+         "urlFriendlyName": "bern"
+      },
+      {
+         "id": 33,
+         "name": "Interlaken",
+         "urlFriendlyName": "interlaken"
+      },
+      {
+         "id": 729,
+         "name": "Lucerne",
+         "urlFriendlyName": "lucerne"
+      },
+      {
+         "id": 3920,
+         "name": "Locarno",
+         "urlFriendlyName": "locarno"
+      },
+      {
+         "id": 4444,
+         "name": "Lugano",
+         "urlFriendlyName": "lugano"
+      },
+      {
+         "id": 3921,
+         "name": "Zermatt",
+         "urlFriendlyName": "zermatt"
+      },
+      {
+         "id": 3516,
+         "name": "Lausanne",
+         "urlFriendlyName": "lausanne"
+      },
+      {
+         "id": 1638,
+         "name": "Grindelwald",
+         "urlFriendlyName": "grindelwald"
+      },
+      {
+         "id": 1080,
+         "name": "Vevey",
+         "urlFriendlyName": "vevey"
+      },
+      {
+         "id": 5033,
+         "name": "Saas-Fee",
+         "urlFriendlyName": "saas-fee"
+      },
+      {
+         "id": 4906,
+         "name": "Baden",
+         "urlFriendlyName": "baden"
+      },
+      {
+         "id": 4009,
+         "name": "Montreux",
+         "urlFriendlyName": "montreux"
+      },
+      {
+         "id": 701,
+         "name": "Lauterbrunnen",
+         "urlFriendlyName": "lauterbrunnen"
+      },
+      {
+         "id": 3422,
+         "name": "St. Moritz",
+         "urlFriendlyName": "st-moritz"
+      },
+      {
+         "id": 3966,
+         "name": "Davos",
+         "urlFriendlyName": "davos"
+      },
+      {
+         "id": 20590,
+         "name": "Saint-Luc",
+         "urlFriendlyName": "saint-luc"
+      },
+      {
+         "id": 20122,
+         "name": "Lenzerheide -Valbella",
+         "urlFriendlyName": "lenzerheide-valbella"
+      },
+      {
+         "id": 7516,
+         "name": "Gimmelwald",
+         "urlFriendlyName": "gimmelwald"
+      },
+      {
+         "id": 19328,
+         "name": "Glarus Sud",
+         "urlFriendlyName": "glarus-sud"
+      },
+      {
+         "id": 5937,
+         "name": "Kandersteg",
+         "urlFriendlyName": "kandersteg"
+      },
+      {
+         "id": 9220,
+         "name": "Rapperswil-Jona",
+         "urlFriendlyName": "rapperswil-jona"
+      },
+      {
+         "id": 3238,
+         "name": "Braunwald",
+         "urlFriendlyName": "braunwald"
+      },
+      {
+         "id": 6244,
+         "name": "Saanen",
+         "urlFriendlyName": "saanen"
+      },
+      {
+         "id": 14216,
+         "name": "Brugg",
+         "urlFriendlyName": "brugg"
+      },
+      {
+         "id": 6970,
+         "name": "Stein am Rhein",
+         "urlFriendlyName": "stein-am-rhein"
+      },
+      {
+         "id": 18224,
+         "name": "Scuol",
+         "urlFriendlyName": "scuol"
+      },
+      {
+         "id": 9183,
+         "name": "Beinwil am See",
+         "urlFriendlyName": "beinwil-am-see"
+      },
+      {
+         "id": 20326,
+         "name": "Lenk im Simmental",
+         "urlFriendlyName": "lenk-im-simmental"
+      },
+      {
+         "id": 2108,
+         "name": "St. Gallen",
+         "urlFriendlyName": "st-gallen"
+      },
+      {
+         "id": 6175,
+         "name": "Pontresina",
+         "urlFriendlyName": "pontresina"
+      },
+      {
+         "id": 12300,
+         "name": "Schwyz",
+         "urlFriendlyName": "schwyz"
+      },
+      {
+         "id": 6898,
+         "name": "Olivone",
+         "urlFriendlyName": "olivone"
+      },
+      {
+         "id": 17673,
+         "name": "Auressio",
+         "urlFriendlyName": "auressio"
+      },
+      {
+         "id": 9058,
+         "name": "Chur",
+         "urlFriendlyName": "chur"
+      },
+      {
+         "id": 2027,
+         "name": "Zweisimmen",
+         "urlFriendlyName": "zweisimmen"
+      },
+      {
+         "id": 6161,
+         "name": "Celerina",
+         "urlFriendlyName": "celerina"
+      },
+      {
+         "id": 10794,
+         "name": "Laax",
+         "urlFriendlyName": "laax"
+      },
+      {
+         "id": 6816,
+         "name": "Crans-Montana",
+         "urlFriendlyName": "crans-montana"
+      },
+      {
+         "id": 14220,
+         "name": "Mariastein",
+         "urlFriendlyName": "mariastein"
+      },
+      {
+         "id": 8649,
+         "name": "Brienz",
+         "urlFriendlyName": "brienz"
+      },
+      {
+         "id": 20109,
+         "name": "Bourg Saint Pierre",
+         "urlFriendlyName": "bourg-saint-pierre"
+      },
+      {
+         "id": 1662,
+         "name": "Biel-Bienne",
+         "urlFriendlyName": "biel-bienne"
+      },
+      {
+         "id": 6109,
+         "name": "Avenches",
+         "urlFriendlyName": "avenches"
+      },
+      {
+         "id": 9336,
+         "name": "Solothurn",
+         "urlFriendlyName": "solothurn"
+      },
+      {
+         "id": 20679,
+         "name": "Scudellate",
+         "urlFriendlyName": "scudellate"
+      },
+      {
+         "id": 6783,
+         "name": "Aurigeno",
+         "urlFriendlyName": "aurigeno"
+      },
+      {
+         "id": 14219,
+         "name": "Leissigen",
+         "urlFriendlyName": "leissigen"
+      },
+      {
+         "id": 8358,
+         "name": "Delemont",
+         "urlFriendlyName": "delemont"
+      },
+      {
+         "id": 19750,
+         "name": "Burgdorf",
+         "urlFriendlyName": "burgdorf"
+      },
+      {
+         "id": 5990,
+         "name": "Winterthur",
+         "urlFriendlyName": "winterthur"
+      },
+      {
+         "id": 9227,
+         "name": "Schaffhausen",
+         "urlFriendlyName": "schaffhausen"
+      },
+      {
+         "id": 20675,
+         "name": "Urnasch",
+         "urlFriendlyName": "urnasch"
+      },
+      {
+         "id": 6354,
+         "name": "Zug",
+         "urlFriendlyName": "zug"
+      },
+      {
+         "id": 14218,
+         "name": "Kreuzlingen",
+         "urlFriendlyName": "kreuzlingen"
+      }
+   ],
+   "Turkey": [
+      {
+         "id": 2812,
+         "name": "Ankara",
+         "urlFriendlyName": "ankara"
+      },
+      {
+         "id": 51,
+         "name": "Istanbul",
+         "urlFriendlyName": "istanbul"
+      },
+      {
+         "id": 256,
+         "name": "Antalya",
+         "urlFriendlyName": "antalya"
+      },
+      {
+         "id": 408,
+         "name": "Fethiye",
+         "urlFriendlyName": "fethiye"
+      },
+      {
+         "id": 719,
+         "name": "Izmir",
+         "urlFriendlyName": "izmir"
+      },
+      {
+         "id": 3056,
+         "name": "Bodrum",
+         "urlFriendlyName": "bodrum"
+      },
+      {
+         "id": 909,
+         "name": "Nevsehir",
+         "urlFriendlyName": "nevsehir"
+      },
+      {
+         "id": 426,
+         "name": "Marmaris",
+         "urlFriendlyName": "marmaris"
+      },
+      {
+         "id": 2258,
+         "name": "Urgup",
+         "urlFriendlyName": "urgup"
+      },
+      {
+         "id": 1910,
+         "name": "Goreme",
+         "urlFriendlyName": "goreme"
+      },
+      {
+         "id": 255,
+         "name": "Selcuk",
+         "urlFriendlyName": "selcuk"
+      },
+      {
+         "id": 3356,
+         "name": "Pamukkale",
+         "urlFriendlyName": "pamukkale"
+      },
+      {
+         "id": 2311,
+         "name": "Kas",
+         "urlFriendlyName": "kas"
+      },
+      {
+         "id": 1289,
+         "name": "Olympos",
+         "urlFriendlyName": "olympos"
+      },
+      {
+         "id": 1090,
+         "name": "Egirdir",
+         "urlFriendlyName": "egirdir"
+      },
+      {
+         "id": 14908,
+         "name": "Safranbolu",
+         "urlFriendlyName": "safranbolu"
+      },
+      {
+         "id": 2903,
+         "name": "Trabzon",
+         "urlFriendlyName": "trabzon"
+      },
+      {
+         "id": 11075,
+         "name": "Konya",
+         "urlFriendlyName": "konya"
+      },
+      {
+         "id": 10762,
+         "name": "Eskisehir",
+         "urlFriendlyName": "eskisehir"
+      },
+      {
+         "id": 9852,
+         "name": "Antakya",
+         "urlFriendlyName": "antakya"
+      },
+      {
+         "id": 16677,
+         "name": "Gazipasa",
+         "urlFriendlyName": "gazipasa"
+      },
+      {
+         "id": 6733,
+         "name": "Patara",
+         "urlFriendlyName": "patara"
+      },
+      {
+         "id": 15835,
+         "name": "Edirne",
+         "urlFriendlyName": "edirne"
+      }
+   ],
+   "Ukraine": [
+      {
+         "id": 3347,
+         "name": "Kiev",
+         "urlFriendlyName": "kiev"
+      },
+      {
+         "id": 1061,
+         "name": "Lviv",
+         "urlFriendlyName": "lviv"
+      },
+      {
+         "id": 2979,
+         "name": "Odessa",
+         "urlFriendlyName": "odessa"
+      },
+      {
+         "id": 17973,
+         "name": "Kharkiv",
+         "urlFriendlyName": "kharkiv"
+      },
+      {
+         "id": 3417,
+         "name": "Uzhgorod",
+         "urlFriendlyName": "uzhgorod"
+      },
+      {
+         "id": 11267,
+         "name": "Ivano-Frankivsk",
+         "urlFriendlyName": "ivano-frankivsk"
+      },
+      {
+         "id": 9293,
+         "name": "Poltava",
+         "urlFriendlyName": "poltava"
+      },
+      {
+         "id": 7477,
+         "name": "Zaporozhye",
+         "urlFriendlyName": "zaporozhye"
+      },
+      {
+         "id": 19568,
+         "name": "Khmelnytskyi",
+         "urlFriendlyName": "khmelnytskyi"
+      },
+      {
+         "id": 7311,
+         "name": "Chernivtsi",
+         "urlFriendlyName": "chernivtsi"
+      },
+      {
+         "id": 18869,
+         "name": "Rivne",
+         "urlFriendlyName": "rivne"
+      }
+   ],
+   "Wales": [
+      {
+         "id": 1687,
+         "name": "Cardiff",
+         "urlFriendlyName": "cardiff"
+      },
+      {
+         "id": 213,
+         "name": "Caernarfon",
+         "urlFriendlyName": "caernarfon"
+      },
+      {
+         "id": 1685,
+         "name": "Swansea",
+         "urlFriendlyName": "swansea"
+      },
+      {
+         "id": 3094,
+         "name": "Betws-y-Coed",
+         "urlFriendlyName": "betws-y-coed"
+      },
+      {
+         "id": 2822,
+         "name": "Llandudno",
+         "urlFriendlyName": "llandudno"
+      },
+      {
+         "id": 1909,
+         "name": "Conwy",
+         "urlFriendlyName": "conwy"
+      }
+   ]
+}

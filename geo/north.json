@@ -1,0 +1,1576 @@
+{
+   "Antigua And Barbuda": [
+      {
+         "id": 1597,
+         "name": "English Harbour",
+         "urlFriendlyName": "english-harbour"
+      }
+   ],
+   "Bahamas": [
+      {
+         "id": 192,
+         "name": "Nassau",
+         "urlFriendlyName": "nassau"
+      }
+   ],
+   "Belize": [
+      {
+         "id": 875,
+         "name": "San Ignacio",
+         "urlFriendlyName": "san-ignacio"
+      },
+      {
+         "id": 2286,
+         "name": "Caye Caulker",
+         "urlFriendlyName": "caye-caulker"
+      },
+      {
+         "id": 2243,
+         "name": "San Pedro",
+         "urlFriendlyName": "san-pedro"
+      },
+      {
+         "id": 3153,
+         "name": "Placencia",
+         "urlFriendlyName": "placencia"
+      },
+      {
+         "id": 11140,
+         "name": "Hopkins",
+         "urlFriendlyName": "hopkins"
+      },
+      {
+         "id": 16985,
+         "name": "Orange Walk",
+         "urlFriendlyName": "orange-walk"
+      },
+      {
+         "id": 5111,
+         "name": "Punta Gorda",
+         "urlFriendlyName": "punta-gorda"
+      }
+   ],
+   "Canada": [
+      {
+         "id": 795,
+         "name": "Ottawa",
+         "urlFriendlyName": "ottawa"
+      },
+      {
+         "id": 67,
+         "name": "Toronto",
+         "urlFriendlyName": "toronto"
+      },
+      {
+         "id": 417,
+         "name": "Kelowna",
+         "urlFriendlyName": "kelowna"
+      },
+      {
+         "id": 1527,
+         "name": "Victoria",
+         "urlFriendlyName": "victoria"
+      },
+      {
+         "id": 974,
+         "name": "Montreal",
+         "urlFriendlyName": "montreal"
+      },
+      {
+         "id": 4674,
+         "name": "Banff",
+         "urlFriendlyName": "banff"
+      },
+      {
+         "id": 65,
+         "name": "Vancouver",
+         "urlFriendlyName": "vancouver"
+      },
+      {
+         "id": 2316,
+         "name": "Jasper",
+         "urlFriendlyName": "jasper"
+      },
+      {
+         "id": 1242,
+         "name": "Quebec",
+         "urlFriendlyName": "quebec"
+      },
+      {
+         "id": 1041,
+         "name": "Whistler",
+         "urlFriendlyName": "whistler"
+      },
+      {
+         "id": 1154,
+         "name": "Calgary",
+         "urlFriendlyName": "calgary"
+      },
+      {
+         "id": 1666,
+         "name": "Edmonton",
+         "urlFriendlyName": "edmonton"
+      },
+      {
+         "id": 2448,
+         "name": "Squamish",
+         "urlFriendlyName": "squamish"
+      },
+      {
+         "id": 1228,
+         "name": "Halifax",
+         "urlFriendlyName": "halifax"
+      },
+      {
+         "id": 413,
+         "name": "Invermere",
+         "urlFriendlyName": "invermere"
+      },
+      {
+         "id": 334,
+         "name": "Fernie",
+         "urlFriendlyName": "fernie"
+      },
+      {
+         "id": 1426,
+         "name": "Thunder Bay",
+         "urlFriendlyName": "thunder-bay"
+      },
+      {
+         "id": 3663,
+         "name": "Golden",
+         "urlFriendlyName": "golden"
+      },
+      {
+         "id": 1264,
+         "name": "Nanaimo",
+         "urlFriendlyName": "nanaimo"
+      },
+      {
+         "id": 1595,
+         "name": "Rossland",
+         "urlFriendlyName": "rossland"
+      },
+      {
+         "id": 1593,
+         "name": "Penticton",
+         "urlFriendlyName": "penticton"
+      },
+      {
+         "id": 6445,
+         "name": "St. John's",
+         "urlFriendlyName": "st-john-s"
+      },
+      {
+         "id": 13286,
+         "name": "Gaspe",
+         "urlFriendlyName": "gaspe"
+      },
+      {
+         "id": 6442,
+         "name": "Sunshine Coast",
+         "urlFriendlyName": "sunshine-coast"
+      },
+      {
+         "id": 1493,
+         "name": "Vancouver Island",
+         "urlFriendlyName": "vancouver-island"
+      },
+      {
+         "id": 12683,
+         "name": "Matane",
+         "urlFriendlyName": "matane"
+      },
+      {
+         "id": 1952,
+         "name": "Radium Hot Springs",
+         "urlFriendlyName": "radium-hot-springs"
+      },
+      {
+         "id": 9082,
+         "name": "Cape Breton Island",
+         "urlFriendlyName": "cape-breton-island"
+      },
+      {
+         "id": 18585,
+         "name": "Magog",
+         "urlFriendlyName": "magog"
+      },
+      {
+         "id": 8668,
+         "name": "Kananaskis",
+         "urlFriendlyName": "kananaskis"
+      },
+      {
+         "id": 18535,
+         "name": "Newfoundland",
+         "urlFriendlyName": "newfoundland"
+      },
+      {
+         "id": 6459,
+         "name": "Hamilton",
+         "urlFriendlyName": "hamilton"
+      },
+      {
+         "id": 16053,
+         "name": "La Malbaie",
+         "urlFriendlyName": "la-malbaie"
+      },
+      {
+         "id": 2317,
+         "name": "Nordegg",
+         "urlFriendlyName": "nordegg"
+      }
+   ],
+   "Costa Rica": [
+      {
+         "id": 2630,
+         "name": "Liberia",
+         "urlFriendlyName": "liberia"
+      },
+      {
+         "id": 152,
+         "name": "San Jose",
+         "urlFriendlyName": "san-jose"
+      },
+      {
+         "id": 1821,
+         "name": "Monteverde",
+         "urlFriendlyName": "monteverde"
+      },
+      {
+         "id": 3168,
+         "name": "Tamarindo",
+         "urlFriendlyName": "tamarindo"
+      },
+      {
+         "id": 2538,
+         "name": "Jaco",
+         "urlFriendlyName": "jaco"
+      },
+      {
+         "id": 1002,
+         "name": "Alajuela",
+         "urlFriendlyName": "alajuela"
+      },
+      {
+         "id": 438,
+         "name": "Quepos",
+         "urlFriendlyName": "quepos"
+      },
+      {
+         "id": 374,
+         "name": "Tortuguero",
+         "urlFriendlyName": "tortuguero"
+      },
+      {
+         "id": 16654,
+         "name": "Puerto Viejo de Talamanca",
+         "urlFriendlyName": "puerto-viejo-de-talamanca"
+      },
+      {
+         "id": 950,
+         "name": "La Fortuna",
+         "urlFriendlyName": "la-fortuna"
+      },
+      {
+         "id": 2856,
+         "name": "Santa Teresa",
+         "urlFriendlyName": "santa-teresa"
+      },
+      {
+         "id": 12561,
+         "name": "Drake Bay",
+         "urlFriendlyName": "drake-bay"
+      },
+      {
+         "id": 326,
+         "name": "Manuel Antonio",
+         "urlFriendlyName": "manuel-antonio"
+      },
+      {
+         "id": 749,
+         "name": "Playa Samara",
+         "urlFriendlyName": "playa-samara"
+      },
+      {
+         "id": 1452,
+         "name": "Uvita",
+         "urlFriendlyName": "uvita"
+      },
+      {
+         "id": 604,
+         "name": "Cahuita",
+         "urlFriendlyName": "cahuita"
+      },
+      {
+         "id": 1192,
+         "name": "Montezuma",
+         "urlFriendlyName": "montezuma"
+      },
+      {
+         "id": 6079,
+         "name": "Nosara",
+         "urlFriendlyName": "nosara"
+      },
+      {
+         "id": 7871,
+         "name": "Puntarenas",
+         "urlFriendlyName": "puntarenas"
+      },
+      {
+         "id": 10648,
+         "name": "Turrialba",
+         "urlFriendlyName": "turrialba"
+      },
+      {
+         "id": 10505,
+         "name": "Golfito",
+         "urlFriendlyName": "golfito"
+      },
+      {
+         "id": 8000,
+         "name": "Dominical",
+         "urlFriendlyName": "dominical"
+      },
+      {
+         "id": 20651,
+         "name": "Sierpe",
+         "urlFriendlyName": "sierpe"
+      },
+      {
+         "id": 12935,
+         "name": "Puerto Jimenez",
+         "urlFriendlyName": "puerto-jimenez"
+      },
+      {
+         "id": 18135,
+         "name": "La Virgen",
+         "urlFriendlyName": "la-virgen"
+      },
+      {
+         "id": 17406,
+         "name": "Orosi",
+         "urlFriendlyName": "orosi"
+      },
+      {
+         "id": 16252,
+         "name": "Marbella",
+         "urlFriendlyName": "marbella"
+      },
+      {
+         "id": 2686,
+         "name": "San Ramon",
+         "urlFriendlyName": "san-ramon"
+      },
+      {
+         "id": 1190,
+         "name": "Playa Hermosa",
+         "urlFriendlyName": "playa-hermosa"
+      },
+      {
+         "id": 13484,
+         "name": "Arenal",
+         "urlFriendlyName": "arenal"
+      }
+   ],
+   "Cuba": [
+      {
+         "id": 458,
+         "name": "Havana",
+         "urlFriendlyName": "havana"
+      },
+      {
+         "id": 3845,
+         "name": "Trinidad",
+         "urlFriendlyName": "trinidad"
+      },
+      {
+         "id": 3964,
+         "name": "Vinales",
+         "urlFriendlyName": "vinales"
+      },
+      {
+         "id": 19262,
+         "name": "Vinales",
+         "urlFriendlyName": "vinales"
+      },
+      {
+         "id": 2264,
+         "name": "Cienfuegos",
+         "urlFriendlyName": "cienfuegos"
+      },
+      {
+         "id": 2256,
+         "name": "Santa Clara",
+         "urlFriendlyName": "santa-clara"
+      },
+      {
+         "id": 17974,
+         "name": "Playa Larga",
+         "urlFriendlyName": "playa-larga"
+      },
+      {
+         "id": 2285,
+         "name": "Pinar del Rio",
+         "urlFriendlyName": "pinar-del-rio"
+      },
+      {
+         "id": 7089,
+         "name": "Holguin",
+         "urlFriendlyName": "holguin"
+      }
+   ],
+   "Dominican Republic": [
+      {
+         "id": 443,
+         "name": "Santo Domingo",
+         "urlFriendlyName": "santo-domingo"
+      },
+      {
+         "id": 544,
+         "name": "Las Terrenas",
+         "urlFriendlyName": "las-terrenas"
+      },
+      {
+         "id": 342,
+         "name": "Cabarete",
+         "urlFriendlyName": "cabarete"
+      },
+      {
+         "id": 11806,
+         "name": "Punta Cana",
+         "urlFriendlyName": "punta-cana"
+      },
+      {
+         "id": 15437,
+         "name": "Boca Chica",
+         "urlFriendlyName": "boca-chica"
+      },
+      {
+         "id": 10458,
+         "name": "Santiago",
+         "urlFriendlyName": "santiago"
+      },
+      {
+         "id": 8513,
+         "name": "Samana",
+         "urlFriendlyName": "samana"
+      },
+      {
+         "id": 7323,
+         "name": "Las Galeras",
+         "urlFriendlyName": "las-galeras"
+      }
+   ],
+   "El Salvador": [
+      {
+         "id": 616,
+         "name": "San Salvador",
+         "urlFriendlyName": "san-salvador"
+      },
+      {
+         "id": 7433,
+         "name": "Santa Ana",
+         "urlFriendlyName": "santa-ana"
+      },
+      {
+         "id": 13499,
+         "name": "El Sunzal",
+         "urlFriendlyName": "el-sunzal"
+      },
+      {
+         "id": 12442,
+         "name": "San Miguel",
+         "urlFriendlyName": "san-miguel"
+      },
+      {
+         "id": 3107,
+         "name": "Juayua",
+         "urlFriendlyName": "juayua"
+      },
+      {
+         "id": 20716,
+         "name": "Ahuachapan",
+         "urlFriendlyName": "ahuachapan"
+      },
+      {
+         "id": 19732,
+         "name": "Jicalapa",
+         "urlFriendlyName": "jicalapa"
+      }
+   ],
+   "Guadeloupe": [
+      {
+         "id": 7771,
+         "name": "Deshaies",
+         "urlFriendlyName": "deshaies"
+      },
+      {
+         "id": 1411,
+         "name": "Pointe Noire",
+         "urlFriendlyName": "pointe-noire"
+      },
+      {
+         "id": 20027,
+         "name": "Pointe-a-Pitre",
+         "urlFriendlyName": "pointe-a-pitre"
+      }
+   ],
+   "Guatemala": [
+      {
+         "id": 672,
+         "name": "Guatemala City",
+         "urlFriendlyName": "guatemala-city"
+      },
+      {
+         "id": 617,
+         "name": "Antigua",
+         "urlFriendlyName": "antigua"
+      },
+      {
+         "id": 11432,
+         "name": "Lanquin",
+         "urlFriendlyName": "lanquin"
+      },
+      {
+         "id": 3767,
+         "name": "San Pedro la Laguna",
+         "urlFriendlyName": "san-pedro-la-laguna"
+      },
+      {
+         "id": 8365,
+         "name": "Flores",
+         "urlFriendlyName": "flores"
+      },
+      {
+         "id": 1112,
+         "name": "Panajachel",
+         "urlFriendlyName": "panajachel"
+      },
+      {
+         "id": 5673,
+         "name": "Lake Atitlan",
+         "urlFriendlyName": "lake-atitlan"
+      },
+      {
+         "id": 5535,
+         "name": "Quetzaltenango",
+         "urlFriendlyName": "quetzaltenango"
+      },
+      {
+         "id": 16246,
+         "name": "El Paredon",
+         "urlFriendlyName": "el-paredon"
+      },
+      {
+         "id": 17090,
+         "name": "Semuc Champey",
+         "urlFriendlyName": "semuc-champey"
+      },
+      {
+         "id": 3893,
+         "name": "El Remate",
+         "urlFriendlyName": "el-remate"
+      },
+      {
+         "id": 4434,
+         "name": "Coban",
+         "urlFriendlyName": "coban"
+      },
+      {
+         "id": 8826,
+         "name": "Rio Dulce",
+         "urlFriendlyName": "rio-dulce"
+      },
+      {
+         "id": 19728,
+         "name": "San Juan La Laguna",
+         "urlFriendlyName": "san-juan-la-laguna"
+      }
+   ],
+   "Honduras": [
+      {
+         "id": 1232,
+         "name": "Tegucigalpa",
+         "urlFriendlyName": "tegucigalpa"
+      },
+      {
+         "id": 1273,
+         "name": "Roatan",
+         "urlFriendlyName": "roatan"
+      },
+      {
+         "id": 1341,
+         "name": "San Pedro Sula",
+         "urlFriendlyName": "san-pedro-sula"
+      },
+      {
+         "id": 1235,
+         "name": "La Ceiba",
+         "urlFriendlyName": "la-ceiba"
+      },
+      {
+         "id": 13058,
+         "name": "Utila",
+         "urlFriendlyName": "utila"
+      },
+      {
+         "id": 3997,
+         "name": "Copan Ruinas",
+         "urlFriendlyName": "copan-ruinas"
+      },
+      {
+         "id": 14699,
+         "name": "Lago de Yojoa",
+         "urlFriendlyName": "lago-de-yojoa"
+      },
+      {
+         "id": 14537,
+         "name": "Guanaja",
+         "urlFriendlyName": "guanaja"
+      }
+   ],
+   "Jamaica": [
+      {
+         "id": 1775,
+         "name": "Kingston",
+         "urlFriendlyName": "kingston"
+      },
+      {
+         "id": 578,
+         "name": "Montego Bay",
+         "urlFriendlyName": "montego-bay"
+      },
+      {
+         "id": 1362,
+         "name": "Port Antonio",
+         "urlFriendlyName": "port-antonio"
+      },
+      {
+         "id": 549,
+         "name": "Negril",
+         "urlFriendlyName": "negril"
+      },
+      {
+         "id": 17543,
+         "name": "Brighton",
+         "urlFriendlyName": "brighton"
+      },
+      {
+         "id": 15986,
+         "name": "Blue Mountains",
+         "urlFriendlyName": "blue-mountains"
+      }
+   ],
+   "Mexico": [
+      {
+         "id": 53,
+         "name": "Mexico City",
+         "urlFriendlyName": "mexico-city"
+      },
+      {
+         "id": 49,
+         "name": "Cancun",
+         "urlFriendlyName": "cancun"
+      },
+      {
+         "id": 226,
+         "name": "Tulum",
+         "urlFriendlyName": "tulum"
+      },
+      {
+         "id": 209,
+         "name": "Playa del Carmen",
+         "urlFriendlyName": "playa-del-carmen"
+      },
+      {
+         "id": 1170,
+         "name": "San Cristobal de las Casas",
+         "urlFriendlyName": "san-cristobal-de-las-casas"
+      },
+      {
+         "id": 230,
+         "name": "Oaxaca",
+         "urlFriendlyName": "oaxaca"
+      },
+      {
+         "id": 2640,
+         "name": "Guadalajara",
+         "urlFriendlyName": "guadalajara"
+      },
+      {
+         "id": 225,
+         "name": "Merida",
+         "urlFriendlyName": "merida"
+      },
+      {
+         "id": 1013,
+         "name": "Puerto Vallarta",
+         "urlFriendlyName": "puerto-vallarta"
+      },
+      {
+         "id": 2606,
+         "name": "Puebla",
+         "urlFriendlyName": "puebla"
+      },
+      {
+         "id": 759,
+         "name": "Queretaro",
+         "urlFriendlyName": "queretaro"
+      },
+      {
+         "id": 1000,
+         "name": "Cozumel",
+         "urlFriendlyName": "cozumel"
+      },
+      {
+         "id": 2593,
+         "name": "Guanajuato",
+         "urlFriendlyName": "guanajuato"
+      },
+      {
+         "id": 233,
+         "name": "San Miguel de Allende",
+         "urlFriendlyName": "san-miguel-de-allende"
+      },
+      {
+         "id": 961,
+         "name": "Acapulco",
+         "urlFriendlyName": "acapulco"
+      },
+      {
+         "id": 1454,
+         "name": "Morelia",
+         "urlFriendlyName": "morelia"
+      },
+      {
+         "id": 2584,
+         "name": "Puerto Morelos",
+         "urlFriendlyName": "puerto-morelos"
+      },
+      {
+         "id": 929,
+         "name": "La Paz",
+         "urlFriendlyName": "la-paz"
+      },
+      {
+         "id": 1198,
+         "name": "Isla Mujeres",
+         "urlFriendlyName": "isla-mujeres"
+      },
+      {
+         "id": 5543,
+         "name": "Chihuahua",
+         "urlFriendlyName": "chihuahua"
+      },
+      {
+         "id": 3110,
+         "name": "San Jose del Cabo",
+         "urlFriendlyName": "san-jose-del-cabo"
+      },
+      {
+         "id": 673,
+         "name": "Cabo San Lucas",
+         "urlFriendlyName": "cabo-san-lucas"
+      },
+      {
+         "id": 229,
+         "name": "Palenque",
+         "urlFriendlyName": "palenque"
+      },
+      {
+         "id": 2400,
+         "name": "Xalapa",
+         "urlFriendlyName": "xalapa"
+      },
+      {
+         "id": 2234,
+         "name": "Monterrey",
+         "urlFriendlyName": "monterrey"
+      },
+      {
+         "id": 3024,
+         "name": "Tijuana",
+         "urlFriendlyName": "tijuana"
+      },
+      {
+         "id": 997,
+         "name": "Ensenada",
+         "urlFriendlyName": "ensenada"
+      },
+      {
+         "id": 2948,
+         "name": "Mazatlan",
+         "urlFriendlyName": "mazatlan"
+      },
+      {
+         "id": 1508,
+         "name": "Puerto Escondido",
+         "urlFriendlyName": "puerto-escondido"
+      },
+      {
+         "id": 19276,
+         "name": "Cancun",
+         "urlFriendlyName": "cancun"
+      },
+      {
+         "id": 996,
+         "name": "Bacalar",
+         "urlFriendlyName": "bacalar"
+      },
+      {
+         "id": 240,
+         "name": "Valladolid",
+         "urlFriendlyName": "valladolid"
+      },
+      {
+         "id": 7414,
+         "name": "Holbox Island",
+         "urlFriendlyName": "holbox-island"
+      },
+      {
+         "id": 9971,
+         "name": "Sayulita",
+         "urlFriendlyName": "sayulita"
+      },
+      {
+         "id": 9134,
+         "name": "Tepoztlan",
+         "urlFriendlyName": "tepoztlan"
+      },
+      {
+         "id": 1449,
+         "name": "Campeche",
+         "urlFriendlyName": "campeche"
+      },
+      {
+         "id": 8793,
+         "name": "Tuxtla Gutierrez",
+         "urlFriendlyName": "tuxtla-gutierrez"
+      },
+      {
+         "id": 6927,
+         "name": "Chetumal",
+         "urlFriendlyName": "chetumal"
+      },
+      {
+         "id": 10318,
+         "name": "Mazunte",
+         "urlFriendlyName": "mazunte"
+      },
+      {
+         "id": 7858,
+         "name": "San Luis Potosi",
+         "urlFriendlyName": "san-luis-potosi"
+      },
+      {
+         "id": 7551,
+         "name": "Veracruz",
+         "urlFriendlyName": "veracruz"
+      },
+      {
+         "id": 3355,
+         "name": "Mahahual",
+         "urlFriendlyName": "mahahual"
+      },
+      {
+         "id": 17222,
+         "name": "El Cuyo",
+         "urlFriendlyName": "el-cuyo"
+      },
+      {
+         "id": 7115,
+         "name": "Huatulco",
+         "urlFriendlyName": "huatulco"
+      },
+      {
+         "id": 11361,
+         "name": "Leon",
+         "urlFriendlyName": "leon"
+      },
+      {
+         "id": 19289,
+         "name": "Comala",
+         "urlFriendlyName": "comala"
+      },
+      {
+         "id": 11358,
+         "name": "La Ventana",
+         "urlFriendlyName": "la-ventana"
+      },
+      {
+         "id": 7759,
+         "name": "La Cruz de Huanacaxtle",
+         "urlFriendlyName": "la-cruz-de-huanacaxtle"
+      },
+      {
+         "id": 16364,
+         "name": "Pachuca",
+         "urlFriendlyName": "pachuca"
+      },
+      {
+         "id": 9457,
+         "name": "Akumal",
+         "urlFriendlyName": "akumal"
+      },
+      {
+         "id": 20548,
+         "name": "San Jose del Pacifico",
+         "urlFriendlyName": "san-jose-del-pacifico"
+      },
+      {
+         "id": 12283,
+         "name": "Xico",
+         "urlFriendlyName": "xico"
+      },
+      {
+         "id": 10220,
+         "name": "Xilitla",
+         "urlFriendlyName": "xilitla"
+      },
+      {
+         "id": 19677,
+         "name": "Tepic",
+         "urlFriendlyName": "tepic"
+      },
+      {
+         "id": 8086,
+         "name": "Aguascalientes",
+         "urlFriendlyName": "aguascalientes"
+      },
+      {
+         "id": 17016,
+         "name": "Punta de Mita",
+         "urlFriendlyName": "punta-de-mita"
+      },
+      {
+         "id": 16437,
+         "name": "Ciudad Valles",
+         "urlFriendlyName": "ciudad-valles"
+      },
+      {
+         "id": 9534,
+         "name": "Valle de Bravo",
+         "urlFriendlyName": "valle-de-bravo"
+      },
+      {
+         "id": 6795,
+         "name": "Cordoba",
+         "urlFriendlyName": "cordoba"
+      },
+      {
+         "id": 10666,
+         "name": "Todos Santos",
+         "urlFriendlyName": "todos-santos"
+      },
+      {
+         "id": 2780,
+         "name": "Progreso",
+         "urlFriendlyName": "progreso"
+      },
+      {
+         "id": 19145,
+         "name": "tizimin",
+         "urlFriendlyName": "tizimin"
+      },
+      {
+         "id": 10389,
+         "name": "Troncones",
+         "urlFriendlyName": "troncones"
+      },
+      {
+         "id": 13101,
+         "name": "Zipolite",
+         "urlFriendlyName": "zipolite"
+      },
+      {
+         "id": 17501,
+         "name": "Bernal",
+         "urlFriendlyName": "bernal"
+      }
+   ],
+   "Nicaragua": [
+      {
+         "id": 1111,
+         "name": "Managua",
+         "urlFriendlyName": "managua"
+      },
+      {
+         "id": 10539,
+         "name": "Ometepe Island",
+         "urlFriendlyName": "ometepe-island"
+      },
+      {
+         "id": 540,
+         "name": "San Juan Del Sur",
+         "urlFriendlyName": "san-juan-del-sur"
+      },
+      {
+         "id": 2978,
+         "name": "Leon",
+         "urlFriendlyName": "leon"
+      },
+      {
+         "id": 5286,
+         "name": "Granada",
+         "urlFriendlyName": "granada"
+      },
+      {
+         "id": 12964,
+         "name": "Popoyo",
+         "urlFriendlyName": "popoyo"
+      },
+      {
+         "id": 17455,
+         "name": "Las Penitas",
+         "urlFriendlyName": "las-penitas"
+      },
+      {
+         "id": 10383,
+         "name": "Rivas",
+         "urlFriendlyName": "rivas"
+      },
+      {
+         "id": 17863,
+         "name": "Jiquilillo",
+         "urlFriendlyName": "jiquilillo"
+      },
+      {
+         "id": 17137,
+         "name": "Bluefields",
+         "urlFriendlyName": "bluefields"
+      },
+      {
+         "id": 5165,
+         "name": "Corn Island",
+         "urlFriendlyName": "corn-island"
+      },
+      {
+         "id": 12986,
+         "name": "Esteli",
+         "urlFriendlyName": "esteli"
+      },
+      {
+         "id": 19665,
+         "name": "Aposentillo",
+         "urlFriendlyName": "aposentillo"
+      },
+      {
+         "id": 2107,
+         "name": "Matagalpa",
+         "urlFriendlyName": "matagalpa"
+      }
+   ],
+   "Panama": [
+      {
+         "id": 436,
+         "name": "Panama City",
+         "urlFriendlyName": "panama-city"
+      },
+      {
+         "id": 1408,
+         "name": "Bocas del Toro",
+         "urlFriendlyName": "bocas-del-toro"
+      },
+      {
+         "id": 778,
+         "name": "Colon",
+         "urlFriendlyName": "colon"
+      },
+      {
+         "id": 1713,
+         "name": "Boquete",
+         "urlFriendlyName": "boquete"
+      },
+      {
+         "id": 12294,
+         "name": "El Valle de Anton",
+         "urlFriendlyName": "el-valle-de-anton"
+      },
+      {
+         "id": 2002,
+         "name": "Santa Catalina",
+         "urlFriendlyName": "santa-catalina"
+      },
+      {
+         "id": 10806,
+         "name": "Playa Venao",
+         "urlFriendlyName": "playa-venao"
+      },
+      {
+         "id": 14387,
+         "name": "Valle de Hornito",
+         "urlFriendlyName": "valle-de-hornito"
+      },
+      {
+         "id": 785,
+         "name": "David City",
+         "urlFriendlyName": "david-city"
+      },
+      {
+         "id": 17458,
+         "name": "Playa de Farallon",
+         "urlFriendlyName": "playa-de-farallon"
+      },
+      {
+         "id": 11115,
+         "name": "San Carlos",
+         "urlFriendlyName": "san-carlos"
+      },
+      {
+         "id": 14452,
+         "name": "Guanico",
+         "urlFriendlyName": "guanico"
+      },
+      {
+         "id": 9335,
+         "name": "Pedasi",
+         "urlFriendlyName": "pedasi"
+      },
+      {
+         "id": 17726,
+         "name": "Sortova",
+         "urlFriendlyName": "sortova"
+      },
+      {
+         "id": 6903,
+         "name": "Chitre",
+         "urlFriendlyName": "chitre"
+      },
+      {
+         "id": 12121,
+         "name": "Santiago",
+         "urlFriendlyName": "santiago"
+      },
+      {
+         "id": 11460,
+         "name": "Santa Fe",
+         "urlFriendlyName": "santa-fe"
+      },
+      {
+         "id": 16539,
+         "name": "Anton",
+         "urlFriendlyName": "anton"
+      }
+   ],
+   "Trinidad And Tobago": [
+      {
+         "id": 2688,
+         "name": "Buccoo Point",
+         "urlFriendlyName": "buccoo-point"
+      }
+   ],
+   "USA": [
+      {
+         "id": 180,
+         "name": "Los Angeles",
+         "urlFriendlyName": "los-angeles"
+      },
+      {
+         "id": 13,
+         "name": "New York",
+         "urlFriendlyName": "new-york"
+      },
+      {
+         "id": 442,
+         "name": "San Francisco",
+         "urlFriendlyName": "san-francisco"
+      },
+      {
+         "id": 129,
+         "name": "San Diego",
+         "urlFriendlyName": "san-diego"
+      },
+      {
+         "id": 429,
+         "name": "Miami",
+         "urlFriendlyName": "miami"
+      },
+      {
+         "id": 400,
+         "name": "Chicago",
+         "urlFriendlyName": "chicago"
+      },
+      {
+         "id": 315,
+         "name": "Boston",
+         "urlFriendlyName": "boston"
+      },
+      {
+         "id": 863,
+         "name": "Orlando",
+         "urlFriendlyName": "orlando"
+      },
+      {
+         "id": 75,
+         "name": "Las Vegas",
+         "urlFriendlyName": "las-vegas"
+      },
+      {
+         "id": 483,
+         "name": "New Orleans",
+         "urlFriendlyName": "new-orleans"
+      },
+      {
+         "id": 305,
+         "name": "Seattle",
+         "urlFriendlyName": "seattle"
+      },
+      {
+         "id": 4650,
+         "name": "Denver",
+         "urlFriendlyName": "denver"
+      },
+      {
+         "id": 883,
+         "name": "Philadelphia",
+         "urlFriendlyName": "philadelphia"
+      },
+      {
+         "id": 4568,
+         "name": "Fairbanks",
+         "urlFriendlyName": "fairbanks"
+      },
+      {
+         "id": 3184,
+         "name": "Anchorage",
+         "urlFriendlyName": "anchorage"
+      },
+      {
+         "id": 796,
+         "name": "Juneau",
+         "urlFriendlyName": "juneau"
+      },
+      {
+         "id": 4160,
+         "name": "Asheville",
+         "urlFriendlyName": "asheville"
+      },
+      {
+         "id": 3581,
+         "name": "Sacramento",
+         "urlFriendlyName": "sacramento"
+      },
+      {
+         "id": 4656,
+         "name": "South Lake Tahoe",
+         "urlFriendlyName": "south-lake-tahoe"
+      },
+      {
+         "id": 820,
+         "name": "Fort Lauderdale",
+         "urlFriendlyName": "fort-lauderdale"
+      },
+      {
+         "id": 4409,
+         "name": "Honolulu",
+         "urlFriendlyName": "honolulu"
+      },
+      {
+         "id": 104,
+         "name": "Salt Lake City",
+         "urlFriendlyName": "salt-lake-city"
+      },
+      {
+         "id": 2433,
+         "name": "Portland",
+         "urlFriendlyName": "portland"
+      },
+      {
+         "id": 2598,
+         "name": "Key West",
+         "urlFriendlyName": "key-west"
+      },
+      {
+         "id": 3592,
+         "name": "Detroit",
+         "urlFriendlyName": "detroit"
+      },
+      {
+         "id": 2704,
+         "name": "Houston",
+         "urlFriendlyName": "houston"
+      },
+      {
+         "id": 4604,
+         "name": "Anaheim",
+         "urlFriendlyName": "anaheim"
+      },
+      {
+         "id": 179,
+         "name": "Breckenridge",
+         "urlFriendlyName": "breckenridge"
+      },
+      {
+         "id": 5563,
+         "name": "Bozeman",
+         "urlFriendlyName": "bozeman"
+      },
+      {
+         "id": 175,
+         "name": "Memphis",
+         "urlFriendlyName": "memphis"
+      },
+      {
+         "id": 2574,
+         "name": "Newark",
+         "urlFriendlyName": "newark"
+      },
+      {
+         "id": 5547,
+         "name": "Williams",
+         "urlFriendlyName": "williams"
+      },
+      {
+         "id": 4569,
+         "name": "Pescadero",
+         "urlFriendlyName": "pescadero"
+      },
+      {
+         "id": 2505,
+         "name": "Florida City",
+         "urlFriendlyName": "florida-city"
+      },
+      {
+         "id": 4809,
+         "name": "Niagara Falls",
+         "urlFriendlyName": "niagara-falls"
+      },
+      {
+         "id": 287,
+         "name": "Austin",
+         "urlFriendlyName": "austin"
+      },
+      {
+         "id": 799,
+         "name": "Big Bear Lake",
+         "urlFriendlyName": "big-bear-lake"
+      },
+      {
+         "id": 1117,
+         "name": "Charleston",
+         "urlFriendlyName": "charleston"
+      },
+      {
+         "id": 241,
+         "name": "Washington DC",
+         "urlFriendlyName": "washington-dc"
+      },
+      {
+         "id": 6404,
+         "name": "Maui",
+         "urlFriendlyName": "maui"
+      },
+      {
+         "id": 9069,
+         "name": "Kailua-Kona",
+         "urlFriendlyName": "kailua-kona"
+      },
+      {
+         "id": 6702,
+         "name": "Hilo",
+         "urlFriendlyName": "hilo"
+      },
+      {
+         "id": 18386,
+         "name": "Tallahassee",
+         "urlFriendlyName": "tallahassee"
+      },
+      {
+         "id": 4575,
+         "name": "Rumney",
+         "urlFriendlyName": "rumney"
+      },
+      {
+         "id": 18809,
+         "name": "Roan Mountain",
+         "urlFriendlyName": "roan-mountain"
+      },
+      {
+         "id": 15826,
+         "name": "New Mexico",
+         "urlFriendlyName": "new-mexico"
+      },
+      {
+         "id": 8915,
+         "name": "Yosemite",
+         "urlFriendlyName": "yosemite"
+      },
+      {
+         "id": 15656,
+         "name": "Bishop",
+         "urlFriendlyName": "bishop"
+      },
+      {
+         "id": 8829,
+         "name": "Hawaii",
+         "urlFriendlyName": "hawaii"
+      },
+      {
+         "id": 16596,
+         "name": "Bend",
+         "urlFriendlyName": "bend"
+      },
+      {
+         "id": 15438,
+         "name": "Colorado Springs",
+         "urlFriendlyName": "colorado-springs"
+      },
+      {
+         "id": 5963,
+         "name": "El Paso",
+         "urlFriendlyName": "el-paso"
+      },
+      {
+         "id": 12909,
+         "name": "Duluth",
+         "urlFriendlyName": "duluth"
+      },
+      {
+         "id": 19639,
+         "name": "Warren",
+         "urlFriendlyName": "warren"
+      },
+      {
+         "id": 7895,
+         "name": "Silverthorne",
+         "urlFriendlyName": "silverthorne"
+      },
+      {
+         "id": 16080,
+         "name": "San Clemente",
+         "urlFriendlyName": "san-clemente"
+      },
+      {
+         "id": 20502,
+         "name": "Copper Center",
+         "urlFriendlyName": "copper-center"
+      },
+      {
+         "id": 9327,
+         "name": "Gunnison",
+         "urlFriendlyName": "gunnison"
+      },
+      {
+         "id": 10634,
+         "name": "Columbus OH",
+         "urlFriendlyName": "columbus-oh"
+      },
+      {
+         "id": 19279,
+         "name": "Clarksdale",
+         "urlFriendlyName": "clarksdale"
+      },
+      {
+         "id": 7190,
+         "name": "Fort Collins",
+         "urlFriendlyName": "fort-collins"
+      },
+      {
+         "id": 15862,
+         "name": "Union City",
+         "urlFriendlyName": "union-city"
+      },
+      {
+         "id": 20402,
+         "name": "Cherryfield",
+         "urlFriendlyName": "cherryfield"
+      },
+      {
+         "id": 17847,
+         "name": "Friday Harbor",
+         "urlFriendlyName": "friday-harbor"
+      },
+      {
+         "id": 10623,
+         "name": "Chattanooga",
+         "urlFriendlyName": "chattanooga"
+      },
+      {
+         "id": 6775,
+         "name": "Little Rock",
+         "urlFriendlyName": "little-rock"
+      },
+      {
+         "id": 20347,
+         "name": "ALMA",
+         "urlFriendlyName": "alma"
+      },
+      {
+         "id": 466,
+         "name": "Point Reyes Station",
+         "urlFriendlyName": "point-reyes-station"
+      },
+      {
+         "id": 17759,
+         "name": "West Baden Springs",
+         "urlFriendlyName": "west-baden-springs"
+      },
+      {
+         "id": 10053,
+         "name": "Telluride",
+         "urlFriendlyName": "telluride"
+      },
+      {
+         "id": 18770,
+         "name": "Portland Maine",
+         "urlFriendlyName": "portland-maine"
+      },
+      {
+         "id": 20231,
+         "name": "Greenville",
+         "urlFriendlyName": "greenville"
+      },
+      {
+         "id": 812,
+         "name": "Pahoa",
+         "urlFriendlyName": "pahoa"
+      },
+      {
+         "id": 10046,
+         "name": "Boulder",
+         "urlFriendlyName": "boulder"
+      },
+      {
+         "id": 18715,
+         "name": "Ewing",
+         "urlFriendlyName": "ewing"
+      },
+      {
+         "id": 19803,
+         "name": "Truckee, California",
+         "urlFriendlyName": "truckee-california"
+      },
+      {
+         "id": 4495,
+         "name": "Bingen",
+         "urlFriendlyName": "bingen"
+      },
+      {
+         "id": 8296,
+         "name": "Durango",
+         "urlFriendlyName": "durango"
+      },
+      {
+         "id": 16263,
+         "name": "Wilmington NC",
+         "urlFriendlyName": "wilmington-nc"
+      },
+      {
+         "id": 20726,
+         "name": "Superior",
+         "urlFriendlyName": "superior"
+      },
+      {
+         "id": 9735,
+         "name": "Vail",
+         "urlFriendlyName": "vail"
+      },
+      {
+         "id": 18567,
+         "name": "Salida",
+         "urlFriendlyName": "salida"
+      }
+   ]
+}

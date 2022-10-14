@@ -1,0 +1,570 @@
+{
+   "Australia": [
+      {
+         "id": 81,
+         "name": "Sydney",
+         "urlFriendlyName": "sydney"
+      },
+      {
+         "id": 223,
+         "name": "Canberra",
+         "urlFriendlyName": "canberra"
+      },
+      {
+         "id": 247,
+         "name": "Adelaide",
+         "urlFriendlyName": "adelaide"
+      },
+      {
+         "id": 629,
+         "name": "Hobart",
+         "urlFriendlyName": "hobart"
+      },
+      {
+         "id": 273,
+         "name": "Coffs Harbour",
+         "urlFriendlyName": "coffs-harbour"
+      },
+      {
+         "id": 940,
+         "name": "Exmouth",
+         "urlFriendlyName": "exmouth"
+      },
+      {
+         "id": 2877,
+         "name": "Apollo Bay",
+         "urlFriendlyName": "apollo-bay"
+      },
+      {
+         "id": 21,
+         "name": "Melbourne",
+         "urlFriendlyName": "melbourne"
+      },
+      {
+         "id": 154,
+         "name": "Cairns",
+         "urlFriendlyName": "cairns"
+      },
+      {
+         "id": 288,
+         "name": "Brisbane",
+         "urlFriendlyName": "brisbane"
+      },
+      {
+         "id": 17,
+         "name": "Perth",
+         "urlFriendlyName": "perth"
+      },
+      {
+         "id": 90,
+         "name": "Airlie Beach",
+         "urlFriendlyName": "airlie-beach"
+      },
+      {
+         "id": 185,
+         "name": "Surfers Paradise",
+         "urlFriendlyName": "surfers-paradise"
+      },
+      {
+         "id": 274,
+         "name": "Hervey Bay",
+         "urlFriendlyName": "hervey-bay"
+      },
+      {
+         "id": 644,
+         "name": "Launceston",
+         "urlFriendlyName": "launceston"
+      },
+      {
+         "id": 95,
+         "name": "Darwin",
+         "urlFriendlyName": "darwin"
+      },
+      {
+         "id": 243,
+         "name": "Alice Springs",
+         "urlFriendlyName": "alice-springs"
+      },
+      {
+         "id": 898,
+         "name": "Broome",
+         "urlFriendlyName": "broome"
+      },
+      {
+         "id": 3877,
+         "name": "Port Macquarie",
+         "urlFriendlyName": "port-macquarie"
+      },
+      {
+         "id": 244,
+         "name": "Townsville",
+         "urlFriendlyName": "townsville"
+      },
+      {
+         "id": 4071,
+         "name": "Richmond",
+         "urlFriendlyName": "richmond"
+      },
+      {
+         "id": 3748,
+         "name": "Newcastle",
+         "urlFriendlyName": "newcastle"
+      },
+      {
+         "id": 592,
+         "name": "Port Douglas",
+         "urlFriendlyName": "port-douglas"
+      },
+      {
+         "id": 5344,
+         "name": "Wollongong",
+         "urlFriendlyName": "wollongong"
+      },
+      {
+         "id": 430,
+         "name": "Mission Beach",
+         "urlFriendlyName": "mission-beach"
+      },
+      {
+         "id": 253,
+         "name": "Albany",
+         "urlFriendlyName": "albany"
+      },
+      {
+         "id": 155,
+         "name": "Phillip Island",
+         "urlFriendlyName": "phillip-island"
+      },
+      {
+         "id": 1349,
+         "name": "Rockhampton",
+         "urlFriendlyName": "rockhampton"
+      },
+      {
+         "id": 5131,
+         "name": "Dunsborough",
+         "urlFriendlyName": "dunsborough"
+      },
+      {
+         "id": 378,
+         "name": "Byron Bay",
+         "urlFriendlyName": "byron-bay"
+      },
+      {
+         "id": 303,
+         "name": "Noosa",
+         "urlFriendlyName": "noosa"
+      },
+      {
+         "id": 3241,
+         "name": "Blue Mountains",
+         "urlFriendlyName": "blue-mountains"
+      },
+      {
+         "id": 77,
+         "name": "Cape Tribulation",
+         "urlFriendlyName": "cape-tribulation"
+      },
+      {
+         "id": 76,
+         "name": "Magnetic Island",
+         "urlFriendlyName": "magnetic-island"
+      },
+      {
+         "id": 9508,
+         "name": "Atherton Tablelands",
+         "urlFriendlyName": "atherton-tablelands"
+      },
+      {
+         "id": 2244,
+         "name": "Fremantle",
+         "urlFriendlyName": "fremantle"
+      },
+      {
+         "id": 15290,
+         "name": "Geraldton",
+         "urlFriendlyName": "geraldton"
+      },
+      {
+         "id": 6765,
+         "name": "Agnes Water - Town of 1770",
+         "urlFriendlyName": "agnes-water-town-of-1770"
+      },
+      {
+         "id": 1331,
+         "name": "Rainbow Beach",
+         "urlFriendlyName": "rainbow-beach"
+      },
+      {
+         "id": 18968,
+         "name": "Lucaston",
+         "urlFriendlyName": "lucaston"
+      },
+      {
+         "id": 7178,
+         "name": "Coober Pedy",
+         "urlFriendlyName": "coober-pedy"
+      },
+      {
+         "id": 10120,
+         "name": "Port Elliot",
+         "urlFriendlyName": "port-elliot"
+      },
+      {
+         "id": 2176,
+         "name": "Coral Bay",
+         "urlFriendlyName": "coral-bay"
+      },
+      {
+         "id": 14553,
+         "name": "Port Lincoln",
+         "urlFriendlyName": "port-lincoln"
+      },
+      {
+         "id": 5766,
+         "name": "Grampians",
+         "urlFriendlyName": "grampians"
+      },
+      {
+         "id": 9316,
+         "name": "Yamba",
+         "urlFriendlyName": "yamba"
+      },
+      {
+         "id": 13828,
+         "name": "Tin Can Bay",
+         "urlFriendlyName": "tin-can-bay"
+      },
+      {
+         "id": 20393,
+         "name": "STRATHBLANE",
+         "urlFriendlyName": "strathblane"
+      },
+      {
+         "id": 7646,
+         "name": "Port Campbell",
+         "urlFriendlyName": "port-campbell"
+      },
+      {
+         "id": 2986,
+         "name": "Port Stephens",
+         "urlFriendlyName": "port-stephens"
+      },
+      {
+         "id": 13518,
+         "name": "The Entrance",
+         "urlFriendlyName": "the-entrance"
+      },
+      {
+         "id": 19189,
+         "name": "Port Fairy",
+         "urlFriendlyName": "port-fairy"
+      },
+      {
+         "id": 7454,
+         "name": "Coolangatta",
+         "urlFriendlyName": "coolangatta"
+      },
+      {
+         "id": 12756,
+         "name": "Yeppoon",
+         "urlFriendlyName": "yeppoon"
+      }
+   ],
+   "Fiji": [
+      {
+         "id": 78,
+         "name": "Nadi",
+         "urlFriendlyName": "nadi"
+      },
+      {
+         "id": 174,
+         "name": "Coral Coast",
+         "urlFriendlyName": "coral-coast"
+      },
+      {
+         "id": 14923,
+         "name": "Mana Island",
+         "urlFriendlyName": "mana-island"
+      },
+      {
+         "id": 10097,
+         "name": "Taveuni Island",
+         "urlFriendlyName": "taveuni-island"
+      },
+      {
+         "id": 3256,
+         "name": "Yasawa Islands",
+         "urlFriendlyName": "yasawa-islands"
+      },
+      {
+         "id": 1729,
+         "name": "Pacific Harbour",
+         "urlFriendlyName": "pacific-harbour"
+      }
+   ],
+   "French Polynesia": [
+      {
+         "id": 20251,
+         "name": "Papara",
+         "urlFriendlyName": "papara"
+      },
+      {
+         "id": 6470,
+         "name": "Papeete",
+         "urlFriendlyName": "papeete"
+      }
+   ],
+   "New Zealand": [
+      {
+         "id": 198,
+         "name": "Wellington",
+         "urlFriendlyName": "wellington"
+      },
+      {
+         "id": 27,
+         "name": "Auckland",
+         "urlFriendlyName": "auckland"
+      },
+      {
+         "id": 203,
+         "name": "Nelson",
+         "urlFriendlyName": "nelson"
+      },
+      {
+         "id": 2081,
+         "name": "Invercargill",
+         "urlFriendlyName": "invercargill"
+      },
+      {
+         "id": 543,
+         "name": "Tauranga",
+         "urlFriendlyName": "tauranga"
+      },
+      {
+         "id": 206,
+         "name": "Queenstown",
+         "urlFriendlyName": "queenstown"
+      },
+      {
+         "id": 202,
+         "name": "Christchurch",
+         "urlFriendlyName": "christchurch"
+      },
+      {
+         "id": 3106,
+         "name": "Dunedin",
+         "urlFriendlyName": "dunedin"
+      },
+      {
+         "id": 205,
+         "name": "Picton",
+         "urlFriendlyName": "picton"
+      },
+      {
+         "id": 4364,
+         "name": "Te Anau",
+         "urlFriendlyName": "te-anau"
+      },
+      {
+         "id": 371,
+         "name": "Wanaka",
+         "urlFriendlyName": "wanaka"
+      },
+      {
+         "id": 2520,
+         "name": "New Plymouth",
+         "urlFriendlyName": "new-plymouth"
+      },
+      {
+         "id": 186,
+         "name": "Rotorua",
+         "urlFriendlyName": "rotorua"
+      },
+      {
+         "id": 2479,
+         "name": "Franz Josef",
+         "urlFriendlyName": "franz-josef"
+      },
+      {
+         "id": 3368,
+         "name": "Greymouth",
+         "urlFriendlyName": "greymouth"
+      },
+      {
+         "id": 28,
+         "name": "Paihia",
+         "urlFriendlyName": "paihia"
+      },
+      {
+         "id": 199,
+         "name": "Napier",
+         "urlFriendlyName": "napier"
+      },
+      {
+         "id": 250,
+         "name": "Taupo",
+         "urlFriendlyName": "taupo"
+      },
+      {
+         "id": 4741,
+         "name": "Waitomo",
+         "urlFriendlyName": "waitomo"
+      },
+      {
+         "id": 3053,
+         "name": "Oamaru",
+         "urlFriendlyName": "oamaru"
+      },
+      {
+         "id": 204,
+         "name": "Hamilton",
+         "urlFriendlyName": "hamilton"
+      },
+      {
+         "id": 341,
+         "name": "Kaikoura",
+         "urlFriendlyName": "kaikoura"
+      },
+      {
+         "id": 1612,
+         "name": "Hokitika",
+         "urlFriendlyName": "hokitika"
+      },
+      {
+         "id": 7179,
+         "name": "Tongariro National Park",
+         "urlFriendlyName": "tongariro-national-park"
+      },
+      {
+         "id": 4365,
+         "name": "Lake Tekapo",
+         "urlFriendlyName": "lake-tekapo"
+      },
+      {
+         "id": 11832,
+         "name": "Abel Tasman National Park",
+         "urlFriendlyName": "abel-tasman-national-park"
+      },
+      {
+         "id": 15741,
+         "name": "Catlins",
+         "urlFriendlyName": "catlins"
+      },
+      {
+         "id": 8398,
+         "name": "Mount Maunganui",
+         "urlFriendlyName": "mount-maunganui"
+      },
+      {
+         "id": 6432,
+         "name": "Coromandel",
+         "urlFriendlyName": "coromandel"
+      },
+      {
+         "id": 251,
+         "name": "Taihape",
+         "urlFriendlyName": "taihape"
+      },
+      {
+         "id": 9197,
+         "name": "Hanmer Springs",
+         "urlFriendlyName": "hanmer-springs"
+      },
+      {
+         "id": 2599,
+         "name": "Westport",
+         "urlFriendlyName": "westport"
+      },
+      {
+         "id": 16194,
+         "name": "Stewart Island",
+         "urlFriendlyName": "stewart-island"
+      },
+      {
+         "id": 190,
+         "name": "Methven",
+         "urlFriendlyName": "methven"
+      },
+      {
+         "id": 8849,
+         "name": "Springfield",
+         "urlFriendlyName": "springfield"
+      },
+      {
+         "id": 10101,
+         "name": "Whanganui",
+         "urlFriendlyName": "whanganui"
+      },
+      {
+         "id": 6133,
+         "name": "Punakaiki",
+         "urlFriendlyName": "punakaiki"
+      },
+      {
+         "id": 8790,
+         "name": "Raglan",
+         "urlFriendlyName": "raglan"
+      },
+      {
+         "id": 9608,
+         "name": "Glenorchy",
+         "urlFriendlyName": "glenorchy"
+      },
+      {
+         "id": 5625,
+         "name": "Porirua",
+         "urlFriendlyName": "porirua"
+      },
+      {
+         "id": 15108,
+         "name": "Cromwell",
+         "urlFriendlyName": "cromwell"
+      },
+      {
+         "id": 19072,
+         "name": "Ahipara",
+         "urlFriendlyName": "ahipara"
+      },
+      {
+         "id": 9570,
+         "name": "Motueka",
+         "urlFriendlyName": "motueka"
+      },
+      {
+         "id": 14745,
+         "name": "Omarama",
+         "urlFriendlyName": "omarama"
+      },
+      {
+         "id": 7468,
+         "name": "Gisborne",
+         "urlFriendlyName": "gisborne"
+      },
+      {
+         "id": 18489,
+         "name": "Oxford",
+         "urlFriendlyName": "oxford"
+      },
+      {
+         "id": 4369,
+         "name": "KeriKeri",
+         "urlFriendlyName": "kerikeri"
+      },
+      {
+         "id": 12746,
+         "name": "Whangaroa",
+         "urlFriendlyName": "whangaroa"
+      },
+      {
+         "id": 18051,
+         "name": "Piha",
+         "urlFriendlyName": "piha"
+      },
+      {
+         "id": 8861,
+         "name": "Fox Glacier",
+         "urlFriendlyName": "fox-glacier"
+      }
+   ]
+}

@@ -1,0 +1,3056 @@
+{
+   "Azerbaijan": [
+      {
+         "id": 6747,
+         "name": "Baku",
+         "urlFriendlyName": "baku"
+      },
+      {
+         "id": 9358,
+         "name": "Sheki",
+         "urlFriendlyName": "sheki"
+      },
+      {
+         "id": 20638,
+         "name": "Naftalan",
+         "urlFriendlyName": "naftalan"
+      },
+      {
+         "id": 18825,
+         "name": "Lankaran",
+         "urlFriendlyName": "lankaran"
+      }
+   ],
+   "Bangladesh": [
+      {
+         "id": 2575,
+         "name": "Dhaka",
+         "urlFriendlyName": "dhaka"
+      },
+      {
+         "id": 19814,
+         "name": "Sylhet",
+         "urlFriendlyName": "sylhet"
+      }
+   ],
+   "Cambodia": [
+      {
+         "id": 818,
+         "name": "Phnom Penh",
+         "urlFriendlyName": "phnom-penh"
+      },
+      {
+         "id": 815,
+         "name": "Siem Reap",
+         "urlFriendlyName": "siem-reap"
+      },
+      {
+         "id": 3912,
+         "name": "Sihanoukville",
+         "urlFriendlyName": "sihanoukville"
+      },
+      {
+         "id": 10040,
+         "name": "Kampot",
+         "urlFriendlyName": "kampot"
+      },
+      {
+         "id": 16284,
+         "name": "Koh Rong Samloem",
+         "urlFriendlyName": "koh-rong-samloem"
+      },
+      {
+         "id": 10316,
+         "name": "Battambang",
+         "urlFriendlyName": "battambang"
+      },
+      {
+         "id": 6522,
+         "name": "Banlung",
+         "urlFriendlyName": "banlung"
+      },
+      {
+         "id": 13536,
+         "name": "Koh Rong Island",
+         "urlFriendlyName": "koh-rong-island"
+      },
+      {
+         "id": 20091,
+         "name": "Krong Saen Monourom",
+         "urlFriendlyName": "krong-saen-monourom"
+      },
+      {
+         "id": 19850,
+         "name": "Koh Ta Kiev",
+         "urlFriendlyName": "koh-ta-kiev"
+      }
+   ],
+   "China": [
+      {
+         "id": 1065,
+         "name": "Shanghai",
+         "urlFriendlyName": "shanghai"
+      },
+      {
+         "id": 4380,
+         "name": "Qingdao",
+         "urlFriendlyName": "qingdao"
+      },
+      {
+         "id": 811,
+         "name": "Beijing",
+         "urlFriendlyName": "beijing"
+      },
+      {
+         "id": 1105,
+         "name": "Chengdu",
+         "urlFriendlyName": "chengdu"
+      },
+      {
+         "id": 2760,
+         "name": "Hangzhou",
+         "urlFriendlyName": "hangzhou"
+      },
+      {
+         "id": 1109,
+         "name": "Kunming",
+         "urlFriendlyName": "kunming"
+      },
+      {
+         "id": 2907,
+         "name": "Chongqing",
+         "urlFriendlyName": "chongqing"
+      },
+      {
+         "id": 2455,
+         "name": "Sanya",
+         "urlFriendlyName": "sanya"
+      },
+      {
+         "id": 3316,
+         "name": "Dalian",
+         "urlFriendlyName": "dalian"
+      },
+      {
+         "id": 1089,
+         "name": "Suzhou",
+         "urlFriendlyName": "suzhou"
+      },
+      {
+         "id": 2761,
+         "name": "Shenzhen",
+         "urlFriendlyName": "shenzhen"
+      },
+      {
+         "id": 1062,
+         "name": "Xi'an",
+         "urlFriendlyName": "xi-an"
+      },
+      {
+         "id": 867,
+         "name": "Guangzhou",
+         "urlFriendlyName": "guangzhou"
+      },
+      {
+         "id": 5284,
+         "name": "Harbin",
+         "urlFriendlyName": "harbin"
+      },
+      {
+         "id": 4889,
+         "name": "Xiamen",
+         "urlFriendlyName": "xiamen"
+      },
+      {
+         "id": 1108,
+         "name": "Dunhuang",
+         "urlFriendlyName": "dunhuang"
+      },
+      {
+         "id": 5458,
+         "name": "Wuhan",
+         "urlFriendlyName": "wuhan"
+      },
+      {
+         "id": 1106,
+         "name": "Shenyang",
+         "urlFriendlyName": "shenyang"
+      },
+      {
+         "id": 1064,
+         "name": "Yangshuo",
+         "urlFriendlyName": "yangshuo"
+      },
+      {
+         "id": 1088,
+         "name": "Lijiang",
+         "urlFriendlyName": "lijiang"
+      },
+      {
+         "id": 11326,
+         "name": "Yuanyang",
+         "urlFriendlyName": "yuanyang"
+      },
+      {
+         "id": 9551,
+         "name": "Longsheng",
+         "urlFriendlyName": "longsheng"
+      },
+      {
+         "id": 4374,
+         "name": "Dali",
+         "urlFriendlyName": "dali"
+      },
+      {
+         "id": 1063,
+         "name": "Guilin",
+         "urlFriendlyName": "guilin"
+      },
+      {
+         "id": 4761,
+         "name": "Shangri-la",
+         "urlFriendlyName": "shangri-la"
+      },
+      {
+         "id": 3341,
+         "name": "Huangshan",
+         "urlFriendlyName": "huangshan"
+      },
+      {
+         "id": 7355,
+         "name": "Fenghuang-Phoenix County",
+         "urlFriendlyName": "fenghuang-phoenix-county"
+      },
+      {
+         "id": 2179,
+         "name": "Luoyang",
+         "urlFriendlyName": "luoyang"
+      },
+      {
+         "id": 6067,
+         "name": "Haikou",
+         "urlFriendlyName": "haikou"
+      },
+      {
+         "id": 6860,
+         "name": "Hohhot",
+         "urlFriendlyName": "hohhot"
+      },
+      {
+         "id": 12388,
+         "name": "Dali Shaxi",
+         "urlFriendlyName": "dali-shaxi"
+      },
+      {
+         "id": 2662,
+         "name": "Pingyao",
+         "urlFriendlyName": "pingyao"
+      },
+      {
+         "id": 6380,
+         "name": "Zhangjiajie",
+         "urlFriendlyName": "zhangjiajie"
+      },
+      {
+         "id": 6271,
+         "name": "Xining",
+         "urlFriendlyName": "xining"
+      },
+      {
+         "id": 14870,
+         "name": "Turpan",
+         "urlFriendlyName": "turpan"
+      },
+      {
+         "id": 7300,
+         "name": "Four Girls Mountains",
+         "urlFriendlyName": "four-girls-mountains"
+      },
+      {
+         "id": 4521,
+         "name": "Xiahe",
+         "urlFriendlyName": "xiahe"
+      },
+      {
+         "id": 6047,
+         "name": "Shaoxing",
+         "urlFriendlyName": "shaoxing"
+      },
+      {
+         "id": 14307,
+         "name": "Zhangye",
+         "urlFriendlyName": "zhangye"
+      },
+      {
+         "id": 18033,
+         "name": "Thousand Island Lake",
+         "urlFriendlyName": "thousand-island-lake"
+      },
+      {
+         "id": 13803,
+         "name": "Songpan",
+         "urlFriendlyName": "songpan"
+      },
+      {
+         "id": 6857,
+         "name": "Qufu",
+         "urlFriendlyName": "qufu"
+      },
+      {
+         "id": 17264,
+         "name": "Xingping",
+         "urlFriendlyName": "xingping"
+      },
+      {
+         "id": 7412,
+         "name": "Huizhou",
+         "urlFriendlyName": "huizhou"
+      },
+      {
+         "id": 17104,
+         "name": "Leshan",
+         "urlFriendlyName": "leshan"
+      },
+      {
+         "id": 7400,
+         "name": "Tai'an",
+         "urlFriendlyName": "tai-an"
+      },
+      {
+         "id": 11856,
+         "name": "Jianshui",
+         "urlFriendlyName": "jianshui"
+      },
+      {
+         "id": 15050,
+         "name": "Jiayuguan",
+         "urlFriendlyName": "jiayuguan"
+      },
+      {
+         "id": 11756,
+         "name": "Datong",
+         "urlFriendlyName": "datong"
+      }
+   ],
+   "Hong Kong China": [
+      {
+         "id": 6562,
+         "name": "Hong Kong",
+         "urlFriendlyName": "hong-kong"
+      }
+   ],
+   "India": [
+      {
+         "id": 313,
+         "name": "New Delhi",
+         "urlFriendlyName": "new-delhi"
+      },
+      {
+         "id": 3969,
+         "name": "Pondicherry",
+         "urlFriendlyName": "pondicherry"
+      },
+      {
+         "id": 977,
+         "name": "Mysore",
+         "urlFriendlyName": "mysore"
+      },
+      {
+         "id": 220,
+         "name": "Varanasi",
+         "urlFriendlyName": "varanasi"
+      },
+      {
+         "id": 754,
+         "name": "Pune",
+         "urlFriendlyName": "pune"
+      },
+      {
+         "id": 901,
+         "name": "Trivandrum",
+         "urlFriendlyName": "trivandrum"
+      },
+      {
+         "id": 1234,
+         "name": "Manali",
+         "urlFriendlyName": "manali"
+      },
+      {
+         "id": 760,
+         "name": "Jaipur",
+         "urlFriendlyName": "jaipur"
+      },
+      {
+         "id": 2164,
+         "name": "Jaisalmer",
+         "urlFriendlyName": "jaisalmer"
+      },
+      {
+         "id": 346,
+         "name": "Mumbai",
+         "urlFriendlyName": "mumbai"
+      },
+      {
+         "id": 1311,
+         "name": "Udaipur",
+         "urlFriendlyName": "udaipur"
+      },
+      {
+         "id": 5672,
+         "name": "Agra",
+         "urlFriendlyName": "agra"
+      },
+      {
+         "id": 2105,
+         "name": "Bangalore",
+         "urlFriendlyName": "bangalore"
+      },
+      {
+         "id": 2663,
+         "name": "Ahmedabad",
+         "urlFriendlyName": "ahmedabad"
+      },
+      {
+         "id": 833,
+         "name": "Cochin",
+         "urlFriendlyName": "cochin"
+      },
+      {
+         "id": 1312,
+         "name": "Jodhpur",
+         "urlFriendlyName": "jodhpur"
+      },
+      {
+         "id": 3651,
+         "name": "Dehradun",
+         "urlFriendlyName": "dehradun"
+      },
+      {
+         "id": 4202,
+         "name": "Alleppey",
+         "urlFriendlyName": "alleppey"
+      },
+      {
+         "id": 1456,
+         "name": "Shimla",
+         "urlFriendlyName": "shimla"
+      },
+      {
+         "id": 1469,
+         "name": "Mussoorie",
+         "urlFriendlyName": "mussoorie"
+      },
+      {
+         "id": 1443,
+         "name": "Chennai",
+         "urlFriendlyName": "chennai"
+      },
+      {
+         "id": 903,
+         "name": "Bikaner",
+         "urlFriendlyName": "bikaner"
+      },
+      {
+         "id": 347,
+         "name": "Goa",
+         "urlFriendlyName": "goa"
+      },
+      {
+         "id": 19355,
+         "name": "Goa",
+         "urlFriendlyName": "goa"
+      },
+      {
+         "id": 5744,
+         "name": "Rishikesh",
+         "urlFriendlyName": "rishikesh"
+      },
+      {
+         "id": 8681,
+         "name": "Dharamshala",
+         "urlFriendlyName": "dharamshala"
+      },
+      {
+         "id": 19366,
+         "name": "Varanasi",
+         "urlFriendlyName": "varanasi"
+      },
+      {
+         "id": 5485,
+         "name": "Pushkar",
+         "urlFriendlyName": "pushkar"
+      },
+      {
+         "id": 6513,
+         "name": "Srinagar",
+         "urlFriendlyName": "srinagar"
+      },
+      {
+         "id": 16987,
+         "name": "Bir",
+         "urlFriendlyName": "bir"
+      },
+      {
+         "id": 11577,
+         "name": "Leh",
+         "urlFriendlyName": "leh"
+      },
+      {
+         "id": 6589,
+         "name": "Amritsar",
+         "urlFriendlyName": "amritsar"
+      },
+      {
+         "id": 17487,
+         "name": "Kasol",
+         "urlFriendlyName": "kasol"
+      },
+      {
+         "id": 6844,
+         "name": "Varkala",
+         "urlFriendlyName": "varkala"
+      },
+      {
+         "id": 18282,
+         "name": "Almora",
+         "urlFriendlyName": "almora"
+      },
+      {
+         "id": 6117,
+         "name": "Kolkata",
+         "urlFriendlyName": "kolkata"
+      },
+      {
+         "id": 4877,
+         "name": "Nainital",
+         "urlFriendlyName": "nainital"
+      },
+      {
+         "id": 7866,
+         "name": "Hyderabad",
+         "urlFriendlyName": "hyderabad"
+      },
+      {
+         "id": 18193,
+         "name": "Jibhi",
+         "urlFriendlyName": "jibhi"
+      },
+      {
+         "id": 4059,
+         "name": "Munnar",
+         "urlFriendlyName": "munnar"
+      },
+      {
+         "id": 11877,
+         "name": "Haridwar",
+         "urlFriendlyName": "haridwar"
+      },
+      {
+         "id": 14986,
+         "name": "Gangtok",
+         "urlFriendlyName": "gangtok"
+      },
+      {
+         "id": 16903,
+         "name": "Gokarna",
+         "urlFriendlyName": "gokarna"
+      },
+      {
+         "id": 8338,
+         "name": "Aurangabad",
+         "urlFriendlyName": "aurangabad"
+      },
+      {
+         "id": 19059,
+         "name": "Auroville",
+         "urlFriendlyName": "auroville"
+      },
+      {
+         "id": 7420,
+         "name": "Sawai Madhopur",
+         "urlFriendlyName": "sawai-madhopur"
+      },
+      {
+         "id": 8619,
+         "name": "Khajuraho",
+         "urlFriendlyName": "khajuraho"
+      },
+      {
+         "id": 19033,
+         "name": "Banjar",
+         "urlFriendlyName": "banjar"
+      },
+      {
+         "id": 5823,
+         "name": "Darjeeling",
+         "urlFriendlyName": "darjeeling"
+      },
+      {
+         "id": 5954,
+         "name": "Lucknow",
+         "urlFriendlyName": "lucknow"
+      },
+      {
+         "id": 12819,
+         "name": "Coorg",
+         "urlFriendlyName": "coorg"
+      },
+      {
+         "id": 15818,
+         "name": "Vadodara",
+         "urlFriendlyName": "vadodara"
+      },
+      {
+         "id": 6616,
+         "name": "Wayanad",
+         "urlFriendlyName": "wayanad"
+      },
+      {
+         "id": 18748,
+         "name": "Panchgani",
+         "urlFriendlyName": "panchgani"
+      },
+      {
+         "id": 16092,
+         "name": "Guwahati",
+         "urlFriendlyName": "guwahati"
+      },
+      {
+         "id": 4879,
+         "name": "Kodaikanal",
+         "urlFriendlyName": "kodaikanal"
+      },
+      {
+         "id": 16276,
+         "name": "Ooty",
+         "urlFriendlyName": "ooty"
+      },
+      {
+         "id": 17128,
+         "name": "Spiti",
+         "urlFriendlyName": "spiti"
+      },
+      {
+         "id": 3009,
+         "name": "Mahabalipuram",
+         "urlFriendlyName": "mahabalipuram"
+      },
+      {
+         "id": 19305,
+         "name": "Calicut",
+         "urlFriendlyName": "calicut"
+      },
+      {
+         "id": 19476,
+         "name": "Chamba",
+         "urlFriendlyName": "chamba"
+      },
+      {
+         "id": 13066,
+         "name": "Bodhgaya",
+         "urlFriendlyName": "bodhgaya"
+      },
+      {
+         "id": 5392,
+         "name": "Shillong",
+         "urlFriendlyName": "shillong"
+      },
+      {
+         "id": 2392,
+         "name": "Kanha",
+         "urlFriendlyName": "kanha"
+      },
+      {
+         "id": 11164,
+         "name": "Nashik",
+         "urlFriendlyName": "nashik"
+      },
+      {
+         "id": 18985,
+         "name": "Naggar",
+         "urlFriendlyName": "naggar"
+      },
+      {
+         "id": 19258,
+         "name": "Kalpa",
+         "urlFriendlyName": "kalpa"
+      },
+      {
+         "id": 8150,
+         "name": "Dalhousie",
+         "urlFriendlyName": "dalhousie"
+      },
+      {
+         "id": 16278,
+         "name": "Hampi",
+         "urlFriendlyName": "hampi"
+      },
+      {
+         "id": 19733,
+         "name": "Siliguri",
+         "urlFriendlyName": "siliguri"
+      },
+      {
+         "id": 19081,
+         "name": "Mukteshwar",
+         "urlFriendlyName": "mukteshwar"
+      },
+      {
+         "id": 7913,
+         "name": "Gurgaon",
+         "urlFriendlyName": "gurgaon"
+      },
+      {
+         "id": 4844,
+         "name": "Lonavala",
+         "urlFriendlyName": "lonavala"
+      },
+      {
+         "id": 14563,
+         "name": "Coimbatore",
+         "urlFriendlyName": "coimbatore"
+      },
+      {
+         "id": 1771,
+         "name": "Panjim",
+         "urlFriendlyName": "panjim"
+      },
+      {
+         "id": 16274,
+         "name": "Chikmagalur",
+         "urlFriendlyName": "chikmagalur"
+      },
+      {
+         "id": 18767,
+         "name": "Bhubaneshwar",
+         "urlFriendlyName": "bhubaneshwar"
+      },
+      {
+         "id": 16128,
+         "name": "Bhavnagar",
+         "urlFriendlyName": "bhavnagar"
+      },
+      {
+         "id": 19440,
+         "name": "Bhimtal",
+         "urlFriendlyName": "bhimtal"
+      },
+      {
+         "id": 4039,
+         "name": "Kanyakumari",
+         "urlFriendlyName": "kanyakumari"
+      },
+      {
+         "id": 18348,
+         "name": "Coonoor",
+         "urlFriendlyName": "coonoor"
+      },
+      {
+         "id": 8883,
+         "name": "Chandigarh",
+         "urlFriendlyName": "chandigarh"
+      },
+      {
+         "id": 20713,
+         "name": "Kullu",
+         "urlFriendlyName": "kullu"
+      },
+      {
+         "id": 8783,
+         "name": "Uttarakhand",
+         "urlFriendlyName": "uttarakhand"
+      },
+      {
+         "id": 19339,
+         "name": "Fort Kochi",
+         "urlFriendlyName": "fort-kochi"
+      },
+      {
+         "id": 20707,
+         "name": "Sangla",
+         "urlFriendlyName": "sangla"
+      },
+      {
+         "id": 19576,
+         "name": "Thoothukudi",
+         "urlFriendlyName": "thoothukudi"
+      },
+      {
+         "id": 20756,
+         "name": "Kanhangad",
+         "urlFriendlyName": "kanhangad"
+      },
+      {
+         "id": 11506,
+         "name": "Kangra",
+         "urlFriendlyName": "kangra"
+      },
+      {
+         "id": 19046,
+         "name": "Vagamon",
+         "urlFriendlyName": "vagamon"
+      },
+      {
+         "id": 20371,
+         "name": "Guhagar",
+         "urlFriendlyName": "guhagar"
+      },
+      {
+         "id": 13351,
+         "name": "Pelling",
+         "urlFriendlyName": "pelling"
+      },
+      {
+         "id": 20705,
+         "name": "Kargil",
+         "urlFriendlyName": "kargil"
+      },
+      {
+         "id": 20755,
+         "name": "Ranchi",
+         "urlFriendlyName": "ranchi"
+      },
+      {
+         "id": 11207,
+         "name": "Visakhapatnam",
+         "urlFriendlyName": "visakhapatnam"
+      },
+      {
+         "id": 20307,
+         "name": "Bidadi",
+         "urlFriendlyName": "bidadi"
+      },
+      {
+         "id": 7214,
+         "name": "Orchha",
+         "urlFriendlyName": "orchha"
+      },
+      {
+         "id": 18182,
+         "name": "Jim Corbett National Park",
+         "urlFriendlyName": "jim-corbett-national-park"
+      },
+      {
+         "id": 19273,
+         "name": "Kaudia Range",
+         "urlFriendlyName": "kaudia-range"
+      },
+      {
+         "id": 20599,
+         "name": "Majuli",
+         "urlFriendlyName": "majuli"
+      },
+      {
+         "id": 18559,
+         "name": "Chitkul",
+         "urlFriendlyName": "chitkul"
+      },
+      {
+         "id": 20749,
+         "name": "Alibag",
+         "urlFriendlyName": "alibag"
+      },
+      {
+         "id": 16567,
+         "name": "Kasauli",
+         "urlFriendlyName": "kasauli"
+      },
+      {
+         "id": 19763,
+         "name": "Palampur",
+         "urlFriendlyName": "palampur"
+      },
+      {
+         "id": 17709,
+         "name": "Jamshedpur",
+         "urlFriendlyName": "jamshedpur"
+      },
+      {
+         "id": 20532,
+         "name": "Gulmarg",
+         "urlFriendlyName": "gulmarg"
+      },
+      {
+         "id": 20724,
+         "name": "Tawang",
+         "urlFriendlyName": "tawang"
+      },
+      {
+         "id": 18841,
+         "name": "Ramakaklmedu",
+         "urlFriendlyName": "ramakaklmedu"
+      },
+      {
+         "id": 20477,
+         "name": "Mohali",
+         "urlFriendlyName": "mohali"
+      },
+      {
+         "id": 18332,
+         "name": "Ranakpur",
+         "urlFriendlyName": "ranakpur"
+      },
+      {
+         "id": 18789,
+         "name": "Malana",
+         "urlFriendlyName": "malana"
+      },
+      {
+         "id": 19727,
+         "name": "Jabalpur",
+         "urlFriendlyName": "jabalpur"
+      },
+      {
+         "id": 900,
+         "name": "Mangalore",
+         "urlFriendlyName": "mangalore"
+      },
+      {
+         "id": 20430,
+         "name": "Yuksom",
+         "urlFriendlyName": "yuksom"
+      }
+   ],
+   "Indonesia": [
+      {
+         "id": 1104,
+         "name": "Jakarta",
+         "urlFriendlyName": "jakarta"
+      },
+      {
+         "id": 830,
+         "name": "Yogyakarta",
+         "urlFriendlyName": "yogyakarta"
+      },
+      {
+         "id": 1148,
+         "name": "Denpasar",
+         "urlFriendlyName": "denpasar"
+      },
+      {
+         "id": 4825,
+         "name": "Ubud",
+         "urlFriendlyName": "ubud"
+      },
+      {
+         "id": 345,
+         "name": "Kuta",
+         "urlFriendlyName": "kuta"
+      },
+      {
+         "id": 1504,
+         "name": "Sanur",
+         "urlFriendlyName": "sanur"
+      },
+      {
+         "id": 8627,
+         "name": "Canggu",
+         "urlFriendlyName": "canggu"
+      },
+      {
+         "id": 12167,
+         "name": "Gili Trawangan",
+         "urlFriendlyName": "gili-trawangan"
+      },
+      {
+         "id": 19260,
+         "name": "Kuta Lombok",
+         "urlFriendlyName": "kuta-lombok"
+      },
+      {
+         "id": 15591,
+         "name": "Kuta Lombok",
+         "urlFriendlyName": "kuta-lombok"
+      },
+      {
+         "id": 12468,
+         "name": "Nusa Penida",
+         "urlFriendlyName": "nusa-penida"
+      },
+      {
+         "id": 9172,
+         "name": "Nusa Lembongan",
+         "urlFriendlyName": "nusa-lembongan"
+      },
+      {
+         "id": 7274,
+         "name": "Bandung",
+         "urlFriendlyName": "bandung"
+      },
+      {
+         "id": 14288,
+         "name": "Banyuwangi",
+         "urlFriendlyName": "banyuwangi"
+      },
+      {
+         "id": 16454,
+         "name": "Uluwatu",
+         "urlFriendlyName": "uluwatu"
+      },
+      {
+         "id": 6602,
+         "name": "Malang",
+         "urlFriendlyName": "malang"
+      },
+      {
+         "id": 10785,
+         "name": "Medan",
+         "urlFriendlyName": "medan"
+      },
+      {
+         "id": 11886,
+         "name": "Seminyak",
+         "urlFriendlyName": "seminyak"
+      },
+      {
+         "id": 7886,
+         "name": "Jimbaran",
+         "urlFriendlyName": "jimbaran"
+      },
+      {
+         "id": 6529,
+         "name": "Surabaya",
+         "urlFriendlyName": "surabaya"
+      },
+      {
+         "id": 8199,
+         "name": "Semarang",
+         "urlFriendlyName": "semarang"
+      },
+      {
+         "id": 13685,
+         "name": "Gili Air",
+         "urlFriendlyName": "gili-air"
+      },
+      {
+         "id": 13031,
+         "name": "Amed",
+         "urlFriendlyName": "amed"
+      },
+      {
+         "id": 12016,
+         "name": "Senggigi Lombok",
+         "urlFriendlyName": "senggigi-lombok"
+      },
+      {
+         "id": 11174,
+         "name": "Lovina",
+         "urlFriendlyName": "lovina"
+      },
+      {
+         "id": 7914,
+         "name": "Padang",
+         "urlFriendlyName": "padang"
+      },
+      {
+         "id": 12747,
+         "name": "Labuan Bajo",
+         "urlFriendlyName": "labuan-bajo"
+      },
+      {
+         "id": 7493,
+         "name": "Magelang",
+         "urlFriendlyName": "magelang"
+      },
+      {
+         "id": 16427,
+         "name": "Bogor",
+         "urlFriendlyName": "bogor"
+      },
+      {
+         "id": 3944,
+         "name": "Tabanan",
+         "urlFriendlyName": "tabanan"
+      },
+      {
+         "id": 12206,
+         "name": "Padang Bai",
+         "urlFriendlyName": "padang-bai"
+      },
+      {
+         "id": 19108,
+         "name": "Munduk",
+         "urlFriendlyName": "munduk"
+      },
+      {
+         "id": 19060,
+         "name": "Probolinggo",
+         "urlFriendlyName": "probolinggo"
+      },
+      {
+         "id": 7600,
+         "name": "Mataram Lombok",
+         "urlFriendlyName": "mataram-lombok"
+      },
+      {
+         "id": 14819,
+         "name": "Karimunjava Island",
+         "urlFriendlyName": "karimunjava-island"
+      },
+      {
+         "id": 9950,
+         "name": "Manado",
+         "urlFriendlyName": "manado"
+      },
+      {
+         "id": 12204,
+         "name": "Amlapura",
+         "urlFriendlyName": "amlapura"
+      },
+      {
+         "id": 11865,
+         "name": "Pontianak",
+         "urlFriendlyName": "pontianak"
+      },
+      {
+         "id": 15033,
+         "name": "Batukaras",
+         "urlFriendlyName": "batukaras"
+      },
+      {
+         "id": 8402,
+         "name": "Tulamben",
+         "urlFriendlyName": "tulamben"
+      },
+      {
+         "id": 10703,
+         "name": "Gili Meno",
+         "urlFriendlyName": "gili-meno"
+      },
+      {
+         "id": 14741,
+         "name": "Bira",
+         "urlFriendlyName": "bira"
+      },
+      {
+         "id": 16031,
+         "name": "Borobudur",
+         "urlFriendlyName": "borobudur"
+      },
+      {
+         "id": 18075,
+         "name": "Dieng",
+         "urlFriendlyName": "dieng"
+      },
+      {
+         "id": 290,
+         "name": "Kupang",
+         "urlFriendlyName": "kupang"
+      },
+      {
+         "id": 6650,
+         "name": "Bintan Island",
+         "urlFriendlyName": "bintan-island"
+      },
+      {
+         "id": 20793,
+         "name": "Blahbatuh",
+         "urlFriendlyName": "blahbatuh"
+      },
+      {
+         "id": 17725,
+         "name": "Pangandaran",
+         "urlFriendlyName": "pangandaran"
+      },
+      {
+         "id": 9516,
+         "name": "Sulawesi Tengah",
+         "urlFriendlyName": "sulawesi-tengah"
+      },
+      {
+         "id": 15413,
+         "name": "Ambarawa",
+         "urlFriendlyName": "ambarawa"
+      },
+      {
+         "id": 20531,
+         "name": "Berastagi",
+         "urlFriendlyName": "berastagi"
+      },
+      {
+         "id": 12201,
+         "name": "Tejakula",
+         "urlFriendlyName": "tejakula"
+      },
+      {
+         "id": 18776,
+         "name": "Krui",
+         "urlFriendlyName": "krui"
+      },
+      {
+         "id": 19844,
+         "name": "Pasir Putih",
+         "urlFriendlyName": "pasir-putih"
+      },
+      {
+         "id": 18494,
+         "name": "Huu",
+         "urlFriendlyName": "huu"
+      },
+      {
+         "id": 19778,
+         "name": "Sabang",
+         "urlFriendlyName": "sabang"
+      },
+      {
+         "id": 12119,
+         "name": "Rantepao",
+         "urlFriendlyName": "rantepao"
+      },
+      {
+         "id": 16193,
+         "name": "penebel",
+         "urlFriendlyName": "penebel"
+      },
+      {
+         "id": 18186,
+         "name": "Sukabumi",
+         "urlFriendlyName": "sukabumi"
+      }
+   ],
+   "Iran": [
+      {
+         "id": 8366,
+         "name": "Isfahan",
+         "urlFriendlyName": "isfahan"
+      },
+      {
+         "id": 17662,
+         "name": "Shiraz",
+         "urlFriendlyName": "shiraz"
+      },
+      {
+         "id": 9934,
+         "name": "Yazd",
+         "urlFriendlyName": "yazd"
+      },
+      {
+         "id": 7897,
+         "name": "Tehran",
+         "urlFriendlyName": "tehran"
+      },
+      {
+         "id": 17718,
+         "name": "Kashan",
+         "urlFriendlyName": "kashan"
+      },
+      {
+         "id": 19351,
+         "name": "Kerman",
+         "urlFriendlyName": "kerman"
+      },
+      {
+         "id": 18320,
+         "name": "Qeshm",
+         "urlFriendlyName": "qeshm"
+      },
+      {
+         "id": 17873,
+         "name": "Varzaneh",
+         "urlFriendlyName": "varzaneh"
+      },
+      {
+         "id": 18975,
+         "name": "Tabriz",
+         "urlFriendlyName": "tabriz"
+      },
+      {
+         "id": 18907,
+         "name": "Kermanshah",
+         "urlFriendlyName": "kermanshah"
+      },
+      {
+         "id": 19192,
+         "name": "Hormuz Island",
+         "urlFriendlyName": "hormuz-island"
+      },
+      {
+         "id": 18681,
+         "name": "Qazvin",
+         "urlFriendlyName": "qazvin"
+      },
+      {
+         "id": 19583,
+         "name": "Natanz",
+         "urlFriendlyName": "natanz"
+      },
+      {
+         "id": 19582,
+         "name": "Naein",
+         "urlFriendlyName": "naein"
+      },
+      {
+         "id": 20007,
+         "name": "Bakhraz",
+         "urlFriendlyName": "bakhraz"
+      },
+      {
+         "id": 20005,
+         "name": "Ardestan",
+         "urlFriendlyName": "ardestan"
+      },
+      {
+         "id": 19079,
+         "name": "Mashhad",
+         "urlFriendlyName": "mashhad"
+      },
+      {
+         "id": 19804,
+         "name": "Parsian",
+         "urlFriendlyName": "parsian"
+      },
+      {
+         "id": 20752,
+         "name": "Toudeshk",
+         "urlFriendlyName": "toudeshk"
+      },
+      {
+         "id": 19030,
+         "name": "Mehriz",
+         "urlFriendlyName": "mehriz"
+      },
+      {
+         "id": 20690,
+         "name": "Bavanat",
+         "urlFriendlyName": "bavanat"
+      },
+      {
+         "id": 20090,
+         "name": "Asadabad",
+         "urlFriendlyName": "asadabad"
+      },
+      {
+         "id": 18959,
+         "name": "Meymand",
+         "urlFriendlyName": "meymand"
+      }
+   ],
+   "Israel": [
+      {
+         "id": 42,
+         "name": "Tel Aviv",
+         "urlFriendlyName": "tel-aviv"
+      },
+      {
+         "id": 292,
+         "name": "Jerusalem",
+         "urlFriendlyName": "jerusalem"
+      },
+      {
+         "id": 7641,
+         "name": "Haifa",
+         "urlFriendlyName": "haifa"
+      },
+      {
+         "id": 8191,
+         "name": "Eilat",
+         "urlFriendlyName": "eilat"
+      },
+      {
+         "id": 7288,
+         "name": "Tiberias",
+         "urlFriendlyName": "tiberias"
+      },
+      {
+         "id": 6400,
+         "name": "Galilee",
+         "urlFriendlyName": "galilee"
+      },
+      {
+         "id": 4715,
+         "name": "Nazareth",
+         "urlFriendlyName": "nazareth"
+      },
+      {
+         "id": 8530,
+         "name": "Mitzpe Ramon",
+         "urlFriendlyName": "mitzpe-ramon"
+      },
+      {
+         "id": 6914,
+         "name": "Golan Heights",
+         "urlFriendlyName": "golan-heights"
+      },
+      {
+         "id": 8155,
+         "name": "Arava",
+         "urlFriendlyName": "arava"
+      },
+      {
+         "id": 8020,
+         "name": "Dead Sea",
+         "urlFriendlyName": "dead-sea"
+      },
+      {
+         "id": 10640,
+         "name": "Negev",
+         "urlFriendlyName": "negev"
+      },
+      {
+         "id": 8701,
+         "name": "Akko",
+         "urlFriendlyName": "akko"
+      },
+      {
+         "id": 19464,
+         "name": "Migdal",
+         "urlFriendlyName": "migdal"
+      },
+      {
+         "id": 18787,
+         "name": "Neot HaKikar",
+         "urlFriendlyName": "neot-hakikar"
+      },
+      {
+         "id": 12018,
+         "name": "Safed",
+         "urlFriendlyName": "safed"
+      }
+   ],
+   "Japan": [
+      {
+         "id": 452,
+         "name": "Tokyo",
+         "urlFriendlyName": "tokyo"
+      },
+      {
+         "id": 1478,
+         "name": "Kyoto",
+         "urlFriendlyName": "kyoto"
+      },
+      {
+         "id": 1420,
+         "name": "Osaka",
+         "urlFriendlyName": "osaka"
+      },
+      {
+         "id": 4092,
+         "name": "Hiroshima",
+         "urlFriendlyName": "hiroshima"
+      },
+      {
+         "id": 3941,
+         "name": "Sapporo",
+         "urlFriendlyName": "sapporo"
+      },
+      {
+         "id": 4694,
+         "name": "Nagasaki",
+         "urlFriendlyName": "nagasaki"
+      },
+      {
+         "id": 1737,
+         "name": "Nagano",
+         "urlFriendlyName": "nagano"
+      },
+      {
+         "id": 2542,
+         "name": "Kobe",
+         "urlFriendlyName": "kobe"
+      },
+      {
+         "id": 5015,
+         "name": "Nagoya",
+         "urlFriendlyName": "nagoya"
+      },
+      {
+         "id": 4120,
+         "name": "Okinawa",
+         "urlFriendlyName": "okinawa"
+      },
+      {
+         "id": 18823,
+         "name": "Fukuoka",
+         "urlFriendlyName": "fukuoka"
+      },
+      {
+         "id": 4053,
+         "name": "Mount Fuji",
+         "urlFriendlyName": "mount-fuji"
+      },
+      {
+         "id": 4313,
+         "name": "Nara",
+         "urlFriendlyName": "nara"
+      },
+      {
+         "id": 2549,
+         "name": "Hida Takayama",
+         "urlFriendlyName": "hida-takayama"
+      },
+      {
+         "id": 6517,
+         "name": "Kamakura",
+         "urlFriendlyName": "kamakura"
+      },
+      {
+         "id": 7011,
+         "name": "Kagoshima",
+         "urlFriendlyName": "kagoshima"
+      },
+      {
+         "id": 4068,
+         "name": "Izu Peninsula",
+         "urlFriendlyName": "izu-peninsula"
+      },
+      {
+         "id": 8264,
+         "name": "Miyazaki",
+         "urlFriendlyName": "miyazaki"
+      },
+      {
+         "id": 4284,
+         "name": "Kanazawa",
+         "urlFriendlyName": "kanazawa"
+      },
+      {
+         "id": 10027,
+         "name": "Hokkaido Niseko",
+         "urlFriendlyName": "hokkaido-niseko"
+      },
+      {
+         "id": 8154,
+         "name": "Otaru",
+         "urlFriendlyName": "otaru"
+      },
+      {
+         "id": 2900,
+         "name": "Himeji",
+         "urlFriendlyName": "himeji"
+      },
+      {
+         "id": 2847,
+         "name": "Beppu Onsen Hot Spring Oita",
+         "urlFriendlyName": "beppu-onsen-hot-spring-oita"
+      },
+      {
+         "id": 2565,
+         "name": "Nikko",
+         "urlFriendlyName": "nikko"
+      },
+      {
+         "id": 8379,
+         "name": "Nagano (Hakuba)",
+         "urlFriendlyName": "nagano-hakuba"
+      },
+      {
+         "id": 8885,
+         "name": "Sendai",
+         "urlFriendlyName": "sendai"
+      },
+      {
+         "id": 4155,
+         "name": "Hakodate",
+         "urlFriendlyName": "hakodate"
+      },
+      {
+         "id": 17963,
+         "name": "Nozawa Onsen Nagano",
+         "urlFriendlyName": "nozawa-onsen-nagano"
+      },
+      {
+         "id": 18994,
+         "name": "Okayama Prefecture",
+         "urlFriendlyName": "okayama-prefecture"
+      },
+      {
+         "id": 7648,
+         "name": "Myoko Niigata Prefecture",
+         "urlFriendlyName": "myoko-niigata-prefecture"
+      },
+      {
+         "id": 17962,
+         "name": "Nozawa Onsen Nagano",
+         "urlFriendlyName": "nozawa-onsen-nagano"
+      },
+      {
+         "id": 16046,
+         "name": "Hakone",
+         "urlFriendlyName": "hakone"
+      },
+      {
+         "id": 17341,
+         "name": "Saitama Prefeture",
+         "urlFriendlyName": "saitama-prefeture"
+      },
+      {
+         "id": 14985,
+         "name": "Gokayama Historic Village",
+         "urlFriendlyName": "gokayama-historic-village"
+      },
+      {
+         "id": 18938,
+         "name": "Hokkaido Shiretoko",
+         "urlFriendlyName": "hokkaido-shiretoko"
+      },
+      {
+         "id": 16755,
+         "name": "Atami",
+         "urlFriendlyName": "atami"
+      },
+      {
+         "id": 11051,
+         "name": "Nagano Snow Monkey Park",
+         "urlFriendlyName": "nagano-snow-monkey-park"
+      },
+      {
+         "id": 18518,
+         "name": "Fukushima Prefecture",
+         "urlFriendlyName": "fukushima-prefecture"
+      },
+      {
+         "id": 8505,
+         "name": "Tokushima Pref",
+         "urlFriendlyName": "tokushima-pref"
+      },
+      {
+         "id": 18937,
+         "name": "Hokkaido Noboribetsu & Lake Toya",
+         "urlFriendlyName": "hokkaido-noboribetsu-and-lake-toya"
+      },
+      {
+         "id": 2265,
+         "name": "Kanagawa",
+         "urlFriendlyName": "kanagawa"
+      },
+      {
+         "id": 9969,
+         "name": "Ise Shrines and Shima",
+         "urlFriendlyName": "ise-shrines-and-shima"
+      },
+      {
+         "id": 16444,
+         "name": "Oita",
+         "urlFriendlyName": "oita"
+      },
+      {
+         "id": 8092,
+         "name": "Narita Airport",
+         "urlFriendlyName": "narita-airport"
+      },
+      {
+         "id": 11042,
+         "name": "Hokkaido Asahikawa",
+         "urlFriendlyName": "hokkaido-asahikawa"
+      },
+      {
+         "id": 8498,
+         "name": "Kagawa Pref",
+         "urlFriendlyName": "kagawa-pref"
+      },
+      {
+         "id": 12839,
+         "name": "Hiroshima Onomichi",
+         "urlFriendlyName": "hiroshima-onomichi"
+      },
+      {
+         "id": 16425,
+         "name": "Niigata Prefecture",
+         "urlFriendlyName": "niigata-prefecture"
+      },
+      {
+         "id": 10913,
+         "name": "Tanabe Kumano Kodo Pilgrimage Routes",
+         "urlFriendlyName": "tanabe-kumano-kodo-pilgrimage-routes"
+      },
+      {
+         "id": 8424,
+         "name": "Gifu Prefecture",
+         "urlFriendlyName": "gifu-prefecture"
+      },
+      {
+         "id": 9391,
+         "name": "Akita Prefecture",
+         "urlFriendlyName": "akita-prefecture"
+      },
+      {
+         "id": 9321,
+         "name": "Matsumoto",
+         "urlFriendlyName": "matsumoto"
+      },
+      {
+         "id": 15785,
+         "name": "Wakayama Prefecture",
+         "urlFriendlyName": "wakayama-prefecture"
+      },
+      {
+         "id": 10312,
+         "name": "Kumamoto",
+         "urlFriendlyName": "kumamoto"
+      },
+      {
+         "id": 20162,
+         "name": "Hokkaido Wakkanai",
+         "urlFriendlyName": "hokkaido-wakkanai"
+      },
+      {
+         "id": 11845,
+         "name": "Hachijojima",
+         "urlFriendlyName": "hachijojima"
+      },
+      {
+         "id": 18801,
+         "name": "Shimane Prefecture",
+         "urlFriendlyName": "shimane-prefecture"
+      },
+      {
+         "id": 902,
+         "name": "Gunma",
+         "urlFriendlyName": "gunma"
+      },
+      {
+         "id": 19702,
+         "name": "Ogasawara ,Tokyo",
+         "urlFriendlyName": "ogasawara-tokyo"
+      },
+      {
+         "id": 14942,
+         "name": "Goto Islands Nagasaki",
+         "urlFriendlyName": "goto-islands-nagasaki"
+      },
+      {
+         "id": 6277,
+         "name": "Matsuyama Dogo Spa",
+         "urlFriendlyName": "matsuyama-dogo-spa"
+      },
+      {
+         "id": 19092,
+         "name": "Takachiho Miyazaki",
+         "urlFriendlyName": "takachiho-miyazaki"
+      },
+      {
+         "id": 18877,
+         "name": "Tochigi Prefecture",
+         "urlFriendlyName": "tochigi-prefecture"
+      },
+      {
+         "id": 9597,
+         "name": "Hokkaido Furano",
+         "urlFriendlyName": "hokkaido-furano"
+      },
+      {
+         "id": 12272,
+         "name": "Okinawa Ishigakijima",
+         "urlFriendlyName": "okinawa-ishigakijima"
+      },
+      {
+         "id": 18876,
+         "name": "Tochigi Prefecture",
+         "urlFriendlyName": "tochigi-prefecture"
+      },
+      {
+         "id": 18982,
+         "name": "Otsu",
+         "urlFriendlyName": "otsu"
+      },
+      {
+         "id": 7647,
+         "name": "Toyama Prefecture",
+         "urlFriendlyName": "toyama-prefecture"
+      },
+      {
+         "id": 10594,
+         "name": "Okinawa Zamami",
+         "urlFriendlyName": "okinawa-zamami"
+      },
+      {
+         "id": 17893,
+         "name": "Shimonoseki",
+         "urlFriendlyName": "shimonoseki"
+      },
+      {
+         "id": 11878,
+         "name": "Hyogo Prefecture",
+         "urlFriendlyName": "hyogo-prefecture"
+      },
+      {
+         "id": 18939,
+         "name": "Hokkaido Daisetsuzan National Park",
+         "urlFriendlyName": "hokkaido-daisetsuzan-national-park"
+      }
+   ],
+   "Jordan": [
+      {
+         "id": 896,
+         "name": "Amman",
+         "urlFriendlyName": "amman"
+      },
+      {
+         "id": 1928,
+         "name": "Petra",
+         "urlFriendlyName": "petra"
+      },
+      {
+         "id": 10809,
+         "name": "Wadi Rum",
+         "urlFriendlyName": "wadi-rum"
+      },
+      {
+         "id": 5977,
+         "name": "Aqaba",
+         "urlFriendlyName": "aqaba"
+      },
+      {
+         "id": 19606,
+         "name": "Jerash",
+         "urlFriendlyName": "jerash"
+      },
+      {
+         "id": 14903,
+         "name": "Dana",
+         "urlFriendlyName": "dana"
+      }
+   ],
+   "Kazakhstan": [
+      {
+         "id": 8420,
+         "name": "Almaty",
+         "urlFriendlyName": "almaty"
+      },
+      {
+         "id": 13869,
+         "name": "Astana",
+         "urlFriendlyName": "astana"
+      },
+      {
+         "id": 16726,
+         "name": "Atyrau",
+         "urlFriendlyName": "atyrau"
+      },
+      {
+         "id": 16411,
+         "name": "Shymkent",
+         "urlFriendlyName": "shymkent"
+      }
+   ],
+   "Kyrgyzstan": [
+      {
+         "id": 5799,
+         "name": "Bishkek",
+         "urlFriendlyName": "bishkek"
+      },
+      {
+         "id": 9557,
+         "name": "Karakol",
+         "urlFriendlyName": "karakol"
+      },
+      {
+         "id": 13390,
+         "name": "Osh",
+         "urlFriendlyName": "osh"
+      },
+      {
+         "id": 17475,
+         "name": "Kochkor",
+         "urlFriendlyName": "kochkor"
+      }
+   ],
+   "Laos": [
+      {
+         "id": 829,
+         "name": "Luang Prabang",
+         "urlFriendlyName": "luang-prabang"
+      },
+      {
+         "id": 8761,
+         "name": "Vang Vieng",
+         "urlFriendlyName": "vang-vieng"
+      },
+      {
+         "id": 1295,
+         "name": "Vientiane",
+         "urlFriendlyName": "vientiane"
+      },
+      {
+         "id": 11916,
+         "name": "Pakse",
+         "urlFriendlyName": "pakse"
+      },
+      {
+         "id": 19356,
+         "name": "Thakhek",
+         "urlFriendlyName": "thakhek"
+      },
+      {
+         "id": 18501,
+         "name": "Nakai",
+         "urlFriendlyName": "nakai"
+      }
+   ],
+   "Lebanon": [
+      {
+         "id": 899,
+         "name": "Beirut",
+         "urlFriendlyName": "beirut"
+      },
+      {
+         "id": 19436,
+         "name": "Bsharri",
+         "urlFriendlyName": "bsharri"
+      },
+      {
+         "id": 19227,
+         "name": "Tripoli",
+         "urlFriendlyName": "tripoli"
+      },
+      {
+         "id": 4515,
+         "name": "Sidon",
+         "urlFriendlyName": "sidon"
+      },
+      {
+         "id": 2613,
+         "name": "Jounieh",
+         "urlFriendlyName": "jounieh"
+      }
+   ],
+   "Malaysia": [
+      {
+         "id": 183,
+         "name": "Kuala Lumpur",
+         "urlFriendlyName": "kuala-lumpur"
+      },
+      {
+         "id": 379,
+         "name": "Kota Kinabalu",
+         "urlFriendlyName": "kota-kinabalu"
+      },
+      {
+         "id": 1138,
+         "name": "Penang",
+         "urlFriendlyName": "penang"
+      },
+      {
+         "id": 984,
+         "name": "Langkawi",
+         "urlFriendlyName": "langkawi"
+      },
+      {
+         "id": 1641,
+         "name": "Melaka",
+         "urlFriendlyName": "melaka"
+      },
+      {
+         "id": 3000,
+         "name": "Kuching",
+         "urlFriendlyName": "kuching"
+      },
+      {
+         "id": 4985,
+         "name": "Petaling Jaya",
+         "urlFriendlyName": "petaling-jaya"
+      },
+      {
+         "id": 1464,
+         "name": "Kuantan",
+         "urlFriendlyName": "kuantan"
+      },
+      {
+         "id": 12085,
+         "name": "Cameron Highlands",
+         "urlFriendlyName": "cameron-highlands"
+      },
+      {
+         "id": 4450,
+         "name": "Johor Bahru",
+         "urlFriendlyName": "johor-bahru"
+      },
+      {
+         "id": 19277,
+         "name": "Ipoh",
+         "urlFriendlyName": "ipoh"
+      },
+      {
+         "id": 1605,
+         "name": "Sandakan",
+         "urlFriendlyName": "sandakan"
+      },
+      {
+         "id": 4540,
+         "name": "Ipoh",
+         "urlFriendlyName": "ipoh"
+      },
+      {
+         "id": 8891,
+         "name": "Sepang",
+         "urlFriendlyName": "sepang"
+      },
+      {
+         "id": 335,
+         "name": "Kota Bharu",
+         "urlFriendlyName": "kota-bharu"
+      },
+      {
+         "id": 6749,
+         "name": "Ranau",
+         "urlFriendlyName": "ranau"
+      },
+      {
+         "id": 20396,
+         "name": "Kedah",
+         "urlFriendlyName": "kedah"
+      },
+      {
+         "id": 4681,
+         "name": "Mersing",
+         "urlFriendlyName": "mersing"
+      },
+      {
+         "id": 14087,
+         "name": "Putrajaya",
+         "urlFriendlyName": "putrajaya"
+      }
+   ],
+   "Mongolia": [
+      {
+         "id": 375,
+         "name": "Ulaanbaatar",
+         "urlFriendlyName": "ulaanbaatar"
+      },
+      {
+         "id": 19725,
+         "name": "Murun",
+         "urlFriendlyName": "murun"
+      },
+      {
+         "id": 8450,
+         "name": "Kharkhorin",
+         "urlFriendlyName": "kharkhorin"
+      }
+   ],
+   "Myanmar": [
+      {
+         "id": 772,
+         "name": "Yangon",
+         "urlFriendlyName": "yangon"
+      },
+      {
+         "id": 14681,
+         "name": "Mandalay",
+         "urlFriendlyName": "mandalay"
+      },
+      {
+         "id": 14469,
+         "name": "Bagan",
+         "urlFriendlyName": "bagan"
+      },
+      {
+         "id": 16724,
+         "name": "Inle Lake",
+         "urlFriendlyName": "inle-lake"
+      },
+      {
+         "id": 18275,
+         "name": "Ngapali",
+         "urlFriendlyName": "ngapali"
+      },
+      {
+         "id": 15644,
+         "name": "Kalaw",
+         "urlFriendlyName": "kalaw"
+      },
+      {
+         "id": 17126,
+         "name": "Ngwe Saung",
+         "urlFriendlyName": "ngwe-saung"
+      },
+      {
+         "id": 19013,
+         "name": "Mawlamyine",
+         "urlFriendlyName": "mawlamyine"
+      },
+      {
+         "id": 15637,
+         "name": "Hpa-an",
+         "urlFriendlyName": "hpa-an"
+      },
+      {
+         "id": 18556,
+         "name": "Pyin Oo Lwin",
+         "urlFriendlyName": "pyin-oo-lwin"
+      },
+      {
+         "id": 18502,
+         "name": "Nyaung Shwe",
+         "urlFriendlyName": "nyaung-shwe"
+      },
+      {
+         "id": 19708,
+         "name": "Dawei",
+         "urlFriendlyName": "dawei"
+      },
+      {
+         "id": 18446,
+         "name": "Hsipaw",
+         "urlFriendlyName": "hsipaw"
+      },
+      {
+         "id": 19534,
+         "name": "Nyaung-U",
+         "urlFriendlyName": "nyaung-u"
+      },
+      {
+         "id": 19058,
+         "name": "Loikaw",
+         "urlFriendlyName": "loikaw"
+      }
+   ],
+   "Nepal": [
+      {
+         "id": 161,
+         "name": "Kathmandu",
+         "urlFriendlyName": "kathmandu"
+      },
+      {
+         "id": 739,
+         "name": "Pokhara",
+         "urlFriendlyName": "pokhara"
+      },
+      {
+         "id": 6269,
+         "name": "Chitwan",
+         "urlFriendlyName": "chitwan"
+      },
+      {
+         "id": 17488,
+         "name": "Patan",
+         "urlFriendlyName": "patan"
+      },
+      {
+         "id": 738,
+         "name": "Bhaktapur",
+         "urlFriendlyName": "bhaktapur"
+      }
+   ],
+   "Pakistan": [
+      {
+         "id": 17477,
+         "name": "Hunza",
+         "urlFriendlyName": "hunza"
+      },
+      {
+         "id": 8200,
+         "name": "Lahore",
+         "urlFriendlyName": "lahore"
+      },
+      {
+         "id": 20795,
+         "name": "Multan",
+         "urlFriendlyName": "multan"
+      },
+      {
+         "id": 20423,
+         "name": "Rawalpindi",
+         "urlFriendlyName": "rawalpindi"
+      }
+   ],
+   "Palestine": [
+      {
+         "id": 8796,
+         "name": "Bethlehem",
+         "urlFriendlyName": "bethlehem"
+      },
+      {
+         "id": 15731,
+         "name": "Jericho",
+         "urlFriendlyName": "jericho"
+      },
+      {
+         "id": 16161,
+         "name": "Nablus",
+         "urlFriendlyName": "nablus"
+      },
+      {
+         "id": 16213,
+         "name": "Hebron",
+         "urlFriendlyName": "hebron"
+      }
+   ],
+   "Philippines": [
+      {
+         "id": 4826,
+         "name": "Cebu",
+         "urlFriendlyName": "cebu"
+      },
+      {
+         "id": 302,
+         "name": "Manila",
+         "urlFriendlyName": "manila"
+      },
+      {
+         "id": 13271,
+         "name": "Siargao Island",
+         "urlFriendlyName": "siargao-island"
+      },
+      {
+         "id": 16220,
+         "name": "Puerto Princesa",
+         "urlFriendlyName": "puerto-princesa"
+      },
+      {
+         "id": 10092,
+         "name": "Coron",
+         "urlFriendlyName": "coron"
+      },
+      {
+         "id": 13837,
+         "name": "El Nido",
+         "urlFriendlyName": "el-nido"
+      },
+      {
+         "id": 9282,
+         "name": "Moalboal",
+         "urlFriendlyName": "moalboal"
+      },
+      {
+         "id": 878,
+         "name": "Siquijor Island near Bohol",
+         "urlFriendlyName": "siquijor-island-near-bohol"
+      },
+      {
+         "id": 13404,
+         "name": "Panglao Island",
+         "urlFriendlyName": "panglao-island"
+      },
+      {
+         "id": 1175,
+         "name": "Boracay Island",
+         "urlFriendlyName": "boracay-island"
+      },
+      {
+         "id": 20792,
+         "name": "La Union",
+         "urlFriendlyName": "la-union"
+      },
+      {
+         "id": 13212,
+         "name": "Malapascua Island Cebu",
+         "urlFriendlyName": "malapascua-island-cebu"
+      },
+      {
+         "id": 842,
+         "name": "Dumaguete",
+         "urlFriendlyName": "dumaguete"
+      },
+      {
+         "id": 1710,
+         "name": "Puerto Galera Mindoro",
+         "urlFriendlyName": "puerto-galera-mindoro"
+      },
+      {
+         "id": 18973,
+         "name": "Bohol Island",
+         "urlFriendlyName": "bohol-island"
+      },
+      {
+         "id": 18187,
+         "name": "Zambales",
+         "urlFriendlyName": "zambales"
+      },
+      {
+         "id": 6700,
+         "name": "Baguio",
+         "urlFriendlyName": "baguio"
+      },
+      {
+         "id": 14034,
+         "name": "Port Barton",
+         "urlFriendlyName": "port-barton"
+      },
+      {
+         "id": 13420,
+         "name": "Legazpi City",
+         "urlFriendlyName": "legazpi-city"
+      },
+      {
+         "id": 16388,
+         "name": "Oslob",
+         "urlFriendlyName": "oslob"
+      },
+      {
+         "id": 20622,
+         "name": "Pagadian City",
+         "urlFriendlyName": "pagadian-city"
+      },
+      {
+         "id": 19802,
+         "name": "Pangasinan",
+         "urlFriendlyName": "pangasinan"
+      },
+      {
+         "id": 14298,
+         "name": "Banaue",
+         "urlFriendlyName": "banaue"
+      },
+      {
+         "id": 18783,
+         "name": "Mati City",
+         "urlFriendlyName": "mati-city"
+      },
+      {
+         "id": 955,
+         "name": "Palawan",
+         "urlFriendlyName": "palawan"
+      }
+   ],
+   "Saudi Arabia": [
+      {
+         "id": 20512,
+         "name": "Baish",
+         "urlFriendlyName": "baish"
+      }
+   ],
+   "Singapore": [
+      {
+         "id": 93,
+         "name": "Singapore",
+         "urlFriendlyName": "singapore"
+      }
+   ],
+   "South Korea": [
+      {
+         "id": 1103,
+         "name": "Seoul",
+         "urlFriendlyName": "seoul"
+      },
+      {
+         "id": 972,
+         "name": "Busan",
+         "urlFriendlyName": "busan"
+      },
+      {
+         "id": 6362,
+         "name": "Jeju Island",
+         "urlFriendlyName": "jeju-island"
+      },
+      {
+         "id": 6085,
+         "name": "Gyeong-ju",
+         "urlFriendlyName": "gyeong-ju"
+      },
+      {
+         "id": 10375,
+         "name": "Jeonju",
+         "urlFriendlyName": "jeonju"
+      },
+      {
+         "id": 19119,
+         "name": "Paju",
+         "urlFriendlyName": "paju"
+      },
+      {
+         "id": 13118,
+         "name": "Yeosu",
+         "urlFriendlyName": "yeosu"
+      },
+      {
+         "id": 10830,
+         "name": "Daegu",
+         "urlFriendlyName": "daegu"
+      }
+   ],
+   "Sri Lanka": [
+      {
+         "id": 685,
+         "name": "Colombo",
+         "urlFriendlyName": "colombo"
+      },
+      {
+         "id": 8969,
+         "name": "Ella",
+         "urlFriendlyName": "ella"
+      },
+      {
+         "id": 19341,
+         "name": "Kandy",
+         "urlFriendlyName": "kandy"
+      },
+      {
+         "id": 2544,
+         "name": "Kandy",
+         "urlFriendlyName": "kandy"
+      },
+      {
+         "id": 6613,
+         "name": "Negombo",
+         "urlFriendlyName": "negombo"
+      },
+      {
+         "id": 16415,
+         "name": "Sigiriya",
+         "urlFriendlyName": "sigiriya"
+      },
+      {
+         "id": 2436,
+         "name": "Galle",
+         "urlFriendlyName": "galle"
+      },
+      {
+         "id": 5052,
+         "name": "Weligama",
+         "urlFriendlyName": "weligama"
+      },
+      {
+         "id": 7430,
+         "name": "Unawatuna",
+         "urlFriendlyName": "unawatuna"
+      },
+      {
+         "id": 11321,
+         "name": "Mirissa",
+         "urlFriendlyName": "mirissa"
+      },
+      {
+         "id": 9961,
+         "name": "Matara",
+         "urlFriendlyName": "matara"
+      },
+      {
+         "id": 12645,
+         "name": "Arugam Bay",
+         "urlFriendlyName": "arugam-bay"
+      },
+      {
+         "id": 2439,
+         "name": "Hikkaduwa",
+         "urlFriendlyName": "hikkaduwa"
+      },
+      {
+         "id": 12349,
+         "name": "Nuwara Eliya",
+         "urlFriendlyName": "nuwara-eliya"
+      },
+      {
+         "id": 11889,
+         "name": "Yala National Park",
+         "urlFriendlyName": "yala-national-park"
+      },
+      {
+         "id": 3866,
+         "name": "Anuradhapura",
+         "urlFriendlyName": "anuradhapura"
+      },
+      {
+         "id": 8893,
+         "name": "Adam's Peak",
+         "urlFriendlyName": "adam-s-peak"
+      },
+      {
+         "id": 12348,
+         "name": "Bentota",
+         "urlFriendlyName": "bentota"
+      },
+      {
+         "id": 7893,
+         "name": "Ahangama",
+         "urlFriendlyName": "ahangama"
+      },
+      {
+         "id": 7152,
+         "name": "Tangalle",
+         "urlFriendlyName": "tangalle"
+      },
+      {
+         "id": 18521,
+         "name": "Jaffna",
+         "urlFriendlyName": "jaffna"
+      },
+      {
+         "id": 5677,
+         "name": "Dambulla",
+         "urlFriendlyName": "dambulla"
+      },
+      {
+         "id": 16510,
+         "name": "Dickwella",
+         "urlFriendlyName": "dickwella"
+      },
+      {
+         "id": 19413,
+         "name": "Haputale",
+         "urlFriendlyName": "haputale"
+      },
+      {
+         "id": 12745,
+         "name": "Midigama",
+         "urlFriendlyName": "midigama"
+      },
+      {
+         "id": 18777,
+         "name": "Udawalawa",
+         "urlFriendlyName": "udawalawa"
+      },
+      {
+         "id": 19151,
+         "name": "Katunayaka",
+         "urlFriendlyName": "katunayaka"
+      },
+      {
+         "id": 20273,
+         "name": "Hiriketiya",
+         "urlFriendlyName": "hiriketiya"
+      },
+      {
+         "id": 19138,
+         "name": "Komari",
+         "urlFriendlyName": "komari"
+      },
+      {
+         "id": 20156,
+         "name": "Kirinda",
+         "urlFriendlyName": "kirinda"
+      },
+      {
+         "id": 19099,
+         "name": "Deniyaya",
+         "urlFriendlyName": "deniyaya"
+      },
+      {
+         "id": 20055,
+         "name": "Batticaloa",
+         "urlFriendlyName": "batticaloa"
+      },
+      {
+         "id": 15132,
+         "name": "Trincomalee",
+         "urlFriendlyName": "trincomalee"
+      },
+      {
+         "id": 18878,
+         "name": "Ragama",
+         "urlFriendlyName": "ragama"
+      }
+   ],
+   "Taiwan China": [
+      {
+         "id": 889,
+         "name": "Taipei",
+         "urlFriendlyName": "taipei"
+      },
+      {
+         "id": 2952,
+         "name": "Hualien",
+         "urlFriendlyName": "hualien"
+      },
+      {
+         "id": 10184,
+         "name": "Tainan",
+         "urlFriendlyName": "tainan"
+      },
+      {
+         "id": 5682,
+         "name": "Kaohsiung",
+         "urlFriendlyName": "kaohsiung"
+      },
+      {
+         "id": 2614,
+         "name": "Taichung",
+         "urlFriendlyName": "taichung"
+      },
+      {
+         "id": 9414,
+         "name": "Kenting",
+         "urlFriendlyName": "kenting"
+      },
+      {
+         "id": 12840,
+         "name": "Sun Moon Lake",
+         "urlFriendlyName": "sun-moon-lake"
+      },
+      {
+         "id": 6503,
+         "name": "Taitung",
+         "urlFriendlyName": "taitung"
+      },
+      {
+         "id": 11716,
+         "name": "Chiayi",
+         "urlFriendlyName": "chiayi"
+      },
+      {
+         "id": 16999,
+         "name": "Yilan",
+         "urlFriendlyName": "yilan"
+      },
+      {
+         "id": 13141,
+         "name": "Penghu",
+         "urlFriendlyName": "penghu"
+      },
+      {
+         "id": 13485,
+         "name": "New Taipei City",
+         "urlFriendlyName": "new-taipei-city"
+      },
+      {
+         "id": 10147,
+         "name": "Pingtung",
+         "urlFriendlyName": "pingtung"
+      },
+      {
+         "id": 13289,
+         "name": "New Taipei Jiufen",
+         "urlFriendlyName": "new-taipei-jiufen"
+      },
+      {
+         "id": 6505,
+         "name": "Nantou",
+         "urlFriendlyName": "nantou"
+      },
+      {
+         "id": 17125,
+         "name": "Liuqiu",
+         "urlFriendlyName": "liuqiu"
+      },
+      {
+         "id": 3007,
+         "name": "Changhua",
+         "urlFriendlyName": "changhua"
+      }
+   ],
+   "Tajikistan": [
+      {
+         "id": 14967,
+         "name": "Dushanbe",
+         "urlFriendlyName": "dushanbe"
+      },
+      {
+         "id": 19463,
+         "name": "Khorog",
+         "urlFriendlyName": "khorog"
+      }
+   ],
+   "Thailand": [
+      {
+         "id": 149,
+         "name": "Bangkok",
+         "urlFriendlyName": "bangkok"
+      },
+      {
+         "id": 1135,
+         "name": "Hua Hin",
+         "urlFriendlyName": "hua-hin"
+      },
+      {
+         "id": 2810,
+         "name": "Chonburi",
+         "urlFriendlyName": "chonburi"
+      },
+      {
+         "id": 831,
+         "name": "Chiang Mai",
+         "urlFriendlyName": "chiang-mai"
+      },
+      {
+         "id": 150,
+         "name": "Phuket",
+         "urlFriendlyName": "phuket"
+      },
+      {
+         "id": 1124,
+         "name": "Krabi",
+         "urlFriendlyName": "krabi"
+      },
+      {
+         "id": 1694,
+         "name": "Kanchanaburi",
+         "urlFriendlyName": "kanchanaburi"
+      },
+      {
+         "id": 2609,
+         "name": "Koh Chang",
+         "urlFriendlyName": "koh-chang"
+      },
+      {
+         "id": 2017,
+         "name": "Koh Phangan",
+         "urlFriendlyName": "koh-phangan"
+      },
+      {
+         "id": 949,
+         "name": "Koh Samui",
+         "urlFriendlyName": "koh-samui"
+      },
+      {
+         "id": 1489,
+         "name": "Koh Tao",
+         "urlFriendlyName": "koh-tao"
+      },
+      {
+         "id": 461,
+         "name": "Pattaya",
+         "urlFriendlyName": "pattaya"
+      },
+      {
+         "id": 9142,
+         "name": "Pai",
+         "urlFriendlyName": "pai"
+      },
+      {
+         "id": 1136,
+         "name": "Koh Phi Phi",
+         "urlFriendlyName": "koh-phi-phi"
+      },
+      {
+         "id": 1460,
+         "name": "Chiang Rai",
+         "urlFriendlyName": "chiang-rai"
+      },
+      {
+         "id": 1483,
+         "name": "Koh Lanta",
+         "urlFriendlyName": "koh-lanta"
+      },
+      {
+         "id": 19115,
+         "name": "Hat Yai",
+         "urlFriendlyName": "hat-yai"
+      },
+      {
+         "id": 7513,
+         "name": "Surat Thani",
+         "urlFriendlyName": "surat-thani"
+      },
+      {
+         "id": 11872,
+         "name": "Koh Lipe",
+         "urlFriendlyName": "koh-lipe"
+      },
+      {
+         "id": 1149,
+         "name": "Khao Lak",
+         "urlFriendlyName": "khao-lak"
+      },
+      {
+         "id": 5484,
+         "name": "Ayutthaya",
+         "urlFriendlyName": "ayutthaya"
+      },
+      {
+         "id": 6835,
+         "name": "Udon Thani",
+         "urlFriendlyName": "udon-thani"
+      },
+      {
+         "id": 6282,
+         "name": "Songkhla",
+         "urlFriendlyName": "songkhla"
+      },
+      {
+         "id": 1473,
+         "name": "Lampang",
+         "urlFriendlyName": "lampang"
+      },
+      {
+         "id": 16071,
+         "name": "Khao Sok",
+         "urlFriendlyName": "khao-sok"
+      },
+      {
+         "id": 742,
+         "name": "Rayong",
+         "urlFriendlyName": "rayong"
+      },
+      {
+         "id": 7442,
+         "name": "Phitsanulok",
+         "urlFriendlyName": "phitsanulok"
+      },
+      {
+         "id": 9342,
+         "name": "Chanthaburi",
+         "urlFriendlyName": "chanthaburi"
+      },
+      {
+         "id": 6186,
+         "name": "Chiang Khong",
+         "urlFriendlyName": "chiang-khong"
+      },
+      {
+         "id": 12853,
+         "name": "Pak Chong",
+         "urlFriendlyName": "pak-chong"
+      },
+      {
+         "id": 6981,
+         "name": "Cha-Am",
+         "urlFriendlyName": "cha-am"
+      },
+      {
+         "id": 9049,
+         "name": "Nan",
+         "urlFriendlyName": "nan"
+      },
+      {
+         "id": 9782,
+         "name": "Trang",
+         "urlFriendlyName": "trang"
+      },
+      {
+         "id": 6511,
+         "name": "Ubon Ratchathani",
+         "urlFriendlyName": "ubon-ratchathani"
+      },
+      {
+         "id": 9488,
+         "name": "Koh Samet",
+         "urlFriendlyName": "koh-samet"
+      },
+      {
+         "id": 6311,
+         "name": "Chumphon",
+         "urlFriendlyName": "chumphon"
+      },
+      {
+         "id": 14739,
+         "name": "Phetchaburi",
+         "urlFriendlyName": "phetchaburi"
+      },
+      {
+         "id": 14441,
+         "name": "Samut Songkhram",
+         "urlFriendlyName": "samut-songkhram"
+      },
+      {
+         "id": 6987,
+         "name": "Ranong",
+         "urlFriendlyName": "ranong"
+      },
+      {
+         "id": 16740,
+         "name": "Nong Khai",
+         "urlFriendlyName": "nong-khai"
+      },
+      {
+         "id": 2715,
+         "name": "Sattahip",
+         "urlFriendlyName": "sattahip"
+      },
+      {
+         "id": 19124,
+         "name": "Phayao",
+         "urlFriendlyName": "phayao"
+      },
+      {
+         "id": 5594,
+         "name": "Koh Yao",
+         "urlFriendlyName": "koh-yao"
+      },
+      {
+         "id": 15619,
+         "name": "Satun",
+         "urlFriendlyName": "satun"
+      },
+      {
+         "id": 8198,
+         "name": "Trat",
+         "urlFriendlyName": "trat"
+      },
+      {
+         "id": 15286,
+         "name": "Phatthalung",
+         "urlFriendlyName": "phatthalung"
+      },
+      {
+         "id": 18566,
+         "name": "Koh Mook",
+         "urlFriendlyName": "koh-mook"
+      },
+      {
+         "id": 4744,
+         "name": "Chiang Dao",
+         "urlFriendlyName": "chiang-dao"
+      },
+      {
+         "id": 16741,
+         "name": "Samut Prakan",
+         "urlFriendlyName": "samut-prakan"
+      }
+   ],
+   "United Arab Emirates": [
+      {
+         "id": 1177,
+         "name": "Dubai",
+         "urlFriendlyName": "dubai"
+      }
+   ],
+   "Uzbekistan": [
+      {
+         "id": 769,
+         "name": "Tashkent",
+         "urlFriendlyName": "tashkent"
+      },
+      {
+         "id": 6185,
+         "name": "Bukhara",
+         "urlFriendlyName": "bukhara"
+      },
+      {
+         "id": 3904,
+         "name": "Samarkand",
+         "urlFriendlyName": "samarkand"
+      },
+      {
+         "id": 3905,
+         "name": "Khiva",
+         "urlFriendlyName": "khiva"
+      },
+      {
+         "id": 19250,
+         "name": "Nukus",
+         "urlFriendlyName": "nukus"
+      }
+   ],
+   "Vietnam": [
+      {
+         "id": 272,
+         "name": "Hanoi",
+         "urlFriendlyName": "hanoi"
+      },
+      {
+         "id": 816,
+         "name": "Hue",
+         "urlFriendlyName": "hue"
+      },
+      {
+         "id": 496,
+         "name": "Nha Trang",
+         "urlFriendlyName": "nha-trang"
+      },
+      {
+         "id": 1547,
+         "name": "Hoi An",
+         "urlFriendlyName": "hoi-an"
+      },
+      {
+         "id": 1960,
+         "name": "Ho Chi Minh",
+         "urlFriendlyName": "ho-chi-minh"
+      },
+      {
+         "id": 5909,
+         "name": "Ninh Binh",
+         "urlFriendlyName": "ninh-binh"
+      },
+      {
+         "id": 16179,
+         "name": "Ha Giang",
+         "urlFriendlyName": "ha-giang"
+      },
+      {
+         "id": 9747,
+         "name": "Da Lat",
+         "urlFriendlyName": "da-lat"
+      },
+      {
+         "id": 716,
+         "name": "Da Nang",
+         "urlFriendlyName": "da-nang"
+      },
+      {
+         "id": 488,
+         "name": "Sapa",
+         "urlFriendlyName": "sapa"
+      },
+      {
+         "id": 16402,
+         "name": "Phong Nha",
+         "urlFriendlyName": "phong-nha"
+      },
+      {
+         "id": 19029,
+         "name": "Cat Ba Island",
+         "urlFriendlyName": "cat-ba-island"
+      },
+      {
+         "id": 12074,
+         "name": "Phu Quoc Island",
+         "urlFriendlyName": "phu-quoc-island"
+      },
+      {
+         "id": 6811,
+         "name": "Dong Hoi",
+         "urlFriendlyName": "dong-hoi"
+      },
+      {
+         "id": 1486,
+         "name": "Ha Long",
+         "urlFriendlyName": "ha-long"
+      },
+      {
+         "id": 11940,
+         "name": "Mui Ne",
+         "urlFriendlyName": "mui-ne"
+      },
+      {
+         "id": 13800,
+         "name": "Quy Nhon",
+         "urlFriendlyName": "quy-nhon"
+      },
+      {
+         "id": 10395,
+         "name": "Can Tho",
+         "urlFriendlyName": "can-tho"
+      },
+      {
+         "id": 9375,
+         "name": "Vung Tau",
+         "urlFriendlyName": "vung-tau"
+      },
+      {
+         "id": 14393,
+         "name": "Kontum",
+         "urlFriendlyName": "kontum"
+      },
+      {
+         "id": 18405,
+         "name": "Thanh Hoa",
+         "urlFriendlyName": "thanh-hoa"
+      },
+      {
+         "id": 19354,
+         "name": "Sa Dec",
+         "urlFriendlyName": "sa-dec"
+      },
+      {
+         "id": 18015,
+         "name": "Rach Gia",
+         "urlFriendlyName": "rach-gia"
+      },
+      {
+         "id": 19229,
+         "name": "Thanh Chuong",
+         "urlFriendlyName": "thanh-chuong"
+      },
+      {
+         "id": 17100,
+         "name": "Tuy Hoa",
+         "urlFriendlyName": "tuy-hoa"
+      },
+      {
+         "id": 19053,
+         "name": "Con Dao",
+         "urlFriendlyName": "con-dao"
+      },
+      {
+         "id": 11911,
+         "name": "Ben Tre",
+         "urlFriendlyName": "ben-tre"
+      },
+      {
+         "id": 19410,
+         "name": "Lang Son",
+         "urlFriendlyName": "lang-son"
+      },
+      {
+         "id": 18552,
+         "name": "Cao Bang",
+         "urlFriendlyName": "cao-bang"
+      },
+      {
+         "id": 19379,
+         "name": "Yen Bai",
+         "urlFriendlyName": "yen-bai"
+      }
+   ]
+}
