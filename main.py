@@ -1,3 +1,4 @@
+import os
 from threading import Thread
 import tkinter as tk
 from Scraper import Scraper
@@ -8,33 +9,31 @@ def schedule_check(t):
     Programar la ejecución de la función `check_if_done()` dentro de 
     un segundo.
     """
-    root.ventana.after(1000, check_if_done, t)
+    root.ventana.after(100, check_if_done, t)
 def check_if_done(t):
     # Si el hilo ha finalizado, restaruar la pantalla principal
     if not t.is_alive():
-        root.destroy_loading_frame()
-        root.build_main_frame()
-        root.button_scrap.config(command=scraping)
+        gui.destroy_pgBar()
+        gui.executeButton.config(command=scraping)
     else:
         # Si no, volver a chequear en unos momentos.
+        gui.updateProgressbar(scraper.counter)
         schedule_check(t)
 
 def scraping():
-    #th  =Thread(target=scrap.main , args=[root.get_url(),root.get_path(),root.get_options()])
-    gui.savePath.get()
-    
-    scraper.setPropertiesIDs()
-    #th.start()
+    scraper.setPropertiesIDs(gui.getCity())
+    gui.build_progressBar_window(scraper.properties.__len__())
+    th  =Thread(target=scraper.mainloop , args=[gui.getSavePath(),gui.getCity()])
+    th.start()
     
     schedule_check(th)
     
-    
-path='C:\\Users\\n1_na\\Repositorios\\hostelworld scraper'     
+path = os.path.dirname(os.path.realpath(__file__))
 root =tk.Tk()
 gui = GUI(path,root)
+gui.setMain()
 scraper = Scraper()
 
-
-
+gui.executeButton.config(command=scraping)
 
 root.mainloop()

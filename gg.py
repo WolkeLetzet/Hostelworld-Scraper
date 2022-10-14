@@ -32,12 +32,12 @@ FSIZE5=12
 
 class GUI :
    
-   def __init__(self,*parent:Tk) -> None:
+   def __init__(self,path,*parent:Tk) -> None:
       if parent:
          self.parent = parent[0]
       else:
          self.parent = Tk()  
-      self.path =os.path.dirname(os.path.realpath(__file__))
+      self.path =path
       self.parent.title("HostelWorldScraper")
       self.parent.geometry("1000x400")
       self.parent.iconbitmap(self.path+"/icon.ico")
@@ -212,7 +212,7 @@ class GUI :
       self.progVar.set(num)
    
    def build_progressBar_window(self,max):
-      self.pgw = tk.Toplevel()
+      self.pgw = tk.Toplevel(background=ORANGE)
       self.pgw.geometry("300x200")
       self.pgw.title("Cargando")
       self.pgw.grid_columnconfigure(0,weight=1)
@@ -238,17 +238,17 @@ class GUI :
       print(self.ciudades)
       self.citiesBox.config(values=tuple(self.ciudades.keys()))
       
-   def unlock_button(self,event):
+   def unlock_button(self,*arg):
       if self.savePath.get().__len__()>1 and self.citiesBox.get().__len__() >1:
          self.executeButton.config(state="normal")
 
    def saveAsDialogue(self):
-      
       path= filedialog.asksaveasfilename(defaultextension=".csv",initialdir = "/",title = "Select file",filetypes = (("CSV","*.csv"),))
       if ".csv" not in path and path.__len__()>0 :
          path+= ".csv"
          
       self.savePath.set(path)
+      
    def getCity(self):
       return self.ciudades[self.citiesBox.get()]
    def setMain(self):
@@ -256,7 +256,10 @@ class GUI :
       self.build_cBoxes()
       self.build_executeButton()
       self.build_saveEntry()
+      self.savePath.trace('w',self.unlock_button)
    
+   def destroy_pgBar(self):
+      self.pgw.destroy()
 #
 
 # root= Tk()
