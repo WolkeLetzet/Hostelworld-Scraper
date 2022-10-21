@@ -49,7 +49,6 @@ def scraping():
 path = os.path.dirname(os.path.realpath(__file__))
 root = tk.Tk()
 temporal_path=path+"/temporal.csv"
-print(temporal_path)
 gui = GUI(path, root)
 gui.setMain()
 scraper = Scraper()
