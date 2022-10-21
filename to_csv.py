@@ -5,8 +5,8 @@ class to_csv :
    
    def __init__(self,filename:str) -> None:
       self.header = ['reseña_id','lenguaje','fecha',
-          'reseñador_id','genero','nacionalidad','apodo',
-          'propiedad_id','nombre_propiedad',
+          'id_reseñador','genero','nacionalidad','apodo',
+          'id_propiedad','nombre_propiedad',
           'valor_dinero','seguridad','locacion','personal','atmosfera','limpieza','facilidades','general',
           'texto'
           ]
@@ -19,7 +19,7 @@ class to_csv :
          self.data=[row for row in reader]
    
    def saveData(self,data):
-      
+         
          if not exists(self.filename): 
             a=True
          with open(self.filename,'a',newline='',encoding='utf-8') as fp:

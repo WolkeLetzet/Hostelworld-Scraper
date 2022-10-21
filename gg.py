@@ -242,7 +242,7 @@ class GUI:
         self.citiesBox.config(values=tuple(self.ciudades.keys()))
 
     def unlock_button(self, *arg):
-        if self.savePath.get().__len__() > 1 and self.citiesBox.get().__len__() > 1:
+        if self.citiesBox.get().__len__() > 1:
             self.executeButton.config(state="normal")
 
     def saveAsDialogue(self):
@@ -260,7 +260,7 @@ class GUI:
         self.build_title()
         self.build_cBoxes()
         self.build_executeButton()
-        self.build_saveEntry()
+        #self.build_saveEntry()
         self.savePath.trace('w', self.unlock_button)
 
     def destroy_pgBar(self):

@@ -1,3 +1,4 @@
+from tkinter import mainloop
 from bs4 import BeautifulSoup
 import requests
 from to_csv import to_csv
@@ -87,11 +88,11 @@ class Scraper():
             reviews.append({'reseña_id': rev['id'],
                             'lenguaje': rev['languageCode'],
                             'fecha': rev['date'].replace('-', '/'),
-                            'reseñador_id': rev['user']['id'],
+                            'id_reseñador': rev['user']['id'],
                             'genero': rev['user']['gender']['id'],
                             'nacionalidad': rev['user']['nationality']['name'],
                             'apodo': rev['user']['nickname'],
-                            'propiedad_id': propertyDetails['id'],
+                            'id_propiedad': propertyDetails['id'],
                             'nombre_propiedad': propertyDetails['name'],
                             'valor_dinero': rev['rating']['value'],
                             'seguridad': rev['rating']['safety'],
@@ -134,4 +135,5 @@ class Scraper():
         self.counter = 0
         self.properties = None
 
-# main('la-serena.csv','la-serena')
+# scrap = Scraper()
+# scrap.mainloop('la-serena.csv','la-serena')
