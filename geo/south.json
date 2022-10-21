@@ -759,6 +759,11 @@
          "urlFriendlyName": "pichilemu"
       },
       {
+         "id": 162,
+         "name": "Puerto Montt",
+         "urlFriendlyName": "puerto-montt"
+      },
+      {
          "id": 2865,
          "name": "Puerto Varas",
          "urlFriendlyName": "puerto-varas"
