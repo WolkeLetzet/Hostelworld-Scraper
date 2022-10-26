@@ -3,7 +3,6 @@ import os
 import tkinter as tk
 from tkinter import Frame, Tk, ttk
 from tkinter import filedialog
-from webbrowser import get
 from PIL import Image as Img
 from PIL import ImageTk as ImgTk
 

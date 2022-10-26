@@ -41,7 +41,6 @@ def scraping():
                         gui.getCity(),
                       ]
                 )
-    th.start()
 
     schedule_check(th)
 
