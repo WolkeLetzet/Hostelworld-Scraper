@@ -41,6 +41,10 @@ def scraping():
                         gui.getCity(),
                       ]
                 )
+    try:
+        th.start()
+    except Exception as ex:
+        gui.errorWindow('hola')
 
     schedule_check(th)
 

@@ -1,7 +1,7 @@
 import json
 import os
 import tkinter as tk
-from tkinter import Frame, Tk, ttk
+from tkinter import Frame, Tk, Toplevel, ttk
 from tkinter import filedialog
 from PIL import Image as Img
 from PIL import ImageTk as ImgTk
@@ -32,7 +32,7 @@ FSIZE5 = 12
 
 class GUI:
 
-    def __init__(self, path, *parent: Tk) -> None:
+    def __init__(self, path=os.path.dirname(os.path.realpath(__file__)), *parent: Tk) -> None:
         if parent:
             self.parent = parent[0]
         else:
@@ -217,6 +217,7 @@ class GUI:
     def build_progressBar_window(self, max):
         self.pgw = tk.Toplevel(background=ORANGE)
         self.pgw.geometry("300x200")
+        self.pgw.attributes('-topmost', 'true')
         self.pgw.title("Cargando")
         self.pgw.grid_columnconfigure(0, weight=1)
         self.pgw.grid_rowconfigure(0, weight=1)
@@ -264,14 +265,26 @@ class GUI:
 
     def destroy_pgBar(self):
         self.pgw.destroy()
+    def errorWindow(self,message:str):
+        errorWin= Toplevel(self.parent,height=150, width=300) 
+        errorWin.title('ERROR')
+        errorWin.iconbitmap(self.path+'/icon.ico')
+        errorWin.attributes('-topmost', 'true')
+        
+        label = tk.Label(errorWin,text=message)
+        
+        button = tk.Button(errorWin,text='OK',command=errorWin.destroy)
+        label.place(relx=0.5, rely=0.3, anchor=tk.CENTER)
+        button.place(relx=0.5, rely=0.7, anchor=tk.CENTER)
 #
 
 # root= Tk()
+# path =os.path.dirname(os.path.realpath(__file__))
 # gui = GUI(path,root)
 # gui.build_title()
 # gui.build_cBoxes()
 # #gui.build_chButtons()
 # gui.build_executeButton()
 # gui.build_saveEntry()
-
+# gui.errorWindow('Hola')
 # gui.mainloop()
