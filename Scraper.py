@@ -17,29 +17,26 @@ class Scraper():
       ids=[]
       url="https://www.hostelworld.com/%s/%s/" %(propiertyType,city.replace(' ','-'))
       req= requests.get(url)
-      attempts = 4  # intentos por request
-      last, nxt = None, None
       while True:
          #variables efimeras del ciclo
-         next_last, next_nxt, retrieved_ids = None, None, None
-         for attempt in range(attempts):
-            try:
-               soup = BeautifulSoup(req.text,features="lxml")
-               next_last = soup.select('ul.pagination > li.arrow-last > a')[0].get('href')
-               next_nxt  = soup.select('ul.pagination > li.arrow.pagination-next > a')[0].get('href')
-               print(req.url)
-               elements = soup.find_all('div','fabresult')
-               retrieved_ids = [x['data-id'] for x in elements]
-               break
-            except IndexError:
-               print(f'Attempt: {attempt + 1}')
-         if not all((e is not None) for e in (next_last, next_nxt, retrieved_ids)):
-            raise Exception('Max attempts reached') # falla por maximos intentos
-         last, nxt = next_last, next_nxt # guardar las variables efimeras del ciclo para el ciclo siguiente
+         soup = BeautifulSoup(req.text,features="lxml")
+         
+         try:
+            next_last = soup.select('ul.pagination > li.arrow-last > a')[0].get('href')
+            next_nxt  = soup.select('ul.pagination > li.arrow.pagination-next > a')[0].get('href')
+         except IndexError:
+            next_last = req.url
+            next_nxt = req.url
+            
+         print(req.url)
+         elements = soup.select('div.property > div.details-col > div > h2 > a')
+         retrieved_ids = [x.get('href').split('/')[6] for x in elements]
          ids.extend(retrieved_ids)
-         if last == req.url:
+         
+         if next_last == req.url:
             break
-         req = requests.get(nxt)
+         else:
+            req = requests.get(next_nxt)
 
       return ids
    
