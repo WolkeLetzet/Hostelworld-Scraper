@@ -251,9 +251,7 @@ class GUI:
 
     def saveAsDialogue(self):
         path = filedialog.asksaveasfilename(
-            defaultextension=".csv", initialdir="/", title="Select file", filetypes=(("CSV", "*.csv"),))
-        if ".csv" not in path and path.__len__() > 0:
-            path += ".csv"
+            defaultextension=".csv", initialdir="/", title="Select file", filetypes=(("CSV", "*.csv"),("Libro Excel", "*.xlsx")))
 
         self.savePath.set(path)
 

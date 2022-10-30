@@ -1,6 +1,7 @@
 import os
 from threading import Thread
 import tkinter as tk
+import pandas as pd
 from Scraper import Scraper
 from gg import GUI
 import shutil
@@ -20,7 +21,12 @@ def check_if_done(t):
         gui.destroy_pgBar()
         gui.saveAsDialogue()
         try:
-            shutil.copy(temporal_path,gui.getSavePath())
+            if gui.getSavePath().endswith('.xlsx'):
+                
+                pd.read_csv(temporal_path, sep=";", header='infer', ).to_excel(gui.getSavePath(), index=None, header=True)
+                
+            else:
+                shutil.copy(temporal_path,gui.getSavePath())
         except:
             pass
         finally:
