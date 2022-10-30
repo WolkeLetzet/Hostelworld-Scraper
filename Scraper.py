@@ -1,5 +1,3 @@
-from io import StringIO
-import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 from to_csv import to_csv
@@ -144,9 +142,6 @@ class Scraper():
       saver = to_csv(filename)
       
       csvStream = None
-      if filename.endswith('.xlsx'):
-         csvStream = StringIO('')
-         csvStream.close = lambda: None
       
       for iD in self.properties :
          try: 
@@ -161,9 +156,6 @@ class Scraper():
             if len(reviews) > 0:
                saver.saveData(reviews, csvStream)
                
-      if bool(csvStream):
-         csvStream.seek(0) # Lo hace leible desde la primera linea del archivo de a mentiritas
-         pd.read_csv(csvStream, sep=";", header='infer', names=saver.header).to_excel(filename, index=None, header=True)
       self.counter = 0
       self.properties = None      
 
