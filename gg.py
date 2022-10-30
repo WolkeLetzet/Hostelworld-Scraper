@@ -1,9 +1,8 @@
 import json
 import os
 import tkinter as tk
-from tkinter import Frame, Tk, ttk
+from tkinter import Tk, Toplevel, ttk
 from tkinter import filedialog
-from webbrowser import get
 from PIL import Image as Img
 from PIL import ImageTk as ImgTk
 
@@ -33,7 +32,7 @@ FSIZE5 = 12
 
 class GUI:
 
-    def __init__(self, path, *parent: Tk) -> None:
+    def __init__(self, path=os.path.dirname(os.path.realpath(__file__)), *parent: Tk) -> None:
         if parent:
             self.parent = parent[0]
         else:
@@ -161,8 +160,8 @@ class GUI:
                                        width=15, height=2,
                                        font=(FONT+'bold', FSIZE4),
                                        state="disabled",
-                                       activebackground="#fff",
-                                       activeforeground='#fff',
+                                       
+                                       
                                        disabledforeground="#dcdcdc"
                                        )
 
@@ -218,13 +217,18 @@ class GUI:
     def build_progressBar_window(self, max):
         self.pgw = tk.Toplevel(background=ORANGE)
         self.pgw.geometry("300x200")
+        self.pgw.iconbitmap(self.path+'/icon.ico')
         self.pgw.title("Cargando")
+        label = tk.Label(self.pgw, background=ORANGE,text="Cargando", font=(FONT, FSIZE2), fg="white")
         self.pgw.grid_columnconfigure(0, weight=1)
         self.pgw.grid_rowconfigure(0, weight=1)
+        self.pgw.grid_rowconfigure(1, weight=1)
+        self.pgw.transient(self.parent)
 
         self.progbar = ttk.Progressbar(
             self.pgw, maximum=max, variable=self.progVar, length=200)
-        self.progbar.grid(column=0, row=0)
+        label.grid(column=0,row=0,sticky='we')
+        self.progbar.grid(column=0, row=1)
 
     def on_countriesBox(self, event):
         self.countriesBox.set("")
@@ -255,7 +259,15 @@ class GUI:
 
     def getCity(self):
         return self.ciudades[self.citiesBox.get()]
-
+    
+    def getContinent(self):
+        return self.continentes[self.continentsBox.get()]
+    
+    def getCountry(self):
+        return self.countriesBox.get().lower().replace(' ','-')
+    
+    def getGlobalPoint(self):
+        return (self.continentes[self.continentsBox.get()],self.countriesBox.get().lower().replace(' ','-'),self.ciudades[self.citiesBox.get()])
     def setMain(self):
         self.build_title()
         self.build_cBoxes()
@@ -265,14 +277,28 @@ class GUI:
 
     def destroy_pgBar(self):
         self.pgw.destroy()
+    def errorWindow(self,message:str):
+        errorWin= Toplevel(self.parent,height=150, width=300) 
+        errorWin.title('ERROR')
+        errorWin.iconbitmap(self.path+'/icon.ico')
+        errorWin.attributes('-topmost', 'true')
+        errorWin.transient(self.parent)
+        
+        label = tk.Label(errorWin,text=message)
+        
+        button = tk.Button(errorWin,text='OK',command=errorWin.destroy)
+        label.place(relx=0.5, rely=0.3, anchor=tk.CENTER)
+        button.place(relx=0.5, rely=0.7, anchor=tk.CENTER)
 #
 
 # root= Tk()
+# path =os.path.dirname(os.path.realpath(__file__))
 # gui = GUI(path,root)
 # gui.build_title()
 # gui.build_cBoxes()
 # #gui.build_chButtons()
 # gui.build_executeButton()
 # gui.build_saveEntry()
-
+# #gui.errorWindow('Hola')
+# gui.executeButton.config(command=gui.getGlobalPoint)
 # gui.mainloop()

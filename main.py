@@ -16,7 +16,7 @@ def schedule_check(t):
 
 def check_if_done(t):
     # Si el hilo ha finalizado, restaruar la pantalla principal
-    if not t.is_alive():
+    if not t.is_alive():        
         gui.destroy_pgBar()
         gui.saveAsDialogue()
         try:
@@ -25,7 +25,7 @@ def check_if_done(t):
             pass
         finally:
             os.remove(temporal_path)
-        gui.executeButton.config(command=scraping)
+            gui.executeButton.config(command=scraping,state='normal',text='Iniciar')
     else:
         # Si no, volver a chequear en unos momentos.
         gui.updateProgressbar(scraper.counter)
@@ -33,15 +33,28 @@ def check_if_done(t):
 
 
 def scraping():
-    scraper.setPropertiesIDs(gui.getCity())
-    gui.build_progressBar_window(scraper.properties.__len__())
+    
+    try:
+        gui.executeButton.config(state='disabled',text='Cargando')
+        scraper.setPropertiesIDs(gui.getContinent(),gui.getCountry(),gui.getCity())
+    except Exception as ex:
+        gui.executeButton.config(text='Iniciar',state='normal')
+        gui.errorWindow(str(ex))
+    
     th = Thread(target=scraper.mainloop, 
                 args=[
                         temporal_path,
+                        gui.getContinent(),
+                        gui.getCountry(),
                         gui.getCity(),
                       ]
                 )
-    th.start()
+    try:
+        th.start()
+    except Exception as ex:
+        raise ex
+    else:
+        gui.build_progressBar_window(scraper.properties.__len__())
 
     schedule_check(th)
 

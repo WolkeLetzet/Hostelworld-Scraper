@@ -1,36 +1,30 @@
 import csv
 from os.path import exists
+from pprint import pprint
 
-class to_csv :
-   
-   def __init__(self,filename:str) -> None:
-      self.header = ['reseña_id','lenguaje','fecha',
-          'id_reseñador','genero','nacionalidad','apodo',
-          'id_propiedad','nombre_propiedad',
-          'valor_dinero','seguridad','locacion','personal','atmosfera','limpieza','facilidades','general',
-          'texto'
-          ]
-      self.filename= filename
-   
-   def loadData(self):
-      
-      with open(self.filename,'r',newline='',encoding='utf-8') as fp: 
-         reader = csv.DictReader(fp,fieldnames=self.header,delimiter=';')
-         self.data=[row for row in reader]
-   
-   def saveData(self,data):
-         
-         if not exists(self.filename): 
-            a=True
-         with open(self.filename,'a',newline='',encoding='utf-8') as fp:
-            writer= csv.DictWriter(fp,fieldnames=self.header,delimiter=';')
+
+class to_csv:
+
+    def __init__(self, filename: str) -> None:
+
+        self.filename = filename
+
+    def loadData(self):
+
+        with open(self.filename, 'r', newline='', encoding='utf-8') as fp:
+            reader = csv.DictReader(fp, fieldnames=self.header, delimiter=';')
+            self.data = [row for row in reader]
+
+    def saveData(self, data:list[dict], stream=None):
+        need_header = not exists(self.filename) and not bool(stream)
+        with stream or open(self.filename, 'a', newline='', encoding='utf-8') as fp:
+            writer = csv.DictWriter(fp, fieldnames=list(data[0].keys()), delimiter=';')
             try:
-               if a:
-                  writer.writeheader()
-            except:
-               pass
-            finally:   
-               if type(data) == list:
-                  writer.writerows(data)
-               else:
-                  writer.writerow(data)
+                if need_header:
+                    writer.writeheader()
+                if isinstance(data, list):
+                    writer.writerows(data)
+                else:
+                    writer.writerow(data)
+            finally:
+                pass
