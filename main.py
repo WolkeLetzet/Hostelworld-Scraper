@@ -1,7 +1,6 @@
 import os
 from threading import Thread
 import tkinter as tk
-from turtle import st
 from Scraper import Scraper
 from gg import GUI
 import shutil
