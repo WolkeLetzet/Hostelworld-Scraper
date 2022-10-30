@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import tkinter as tk
 from tkinter import Frame, Tk, Toplevel, ttk
 from tkinter import filedialog
@@ -160,8 +161,8 @@ class GUI:
                                        width=15, height=2,
                                        font=(FONT+'bold', FSIZE4),
                                        state="disabled",
-                                       activebackground="#fff",
-                                       activeforeground='#fff',
+                                       
+                                       
                                        disabledforeground="#dcdcdc"
                                        )
 
@@ -217,14 +218,18 @@ class GUI:
     def build_progressBar_window(self, max):
         self.pgw = tk.Toplevel(background=ORANGE)
         self.pgw.geometry("300x200")
-        self.pgw.attributes('-topmost', 'true')
+        self.pgw.iconbitmap(self.path+'/icon.ico')
         self.pgw.title("Cargando")
+        label = tk.Label(self.pgw, background=ORANGE,text="Cargando", font=(FONT, FSIZE2), fg="white")
         self.pgw.grid_columnconfigure(0, weight=1)
         self.pgw.grid_rowconfigure(0, weight=1)
+        self.pgw.grid_rowconfigure(1, weight=1)
+        self.pgw.transient(self.parent)
 
         self.progbar = ttk.Progressbar(
             self.pgw, maximum=max, variable=self.progVar, length=200)
-        self.progbar.grid(column=0, row=0)
+        label.grid(column=0,row=0,sticky='we')
+        self.progbar.grid(column=0, row=1)
 
     def on_countriesBox(self, event):
         self.countriesBox.set("")
@@ -255,7 +260,15 @@ class GUI:
 
     def getCity(self):
         return self.ciudades[self.citiesBox.get()]
-
+    
+    def getContinent(self):
+        return self.continentes[self.continentsBox.get()]
+    
+    def getCountry(self):
+        return self.countriesBox.get().lower().replace(' ','-')
+    
+    def getGlobalPoint(self):
+        return (self.continentes[self.continentsBox.get()],self.countriesBox.get().lower().replace(' ','-'),self.ciudades[self.citiesBox.get()])
     def setMain(self):
         self.build_title()
         self.build_cBoxes()
@@ -270,6 +283,7 @@ class GUI:
         errorWin.title('ERROR')
         errorWin.iconbitmap(self.path+'/icon.ico')
         errorWin.attributes('-topmost', 'true')
+        errorWin.transient(self.parent)
         
         label = tk.Label(errorWin,text=message)
         
@@ -286,5 +300,6 @@ class GUI:
 # #gui.build_chButtons()
 # gui.build_executeButton()
 # gui.build_saveEntry()
-# gui.errorWindow('Hola')
+# #gui.errorWindow('Hola')
+# gui.executeButton.config(command=gui.getGlobalPoint)
 # gui.mainloop()

@@ -3,6 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 from to_csv import to_csv
+import queue
 
 class Scraper():
    
@@ -11,19 +12,27 @@ class Scraper():
       self.counter =0
       self.options = options
       self.properties = None
+      self.exception = None
    
-   def getPropertiesIDs(self,city:str) -> list:
+   def getPropertiesIDs(self,continent:str,country:str,city:str) -> list:
       propiertyType:str='hostels'
       ids=[]
-      url="https://www.hostelworld.com/%s/%s/" %(propiertyType,city.replace(' ','-'))
+      url="https://www.hostelworld.com/st/%s/%s/%s/%s" %(propiertyType,continent,country,city.replace(' ','-'))
       req= requests.get(url)
+      errUrl = "https://www.hostelworld.com/st/%s/%s/%s/" %(propiertyType,continent,country)
+      errReq= requests.get(errUrl)
+      print('\n'+req.url)
+      print(errReq.url+'\n')
+      
+      if req.url == errReq.url:
+         raise Exception('No se Encontro la ciudad')
       while True:
          #variables efimeras del ciclo
          soup = BeautifulSoup(req.text,features="lxml")
          
          try:
-            next_last = soup.select('ul.pagination > li.arrow-last > a')[0].get('href')
-            next_nxt  = soup.select('ul.pagination > li.arrow.pagination-next > a')[0].get('href')
+            next_last = soup.select('div.pagination > div.arrow-last > a')[0].get('href')
+            next_nxt  = soup.select('div.pagination > div.arrow.pagination-next > a')[0].get('href')
          except IndexError:
             next_last = req.url
             next_nxt = req.url
@@ -94,8 +103,8 @@ class Scraper():
                            'lenguaje':rev['languageCode'],
                            'fecha':rev['date'].replace('-','/'),
                            'id_reseñador':rev['user']['id'],
-                           'genero': rev['user']['gender'],
-                           'agrupación': rev['groupInformation']['groupTypeCode']['id'],
+                           'genero': rev['user']['gender']['id'],
+                           'agrupación': rev['groupInformation']['groupTypeCode'],
                            'edad': rev['groupInformation']['age'],
                            'nacionalidad': rev['user']['nationality']['name'],
                            'apodo':rev['user']['nickname'],
@@ -118,13 +127,20 @@ class Scraper():
    def getCounter(self):
       return self.counter
    
-   def setPropertiesIDs(self,city):
-      self.properties= self.getPropertiesIDs(city)
    
-   def mainloop(self,filename:str,city):
+   def setPropertiesIDs(self,continent,country,city):
+      self.properties= self.getPropertiesIDs(continent,country,city)
       
-      if not self.properties:
-         self.properties = self.getPropertiesIDs(city)
+   def getEx(self):
+      return self.exception
+   
+   def mainloop(self,filename:str,continent,country,city):
+
+      try:
+         self.properties = self.getPropertiesIDs(continent,country,city)
+      except Exception as ex:
+         self.exception = ex
+         
          
       saver = to_csv(filename)
       
@@ -133,16 +149,19 @@ class Scraper():
          csvStream = StringIO('')
          csvStream.close = lambda: None
       
-      for id in self.properties :
+      for iD in self.properties :
          try: 
-            details = self.getPropiertyDetails(id)
-            reviews = self.getPropertyReviews(id)
-            reviews = self.formatter(propertyReviews=reviews,propertyDetails=details)
+            details = self.getPropiertyDetails(iD)
+            sreviews = self.getPropertyReviews(iD)
+            
+            reviews = self.formatter(propertyReviews=sreviews,propertyDetails=details)
             self.counter+=1
-         except:
+         except Exception as e:
             pass
          finally:
-            saver.saveData(reviews, csvStream)
+            if len(reviews) > 0:
+               saver.saveData(reviews, csvStream)
+               
       if bool(csvStream):
          csvStream.seek(0) # Lo hace leible desde la primera linea del archivo de a mentiritas
          pd.read_csv(csvStream, sep=";", header='infer', names=saver.header).to_excel(filename, index=None, header=True)
