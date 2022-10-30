@@ -1,6 +1,5 @@
 import csv
 from os.path import exists
-from pprint import pprint
 
 
 class to_csv:
