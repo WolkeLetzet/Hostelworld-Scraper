@@ -122,8 +122,7 @@ class Scraper():
       return reviews
    
    def getCounter(self):
-      return self.counter
-   
+      return self.counter  
    
    def setPropertiesIDs(self,continent,country,city):
       self.properties= self.getPropertiesIDs(continent,country,city)
