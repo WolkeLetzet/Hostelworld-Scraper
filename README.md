@@ -23,7 +23,7 @@ python -m pip install -U tk Pillow lxml requests beautifulsoup4 pandas
 o
 
 ```
-pip install -U tk Pillow selenium lxml requests beautifulsoup4 webdriver-manager pandas
+pip install -U tk Pillow lxml requests beautifulsoup4 pandas
 ```
 
 ### Inicio
