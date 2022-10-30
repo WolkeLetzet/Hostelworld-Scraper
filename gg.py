@@ -1,8 +1,7 @@
 import json
 import os
-import re
 import tkinter as tk
-from tkinter import Frame, Tk, Toplevel, ttk
+from tkinter import Tk, Toplevel, ttk
 from tkinter import filedialog
 from PIL import Image as Img
 from PIL import ImageTk as ImgTk

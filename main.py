@@ -5,7 +5,6 @@ from turtle import st
 from Scraper import Scraper
 from gg import GUI
 import shutil
-import queue
 
 
 def schedule_check(t):

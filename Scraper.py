@@ -3,7 +3,6 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 from to_csv import to_csv
-import queue
 
 class Scraper():
    
