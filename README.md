@@ -27,7 +27,7 @@ pip install -U tk Pillow lxml requests beautifulsoup4 pandas
 ```
 
 ### Inicio
-En la carbeta de HostelWorld Scarper. Ejecutar el archivo **main.py**
+En la carpeta de HostelWorld Scarper. Ejecutar el archivo **main.py**
 ```
 python main.py
 ````
