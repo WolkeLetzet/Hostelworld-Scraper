@@ -2,10 +2,11 @@ import os
 from threading import Thread
 import tkinter as tk
 import pandas as pd
-from Scraper import Scraper
+import Scraper
 from gg import GUI
 import shutil
 
+scrap1= True
 
 def schedule_check(t):
     """
@@ -34,7 +35,8 @@ def check_if_done(t):
             gui.executeButton.config(command=scraping,state='normal',text='Iniciar')
     else:
         # Si no, volver a chequear en unos momentos.
-        gui.updateProgressbar(scraper.counter)
+        if scrap1:
+            gui.updateProgressbar(scraper.counter)
         schedule_check(t)
 
 
@@ -61,7 +63,29 @@ def scraping():
         raise ex
     else:
         gui.build_progressBar_window(scraper.properties.__len__())
+    scrap1=True
+    schedule_check(th)
 
+
+
+def scrapingSelenium():
+    
+    
+    th = Thread(target=Scraper.seleniumMainloop,
+                args=[
+                        temporal_path,
+                        gui.urlVar.get()
+                      ]
+                )
+    try:
+        gui.build_progressBar_window(100,"indeterminate")
+        th.start()
+    except Exception as ex:
+        gui.errorWindow(str(ex))
+        raise ex
+    else:
+        gui.build_progressBar_window(scraper.properties.__len__())
+    scrap1=False
     schedule_check(th)
 
 
@@ -70,8 +94,8 @@ root = tk.Tk()
 temporal_path=path+"/temporal.csv"
 gui = GUI(path, root)
 gui.setMain()
-scraper = Scraper()
+scraper = Scraper.Scraper()
 
 gui.executeButton.config(command=scraping)
-
+gui.urlButton.config(command=scrapingSelenium)
 root.mainloop()
