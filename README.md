@@ -15,15 +15,16 @@ Primero es nesesario la insalación de los modulos necesarios:
 - LXML
 - Requests
 - Pandas
+- Selenium
 
 ```
-python -m pip install -U tk Pillow lxml requests beautifulsoup4 pandas
+python -m pip install -U tk Pillow lxml requests beautifulsoup4 pandas selenium webdriver-manager
 ```
 
 o
 
 ```
-pip install -U tk Pillow lxml requests beautifulsoup4 pandas
+pip install -U tk Pillow lxml requests beautifulsoup4 pandas selenium webdriver-manager
 ```
 
 ### Inicio
