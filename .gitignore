@@ -1,6 +1,8 @@
 /__pycache__
 *.xlsx
 /soup
-*.spec
+*csv
 /build
 /dist
+*.spec
+/V1

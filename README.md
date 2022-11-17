@@ -1,22 +1,36 @@
 # Hostelworld-Scraper
-Antes de correr el programa , descargar las siguientes librerias de python 3.9:
-PIL
-Selenium 
-TKinter
-openpyxl
-pprint
-webdrivermanager
 
-* La librería Pillow posee capacidad de procesamiento de imágenes compatible con la interfaz. Se instala con los siguientes comandos:
-python.exe -m pip install --upgrade pip luego el comando: py -m pip install pillow
-* La librería Selenium permite descargar SeleniumWebDriver y se puede descargar con el siguiente comando:
-python -m pip install -U selenium
-* La librería Tkinter permite trabajar con interfaces gráficas en Python:
-import tkinter as tk
-* Luego descargamos la biblioteca Openpyxl para leer y escribir en archivos Excel:
-python -m pip install openpyxl 
-* Para facilitar la legibilidad de las estructuras utilizadas descargamos pprint():
-pip install pprintpp
-* Luego para reproducir el ambiente real de la aplicación descargamos 
-pip install webdriver-manager
+![Alt text](/logo.png "Hostel World Scraper Logo")
 
+## Guia de Inicio
+
+### Instalacion
+
+Es requerido **Python 3.9** o superior
+
+Primero es nesesario la instalación de los modulos necesarios:
+
+- BeautifulSoup 4
+- Pillow
+- LXML
+- Requests
+- Pandas
+- Selenium
+
+```
+python -m pip install -U tk Pillow lxml requests beautifulsoup4 pandas selenium webdriver-manager
+```
+
+o
+
+```
+pip install -U tk Pillow lxml requests beautifulsoup4 pandas selenium webdriver-manager
+```
+
+### Inicio
+
+En la carpeta de HostelWorld Scarper. Ejecutar el archivo **main.py**
+
+```
+python main.py
+````
