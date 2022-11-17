@@ -39,7 +39,7 @@ class GUI:
             self.parent = Tk()
         self.path = path
         self.parent.title("HostelWorldScraper")
-        self.parent.geometry("1000x400")
+        self.parent.geometry("1000x500")
         self.parent.iconbitmap(self.path+"/icon.ico")
         self.parent.config(bg=ORANGE)
         self.parent.resizable(0, 0)
@@ -60,6 +60,17 @@ class GUI:
         self.mainframe.grid_rowconfigure(3, weight=1)
         # boton
         self.mainframe.grid_rowconfigure(4, weight=1)
+        self.mainframe.grid_rowconfigure(5, weight=1)
+        self.mainframe.grid_rowconfigure(6, weight=1)
+        self.mainframe.grid_rowconfigure(7, weight=1)
+        
+        tk.Label(self.mainframe, text="Seleccione el lugar de donde dese recolectar Datos", font=(
+            FONT, FSIZE2), fg="white", background=ORANGE).grid(row=1,column=0,sticky="nsew")
+        tk.Label(self.mainframe, text="En caso de que el metodo anterior no funcione, intente ingresando el url de su busqueda en HostelWord en el campo de abajo \n *(Advertencia): Este metodo tarda mas tiempo y no se obtiene la misma cantidad de datos", font=(
+            FONT, FSIZE4), fg="white", background=ORANGE).grid(row=4,column=0,sticky="sew")
+        
+        tk.Label(self.mainframe, text="created by C.Pastenes", font=(
+            FONT, 9), fg="white", background=ORANGE).grid(row=7,column=0,sticky="se")
 
         self.mainframe.grid(row=0, column=0, sticky="nsew")
 
@@ -71,6 +82,8 @@ class GUI:
 
         self.savePath = tk.StringVar()
         self.progVar = tk.IntVar()
+        self.urlVar = tk.StringVar()
+        
 
         self.continentes = {'Europa': 'europe',
                             'Norteamerica': 'north',
@@ -126,30 +139,7 @@ class GUI:
         self.countriesBox.grid(row=1, column=1, sticky="ew", padx=15)
         self.citiesBox.grid(row=1, column=2, sticky="ew", padx=20)
 
-        self.cBoxes_frame.grid(row=1, column=0, sticky="new")
-
-    def build_chButtons(self):
-        self.chButtons_frame = tk.Frame(self.mainframe, background=BLUE)
-        self.chButtons_frame.grid_rowconfigure(0, weight=1)
-        self.chButtons_frame.grid_columnconfigure(0, weight=1)
-        self.chButtons_frame.grid_columnconfigure(1, weight=1)
-        self.chButtons_frame.grid_columnconfigure(2, weight=1)
-
-        self.checkbutton1 = tk.Checkbutton(self.chButtons_frame, text="Valores",
-                                           variable=self.options[0], onvalue=True, offvalue=False,
-                                           bg=ORANGE, fg="black", font=(FONT, FSIZE4), activebackground=ORANGE, activeforeground="white")
-        self.checkbutton2 = tk.Checkbutton(self.chButtons_frame, text="Todos Los Idiomas",
-                                           variable=self.options[1], onvalue=True, offvalue=False,
-                                           bg=ORANGE, fg="black", font=(FONT, FSIZE4), activebackground=ORANGE, activeforeground="white", selectcolor="white")
-        self.checkbutton3 = tk.Checkbutton(self.chButtons_frame, text="Comnetarios",
-                                           variable=self.options[2], onvalue=True, offvalue=False,
-                                           bg=ORANGE, fg="black", font=(FONT, FSIZE4), activebackground=ORANGE, activeforeground="white")
-
-        self.checkbutton1.grid(row=0, column=0, sticky="new")
-        self.checkbutton2.grid(row=0, column=1, sticky="new")
-        self.checkbutton3.grid(row=0, column=2, sticky="new")
-
-        self.chButtons_frame.grid(row=2, column=0, sticky="new")
+        self.cBoxes_frame.grid(row=2, column=0, sticky="new")
 
     def build_executeButton(self):
         self.executeButton_frame = tk.Frame(self.mainframe, background=YELLOW)
@@ -166,41 +156,47 @@ class GUI:
                                        )
 
         self.executeButton.grid(row=0, column=0)
-        self.executeButton_frame.grid(row=4, column=0, sticky='nsew')
+        self.executeButton_frame.grid(row=3, column=0, sticky='nsew')
 
-    def build_saveEntry(self):
-        self.saveAs_frame = tk.Frame(self.mainframe, background=PURPLE)
+    def build_URLEntry(self):
+        self.url_frame = tk.Frame(self.mainframe, background=PURPLE)
 
-        self.saveAs_frame.grid_rowconfigure(0, weight=1)
-        self.saveAs_frame.grid_columnconfigure(0, weight=1)
-        self.saveAs_frame.grid_columnconfigure(1, weight=1)
+        self.url_frame.grid_rowconfigure(0, weight=1)
+        self.url_frame.grid_columnconfigure(0, weight=1)
+        self.url_frame.grid_columnconfigure(1, weight=1)
+        self.url_frame.grid_columnconfigure(2, weight=1)
 
-        frame1 = tk.Frame(self.saveAs_frame, background=GREEN)
+        frame0 = tk.Frame(self.url_frame, background=GREEN)
+        frame0.rowconfigure(0, weight=1)
+        frame1 = tk.Frame(self.url_frame, background=GREEN)
         frame1.rowconfigure(0, weight=1)
-        frame1.columnconfigure(0, weight=1)
-        frame2 = tk.Frame(self.saveAs_frame, background=BLUE)
+        frame1.columnconfigure(1, weight=1)
+        frame2 = tk.Frame(self.url_frame, background=BLUE)
         frame2.rowconfigure(0, weight=1)
 
-        self.entry = tk.Entry(frame1, textvariable=self.savePath,
+        self.entry = tk.Entry(frame1, textvariable=self.urlVar,
                               font=(FONT, FSIZE4),
                               bg="white", fg="black",
-                              state='readonly'
+                              
                               )
 
-        self.saveAs_button = tk.Button(frame2, text="Guardar Como",
+        self.urlButton = tk.Button(frame2, text="Ejecutar con Url",
                                        height=2, width=15, font=(FONT, FSIZE5),
-                                       command=self.saveAsDialogue
+                                       state="disabled"
                                        )
+        
+        
+        label = tk.Label(frame0,text="URL",fg="white",font=(FONT, FSIZE2),background=GREEN)
+        label.grid(row=0,column=0,sticky='we')
+        
+        frame0.grid(row=0, column=0, sticky='e')
+        frame1.grid(row=0, column=1, sticky='nswe', ipadx=150)
+        frame2.grid(row=0, column=2, sticky='nswe')
 
-        self.savePath.trace('w', self.unlock_button)
+        self.entry.grid(row=0, column=1, sticky='we', padx=80)
+        self.urlButton.grid(row=0, column=2, sticky='we')
 
-        frame1.grid(row=0, column=0, sticky='nswe', ipadx=200)
-        frame2.grid(row=0, column=1, sticky='nswe')
-
-        self.entry.grid(row=0, column=0, sticky='we', padx=80)
-        self.saveAs_button.grid(row=0, column=1, sticky='we')
-
-        self.saveAs_frame.grid(row=3, column=0, sticky='nsew')
+        self.url_frame.grid(row=6, column=0, sticky='nsew')
 
     def mainloop(self):
         self.parent.mainloop()
@@ -214,19 +210,25 @@ class GUI:
     def updateProgressbar(self, num):
         self.progVar.set(num)
 
-    def build_progressBar_window(self, max):
+    def build_progressBar_window(self, max:int,progressmode="determinate"):
         self.pgw = tk.Toplevel(background=ORANGE)
         self.pgw.geometry("300x200")
         self.pgw.iconbitmap(self.path+'/icon.ico')
         self.pgw.title("Cargando")
+        x = self.parent.winfo_x()
+        y = self.parent.winfo_y()
+        self.pgw.geometry("+%d+%d" %(x+350,y+150))
+        
         label = tk.Label(self.pgw, background=ORANGE,text="Cargando", font=(FONT, FSIZE2), fg="white")
         self.pgw.grid_columnconfigure(0, weight=1)
         self.pgw.grid_rowconfigure(0, weight=1)
         self.pgw.grid_rowconfigure(1, weight=1)
         self.pgw.transient(self.parent)
-
-        self.progbar = ttk.Progressbar(
-            self.pgw, maximum=max, variable=self.progVar, length=200)
+        if progressmode == "determinate":
+            self.progbar = ttk.Progressbar(self.pgw, maximum=max, variable=self.progVar, length=200,mode=progressmode)
+        elif progressmode == "indeterminate":
+            self.progbar = ttk.Progressbar(self.pgw, maximum=max, length=200,mode=progressmode)
+            self.progbar.start()
         label.grid(column=0,row=0,sticky='we')
         self.progbar.grid(column=0, row=1)
 
@@ -248,7 +250,15 @@ class GUI:
     def unlock_button(self, *arg):
         if self.citiesBox.get().__len__() > 1:
             self.executeButton.config(state="normal")
-
+        else:
+            self.executeButton.config(state="disabled")
+            
+    def unlock_button2(self, *arg):
+        if self.urlVar.get().__len__() > 1:
+            self.urlButton.config(state="normal")
+        else:
+            self.urlButton.config(state="disabled")
+            
     def saveAsDialogue(self):
         path = filedialog.asksaveasfilename(
             defaultextension=".csv", initialdir="/", title="Select file", filetypes=(("CSV", "*.csv"),("Libro Excel", "*.xlsx")))
@@ -270,8 +280,9 @@ class GUI:
         self.build_title()
         self.build_cBoxes()
         self.build_executeButton()
-        #self.build_saveEntry()
+        self.build_URLEntry()
         self.savePath.trace('w', self.unlock_button)
+        self.urlVar.trace('w',self.unlock_button2)
 
     def destroy_pgBar(self):
         self.pgw.destroy()
@@ -281,22 +292,12 @@ class GUI:
         errorWin.iconbitmap(self.path+'/icon.ico')
         errorWin.attributes('-topmost', 'true')
         errorWin.transient(self.parent)
+        x = self.parent.winfo_x()
+        y = self.parent.winfo_y()
+        errorWin.geometry("+%d+%d" %(x+350,y+150))
         
         label = tk.Label(errorWin,text=message)
         
         button = tk.Button(errorWin,text='OK',command=errorWin.destroy)
         label.place(relx=0.5, rely=0.3, anchor=tk.CENTER)
         button.place(relx=0.5, rely=0.7, anchor=tk.CENTER)
-#
-
-# root= Tk()
-# path =os.path.dirname(os.path.realpath(__file__))
-# gui = GUI(path,root)
-# gui.build_title()
-# gui.build_cBoxes()
-# #gui.build_chButtons()
-# gui.build_executeButton()
-# gui.build_saveEntry()
-# #gui.errorWindow('Hola')
-# gui.executeButton.config(command=gui.getGlobalPoint)
-# gui.mainloop()
