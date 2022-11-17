@@ -6,7 +6,7 @@
 
 ### Instalacion
 
-Es requerido **Python 3.9** o superior
+Es requerido **Python 3.9** o superior y un navegador web basado en Chrome o Chromium
 
 Primero es nesesario la instalación de los modulos necesarios:
 
