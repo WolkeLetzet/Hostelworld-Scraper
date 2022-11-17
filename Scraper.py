@@ -97,7 +97,7 @@ class Scraper():
          text=text.replace('\t','')
 
          reviews.append({  'id_reseña':rev['id'],
-                           'lenguaje':rev['languageCode'],
+                           'idioma':rev['languageCode'],
                            'fecha':rev['date'].replace('-','/'),
                            'id_reseñador':rev['user']['id'],
                            'genero': rev['user']['gender']['id'],
