@@ -28,11 +28,12 @@ def check_if_done(t):
                 
             else:
                 shutil.copy(temporal_path,gui.getSavePath())
-        except:
-            pass
+        except Exception as ex:
+            gui.errorWindow(str(ex))
         finally:
             os.remove(temporal_path)
             gui.executeButton.config(command=scraping,state='normal',text='Iniciar')
+            gui.urlButton.config(command=scrapingSelenium,state='normal')
     else:
         # Si no, volver a chequear en unos momentos.
         if scrap1:
@@ -70,7 +71,7 @@ def scraping():
 
 def scrapingSelenium():
     
-    
+    gui.urlButton.config(state="disabled")
     th = Thread(target=Scraper.seleniumMainloop,
                 args=[
                         temporal_path,
@@ -81,10 +82,9 @@ def scrapingSelenium():
         gui.build_progressBar_window(100,"indeterminate")
         th.start()
     except Exception as ex:
+        gui.urlButton.config(state="normal")
         gui.errorWindow(str(ex))
         raise ex
-    else:
-        gui.build_progressBar_window(scraper.properties.__len__())
     scrap1=False
     schedule_check(th)
 

@@ -39,7 +39,7 @@ class GUI:
             self.parent = Tk()
         self.path = path
         self.parent.title("HostelWorldScraper")
-        self.parent.geometry("1000x400")
+        self.parent.geometry("1000x500")
         self.parent.iconbitmap(self.path+"/icon.ico")
         self.parent.config(bg=ORANGE)
         self.parent.resizable(0, 0)
@@ -60,6 +60,17 @@ class GUI:
         self.mainframe.grid_rowconfigure(3, weight=1)
         # boton
         self.mainframe.grid_rowconfigure(4, weight=1)
+        self.mainframe.grid_rowconfigure(5, weight=1)
+        self.mainframe.grid_rowconfigure(6, weight=1)
+        self.mainframe.grid_rowconfigure(7, weight=1)
+        
+        tk.Label(self.mainframe, text="Seleccione el lugar de donde dese recolectar Datos", font=(
+            FONT, FSIZE2), fg="white", background=ORANGE).grid(row=1,column=0,sticky="nsew")
+        tk.Label(self.mainframe, text="En caso de que el metodo anterior no funcione, intente ingresando el url de su busqueda en HostelWord en el campo de abajo \n *(Advertencia): Este metodo tarda mas tiempo y no se obtiene la misma cantidad de datos", font=(
+            FONT, FSIZE4), fg="white", background=ORANGE).grid(row=4,column=0,sticky="sew")
+        
+        tk.Label(self.mainframe, text="created by C.Pastenes", font=(
+            FONT, 9), fg="white", background=ORANGE).grid(row=7,column=0,sticky="se")
 
         self.mainframe.grid(row=0, column=0, sticky="nsew")
 
@@ -128,7 +139,7 @@ class GUI:
         self.countriesBox.grid(row=1, column=1, sticky="ew", padx=15)
         self.citiesBox.grid(row=1, column=2, sticky="ew", padx=20)
 
-        self.cBoxes_frame.grid(row=1, column=0, sticky="new")
+        self.cBoxes_frame.grid(row=2, column=0, sticky="new")
 
     def build_executeButton(self):
         self.executeButton_frame = tk.Frame(self.mainframe, background=YELLOW)
@@ -145,7 +156,7 @@ class GUI:
                                        )
 
         self.executeButton.grid(row=0, column=0)
-        self.executeButton_frame.grid(row=2, column=0, sticky='nsew')
+        self.executeButton_frame.grid(row=3, column=0, sticky='nsew')
 
     def build_URLEntry(self):
         self.url_frame = tk.Frame(self.mainframe, background=PURPLE)
@@ -185,7 +196,7 @@ class GUI:
         self.entry.grid(row=0, column=1, sticky='we', padx=80)
         self.urlButton.grid(row=0, column=2, sticky='we')
 
-        self.url_frame.grid(row=3, column=0, sticky='nsew')
+        self.url_frame.grid(row=6, column=0, sticky='nsew')
 
     def mainloop(self):
         self.parent.mainloop()
@@ -199,11 +210,15 @@ class GUI:
     def updateProgressbar(self, num):
         self.progVar.set(num)
 
-    def build_progressBar_window(self, max,progressmode="determinate"):
+    def build_progressBar_window(self, max:int,progressmode="determinate"):
         self.pgw = tk.Toplevel(background=ORANGE)
         self.pgw.geometry("300x200")
         self.pgw.iconbitmap(self.path+'/icon.ico')
         self.pgw.title("Cargando")
+        x = self.parent.winfo_x()
+        y = self.parent.winfo_y()
+        self.pgw.geometry("+%d+%d" %(x+350,y+150))
+        
         label = tk.Label(self.pgw, background=ORANGE,text="Cargando", font=(FONT, FSIZE2), fg="white")
         self.pgw.grid_columnconfigure(0, weight=1)
         self.pgw.grid_rowconfigure(0, weight=1)
@@ -212,7 +227,7 @@ class GUI:
         if progressmode == "determinate":
             self.progbar = ttk.Progressbar(self.pgw, maximum=max, variable=self.progVar, length=200,mode=progressmode)
         elif progressmode == "indeterminate":
-            self.progbar = ttk.Progressbar(self.pgw, maximum=100, length=200,mode=progressmode)
+            self.progbar = ttk.Progressbar(self.pgw, maximum=max, length=200,mode=progressmode)
             self.progbar.start()
         label.grid(column=0,row=0,sticky='we')
         self.progbar.grid(column=0, row=1)
@@ -277,17 +292,12 @@ class GUI:
         errorWin.iconbitmap(self.path+'/icon.ico')
         errorWin.attributes('-topmost', 'true')
         errorWin.transient(self.parent)
+        x = self.parent.winfo_x()
+        y = self.parent.winfo_y()
+        errorWin.geometry("+%d+%d" %(x+350,y+150))
         
         label = tk.Label(errorWin,text=message)
         
         button = tk.Button(errorWin,text='OK',command=errorWin.destroy)
         label.place(relx=0.5, rely=0.3, anchor=tk.CENTER)
         button.place(relx=0.5, rely=0.7, anchor=tk.CENTER)
-#
-
-# root= Tk()
-# path =os.path.dirname(os.path.realpath(__file__))
-# gui = GUI(path,root)
-# gui.setMain()
-
-# gui.mainloop()

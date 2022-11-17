@@ -1,3 +1,4 @@
+import sys
 from bs4 import BeautifulSoup
 import requests
 from to_csv import to_csv
@@ -173,6 +174,7 @@ class SeleniumScraper():
       self.options = Options()
       self.options.add_argument("--headless")
       self.options.add_argument("--disable-gpu")
+      self.options.add_experimental_option('excludeSwitches', ['enable-logging'])
       self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=self.options)
       self.wait = WebDriverWait(self.driver,15)
       
@@ -316,6 +318,7 @@ def formatter(lista:list):
    return dic
    
 def seleniumMainloop(filename:str,url:str):
+   try:
       driver1 = SeleniumScraper()
       driver2 = SeleniumScraper()
       saver = to_csv(filename=filename)
@@ -331,7 +334,11 @@ def seleniumMainloop(filename:str,url:str):
       for link in hostel_link:
          
          driver1.go_to_url_by_class_name(link,'pagination')
-         driver1.change_reviews_lang()
+         
+         try:
+            driver1.change_reviews_lang()
+         except:
+            pass
          
          try:
             hostel_name = driver1.find_element_by_css("div > div:nth-child(2) > section > div:nth-child(4) > div > div:nth-child(1) > h1 > div").text
@@ -395,4 +402,10 @@ def seleniumMainloop(filename:str,url:str):
                ])
             pprint(review)
             saver.saveData([formatter(review)])
-            
+   except Exception as ex:
+      driver1.close()
+      driver2.close()
+      raise Exception
+   finally:
+      driver1.close()
+      driver2.close()
