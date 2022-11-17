@@ -17,7 +17,7 @@ class to_csv:
     def saveData(self, data:list[dict], stream=None):
         self.header=data[0].keys()
         need_header = not exists(self.filename) and not bool(stream)
-        with stream or open(self.filename, 'a', newline='', encoding='utf-8') as fp:
+        with stream or open(self.filename, 'a', newline='', encoding='utf-8-sig') as fp:
             writer = csv.DictWriter(fp, fieldnames=list(data[0].keys()), delimiter=';')
             try:
                 if need_header:
