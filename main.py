@@ -42,6 +42,7 @@ def check_if_done(t):
 
 
 def scraping():
+    '''Iniciar el scraping con la clase Scraper'''
     
     try:
         gui.executeButton.config(state='disabled',text='Cargando')
@@ -71,6 +72,7 @@ def scraping():
 
 
 def scrapingSelenium():
+    '''Iniciar el scraping con la clase SeleniumScraper '''
     
     gui.urlButton.config(state="disabled")
     th = Thread(target=Scraper.seleniumMainloop,
