@@ -33,7 +33,7 @@ def check_if_done(t):
         except Exception as ex:
             gui.errorWindow(str(ex))
         finally:
-            os.remove(temporal_path) #eliinar archivo temporal
+            os.remove(temporal_path) #eliminar archivo temporal
             gui.executeButton.config(command=scraping,state='normal',text='Iniciar')
             gui.urlButton.config(command=scrapingSelenium,state='normal')
     else:
