@@ -21,9 +21,11 @@ def check_if_done(t):
     if not t.is_alive():        
         gui.destroy_pgBar()
         gui.saveAsDialogue()
+        
+        #guardar archivo en ...
         try:
             if gui.getSavePath().endswith('.xlsx'):
-                
+                #convertir a Excel
                 pd.read_csv(temporal_path, sep=";", header='infer', ).to_excel(gui.getSavePath(), index=None, header=True)
                 
             else:
@@ -31,12 +33,13 @@ def check_if_done(t):
         except Exception as ex:
             gui.errorWindow(str(ex))
         finally:
-            os.remove(temporal_path)
+            os.remove(temporal_path) #eliinar archivo temporal
             gui.executeButton.config(command=scraping,state='normal',text='Iniciar')
             gui.urlButton.config(command=scrapingSelenium,state='normal')
     else:
         # Si no, volver a chequear en unos momentos.
         if scrap1:
+            #actualizar barra de progreso
             gui.updateProgressbar(scraper.counter)
         schedule_check(t)
 
