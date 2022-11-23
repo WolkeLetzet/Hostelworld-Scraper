@@ -15,7 +15,7 @@ class to_csv:
             self.data = [row for row in reader]
 
     def saveData(self, data:list[dict], stream=None):
-        '''Guardar lisa de diccionarios en un documento CSV'''
+        '''Guardar lista de diccionarios en un documento CSV'''
         self.header=data[0].keys()
         need_header = not exists(self.filename) and not bool(stream)
         with stream or open(self.filename, 'a', newline='', encoding='utf-8-sig') as fp:

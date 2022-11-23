@@ -75,6 +75,7 @@ def scrapingSelenium():
     '''Iniciar el scraping con la clase SeleniumScraper '''
     
     gui.urlButton.config(state="disabled")
+    #crear hilo de trabajo
     th = Thread(target=Scraper.seleniumMainloop,
                 args=[
                         temporal_path,
@@ -82,23 +83,25 @@ def scrapingSelenium():
                       ]
                 )
     try:
+        #construir barra de progreso
         gui.build_progressBar_window(100,"indeterminate")
-        th.start()
+        th.start() #iniciar hilo
     except Exception as ex:
         gui.urlButton.config(state="normal")
-        gui.errorWindow(str(ex))
+        gui.errorWindow(str(ex)) #mostrar error
         raise ex
     scrap1=False
     schedule_check(th)
 
 
-path = os.path.dirname(os.path.realpath(__file__))
-root = tk.Tk()
-temporal_path=path+"/temporal.csv"
-gui = GUI(path, root)
-gui.setMain()
-scraper = Scraper.Scraper()
+path = os.path.dirname(os.path.realpath(__file__)) #ruta actual del proyecto
+root = tk.Tk() #ventana raiz
+temporal_path=path+"/temporal.csv" #direccion del archivo temporal
+gui = GUI(path, root) #intanciar Interfaz grafica
+gui.setMain() #contruir GUI
+scraper = Scraper.Scraper() #instanciar clase Scraper
 
-gui.executeButton.config(command=scraping)
+#configurar botones para distintos metodos de scraping
+gui.executeButton.config(command=scraping) 
 gui.urlButton.config(command=scrapingSelenium)
 root.mainloop()
