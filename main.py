@@ -61,6 +61,7 @@ def scraping():
     try:
         th.start()
     except Exception as ex:
+        gui.errorWindow(str(ex))
         raise ex
     else:
         gui.build_progressBar_window(scraper.properties.__len__())

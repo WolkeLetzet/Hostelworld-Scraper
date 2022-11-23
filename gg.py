@@ -69,7 +69,7 @@ class GUI:
         tk.Label(self.mainframe, text="En caso de que el metodo anterior no funcione, intente ingresando el url de su busqueda en HostelWord en el campo de abajo \n *(Advertencia): Este metodo tarda mas tiempo y no se obtiene la misma cantidad de datos", font=(
             FONT, FSIZE4), fg="white", background=ORANGE).grid(row=4,column=0,sticky="sew")
         
-        tk.Label(self.mainframe, text="created by C.Pastenes", font=(
+        tk.Label(self.mainframe, text="created by C.Pastenes y C. Cerda", font=(
             FONT, 9), fg="white", background=ORANGE).grid(row=7,column=0,sticky="se")
 
         self.mainframe.grid(row=0, column=0, sticky="nsew")
